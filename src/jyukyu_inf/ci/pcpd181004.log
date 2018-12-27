@@ -1,0 +1,16 @@
+phpcpd 3.0.1 by Sebastian Bergmann.
+
+Found 3 clones with 121 duplicated lines in 6 files:
+
+  - D:\Public\www\itc_develop\itc_main.files\jyukyu_inf\model\JyukyuInfDispControllerModel.php:79-110
+    D:\Public\www\itc_develop\itc_main.files\jyukyu_inf\model\JyukyuKanriDispControllerModel.php:146-177
+
+  - D:\Public\www\itc_develop\itc_main.files\jyukyu_inf\model\JyukyuInfExcelBuilder.php:33-80
+    D:\Public\www\itc_develop\itc_main.files\jyukyu_inf\model\JyukyuKanriExcelBuilder.php:33-80
+
+  - D:\Public\www\itc_develop\itc_main.files\jyukyu_inf\model\JyukyuInfExcelControllerModel.php:26-69
+    D:\Public\www\itc_develop\itc_main.files\jyukyu_inf\model\JyukyuKanriExcelControllerModel.php:26-69
+
+4.19% duplicated lines out of 2891 total lines of code.
+
+Time: 312 ms, Memory: 4.00MB

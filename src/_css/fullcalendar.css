@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+#taskGrid {
+	width: 1000px;
+	margin: 0 auto;
+	background-color:#ffffff;
+}
+
+.fc-sun { color: red; }  /* 日曜日 */ 
+.fc-sat { color: blue; } /* 土曜日 */ 
+.fc-unthemed td .fc-today { background-color: #66ff99; } /* 本日 */ 
+.fc-event { font-size:12px; }	/* イベント */
+
+#tooltip {
+	position: fixed;
+	opacity: 80;
+	z-index: 100;
+	background-color:#FFFF00;
+	padding:5px;
+	font-size:14px;
+}

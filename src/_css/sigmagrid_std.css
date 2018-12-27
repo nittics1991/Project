@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+.gt-row-even {
+	background-color: #e0e0ff;
+}
+
+.gt-row-selected td {
+	background-color: #66ff99;
+}
+
+td.gt-cell-actived {
+	background-color:#ffddee;
+}
+
+.gt-simple-scrollbar {
+	scrollbar-face-color:#C0C0C0;
+}
+
+.gt-row-over td {
+	border-bottom: 2px solid #ff9966;
+}
+
+.gt-pagesize-select {
+	width:auto;
+}
+
+.gt-row-new {
+	background-color:#99ffff;
+}
+
+

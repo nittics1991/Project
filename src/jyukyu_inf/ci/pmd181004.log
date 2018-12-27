@@ -1,0 +1,12 @@
+D:\Public\www\itc_develop\itc_main.files\jyukyu_inf\model\JyukyuInfDispFactory.php:31	Avoid unused private fields such as '$pdo'.
+D:\Public\www\itc_develop\itc_main.files\jyukyu_inf\model\JyukyuInfDispJyukyuModel.php:23	Avoid unused private fields such as '$pdo'.
+D:\Public\www\itc_develop\itc_main.files\jyukyu_inf\model\JyukyuInfDispJyukyuModel.php:24	Avoid unused private fields such as '$jyukyuInf'.
+D:\Public\www\itc_develop\itc_main.files\jyukyu_inf\model\JyukyuInfDispJyukyuModel.php:25	Avoid unused private fields such as '$jyukyuInfData'.
+D:\Public\www\itc_develop\itc_main.files\jyukyu_inf\model\JyukyuInfDispJyukyuModel.php:26	Avoid unused private fields such as '$globalSession'.
+D:\Public\www\itc_develop\itc_main.files\jyukyu_inf\model\JyukyuInfExcelBuilder.php:22	Avoid unused private fields such as '$controller'.
+D:\Public\www\itc_develop\itc_main.files\jyukyu_inf\model\JyukyuInfExcelBuilder.php:23	Avoid unused private fields such as '$dispController'.
+D:\Public\www\itc_develop\itc_main.files\jyukyu_inf\model\JyukyuInfExcelFactory.php:25	Avoid unused private fields such as '$pdo'.
+D:\Public\www\itc_develop\itc_main.files\jyukyu_inf\model\JyukyuKanriDispFactory.php:25	Avoid unused private fields such as '$pdo'.
+D:\Public\www\itc_develop\itc_main.files\jyukyu_inf\model\JyukyuKanriExcelBuilder.php:22	Avoid unused private fields such as '$controller'.
+D:\Public\www\itc_develop\itc_main.files\jyukyu_inf\model\JyukyuKanriExcelBuilder.php:23	Avoid unused private fields such as '$dispController'.
+D:\Public\www\itc_develop\itc_main.files\jyukyu_inf\model\JyukyuKanriExcelFactory.php:25	Avoid unused private fields such as '$pdo'.

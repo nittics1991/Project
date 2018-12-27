@@ -1,0 +1,23 @@
+phpcpd 4.1.0 by Sebastian Bergmann.
+
+Found 5 clones with 235 duplicated lines in 7 files:
+
+  - D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\CyubanSonekiDispFactory.php:34-104 (70 lines)
+    D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\CyubanSonekiExcelFactory.php:39-109
+
+  - D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\KobanSonekiChartFactory.php:37-98 (61 lines)
+    D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\KobanSonekiExcelFactory.php:36-97
+
+  - D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\CyubanSonekiExcelBuilder.php:530-572 (42 lines)
+    D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\CyubanSonekiExcelBuilder.php:749-791
+
+  - D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\CyubanSonekiExcelBuilder.php:448-487 (39 lines)
+    D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\CyubanSonekiExcelBuilder.php:672-711
+
+  - D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\KobanSonekiDispCyubanModel.php:139-162 (23 lines)
+    D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\KobanSonekiDispProjectModel.php:225-248
+
+1.61% duplicated lines out of 14601 total lines of code.
+Average size of duplication is 47 lines, largest clone has 70 of lines
+
+Time: 733 ms, Memory: 8.00MB

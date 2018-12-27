@@ -1,0 +1,399 @@
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\CyubanSonekiChartControllerModel.php:66	Avoid using static access to class '\Concerto\standard\Server' in method 'buildChart'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\CyubanSonekiChartControllerModel.php:155	Avoid using static access to class '\Concerto\chart\cpchart\ImageOperation' in method 'buildChartChildren'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\CyubanSonekiChartModel.php:79	Avoid using static access to class '\Concerto\FiscalYear' in method 'getBudgetKeikakuMonthList'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\CyubanSonekiChartModel.php:108	Avoid using static access to class '\Concerto\FiscalYear' in method 'getBudgetKobanMonthList'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\CyubanSonekiChartModel.php:133	Avoid using static access to class '\Concerto\FiscalYear' in method 'getBudgetCyunyuMonthList'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\CyubanSonekiDispControllerModel.php:14	The class CyubanSonekiDispControllerModel has an overall complexity of 89 which is very high. The configured complexity threshold is 50.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\CyubanSonekiDispControllerModel.php:37	The method setQuery() has a Cyclomatic Complexity of 11. The configured cyclomatic complexity threshold is 10.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\CyubanSonekiDispControllerModel.php:37	The method setQuery() has an NPath complexity of 513. The configured NPath complexity threshold is 200.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\CyubanSonekiDispControllerModel.php:69	Avoid using static access to class '\Concerto\FiscalYear' in method 'setQuery'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\CyubanSonekiDispControllerModel.php:158	Avoid unused local variables such as '$kb_nendo_tmp'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\CyubanSonekiDispControllerModel.php:200	Avoid using static access to class '\Concerto\FiscalYear' in method 'buildData'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\CyubanSonekiDispControllerModel.php:356	The method setYosanData() has a Cyclomatic Complexity of 15. The configured cyclomatic complexity threshold is 10.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\CyubanSonekiDispControllerModel.php:356	The method setYosanData() has an NPath complexity of 2568. The configured NPath complexity threshold is 200.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\CyubanSonekiDispControllerModel.php:405	The method buildGridData() has a Cyclomatic Complexity of 47. The configured cyclomatic complexity threshold is 10.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\CyubanSonekiDispControllerModel.php:405	The method buildGridData() has an NPath complexity of 8858370080. The configured NPath complexity threshold is 200.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\CyubanSonekiDispControllerModel.php:405	The method buildGridData() has 240 lines of code. Current threshold is set to 100. Avoid really long methods.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\CyubanSonekiDispControllerModel.php:456	Avoid unused local variables such as '$index'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\CyubanSonekiDispControllerModel.php:551	The method buildGridData uses an else expression. Else is never necessary and you can simplify the code to work without else.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\CyubanSonekiDispGridCyubanModel.php:16	The method buildGridSql() has a Cyclomatic Complexity of 13. The configured cyclomatic complexity threshold is 10.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\CyubanSonekiDispGridCyubanModel.php:16	The method buildGridSql() has an NPath complexity of 1152. The configured NPath complexity threshold is 200.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\CyubanSonekiDispGridCyubanModel.php:16	The method buildGridSql() has 202 lines of code. Current threshold is set to 100. Avoid really long methods.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\CyubanSonekiDispGridCyubanModel.php:78	The method buildGridSql uses an else expression. Else is never necessary and you can simplify the code to work without else.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\CyubanSonekiDispGridCyubanModel.php:210	Avoid unused local variables such as '$bindInt'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\CyubanSonekiDispGridCyubanSectionModel.php:16	The method buildGridSql() has a Cyclomatic Complexity of 13. The configured cyclomatic complexity threshold is 10.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\CyubanSonekiDispGridCyubanSectionModel.php:16	The method buildGridSql() has an NPath complexity of 1152. The configured NPath complexity threshold is 200.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\CyubanSonekiDispGridCyubanSectionModel.php:16	The method buildGridSql() has 189 lines of code. Current threshold is set to 100. Avoid really long methods.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\CyubanSonekiDispGridCyubanSectionModel.php:82	The method buildGridSql uses an else expression. Else is never necessary and you can simplify the code to work without else.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\CyubanSonekiDispGridCyubanSectionModel.php:197	Avoid unused local variables such as '$bindInt'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\CyubanSonekiDispGridModel.php:118	The method getList() has a Cyclomatic Complexity of 11. The configured cyclomatic complexity threshold is 10.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\CyubanSonekiDispGridModel.php:118	The method getList() has an NPath complexity of 324. The configured NPath complexity threshold is 200.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\CyubanSonekiDispGridModel.php:182	Avoid using static access to class '\Concerto\FiscalYear' in method 'getList'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\CyubanSonekiDispGridModel.php:208	Avoid unused local variables such as '$argv2'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\CyubanSonekiDispGridModel.php:265	Avoid using static access to class '\Concerto\FiscalYear' in method 'getCyubanAggregeteList'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\CyubanSonekiDispGridModel.php:290	Avoid unused local variables such as '$argv2'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\CyubanSonekiDispGridModel.php:346	Avoid using static access to class '\Concerto\FiscalYear' in method 'getCyubanMonAggregeteList'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\CyubanSonekiDispModel.php:56	The method __construct has 11 parameters. Consider reducing the number of parameters to less than 10.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\CyubanSonekiDispModel.php:73	Avoid unused local variables such as '$cyunyuInf'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\CyubanSonekiDispModel.php:96	Avoid using static access to class '\Concerto\FiscalYear' in method 'getNendoList'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\CyubanSonekiExcelBuilder.php:15	The class CyubanSonekiExcelBuilder has an overall complexity of 62 which is very high. The configured complexity threshold is 50.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\CyubanSonekiExcelBuilder.php:55	Avoid unused parameters such as '$excel'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\CyubanSonekiExcelBuilder.php:127	Avoid unused local variables such as '$yn_psp'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\CyubanSonekiExcelBuilder.php:127	Avoid unused local variables such as '$yn_ptov'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\CyubanSonekiExcelBuilder.php:127	Avoid unused local variables such as '$yn_parari'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\CyubanSonekiExcelBuilder.php:127	Avoid unused local variables such as '$yn_pcyunyu'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\CyubanSonekiExcelBuilder.php:128	Avoid unused local variables such as '$yn_psoneki'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\CyubanSonekiExcelBuilder.php:128	Avoid unused local variables such as '$ri_psoneki'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\CyubanSonekiExcelBuilder.php:129	Avoid unused local variables such as '$tm_pcyokka'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\CyubanSonekiExcelBuilder.php:129	Avoid unused local variables such as '$yn_pcyokka'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\CyubanSonekiExcelBuilder.php:129	Avoid unused local variables such as '$yn_pcyokuzai'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\CyubanSonekiExcelBuilder.php:130	Avoid unused local variables such as '$yn_petc'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\CyubanSonekiExcelBuilder.php:130	Avoid unused local variables such as '$yn_pryohi'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\CyubanSonekiExcelBuilder.php:135	Avoid unused local variables such as '$yn_ysp'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\CyubanSonekiExcelBuilder.php:135	Avoid unused local variables such as '$yn_ytov'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\CyubanSonekiExcelBuilder.php:135	Avoid unused local variables such as '$yn_yarari'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\CyubanSonekiExcelBuilder.php:135	Avoid unused local variables such as '$yn_ycyunyu'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\CyubanSonekiExcelBuilder.php:136	Avoid unused local variables such as '$yn_ysoneki'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\CyubanSonekiExcelBuilder.php:136	Avoid unused local variables such as '$ri_ysoneki'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\CyubanSonekiExcelBuilder.php:137	Avoid unused local variables such as '$tm_ycyokka'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\CyubanSonekiExcelBuilder.php:137	Avoid unused local variables such as '$yn_ycyokka'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\CyubanSonekiExcelBuilder.php:137	Avoid unused local variables such as '$yn_ycyokuzai'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\CyubanSonekiExcelBuilder.php:138	Avoid unused local variables such as '$yn_yetc'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\CyubanSonekiExcelBuilder.php:138	Avoid unused local variables such as '$yn_yryohi'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\CyubanSonekiExcelBuilder.php:143	Avoid unused local variables such as '$yn_rsp'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\CyubanSonekiExcelBuilder.php:143	Avoid unused local variables such as '$yn_rtov'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\CyubanSonekiExcelBuilder.php:143	Avoid unused local variables such as '$yn_rarari'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\CyubanSonekiExcelBuilder.php:143	Avoid unused local variables such as '$yn_rcyunyu'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\CyubanSonekiExcelBuilder.php:144	Avoid unused local variables such as '$yn_rsoneki'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\CyubanSonekiExcelBuilder.php:144	Avoid unused local variables such as '$ri_rsoneki'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\CyubanSonekiExcelBuilder.php:145	Avoid unused local variables such as '$tm_rcyokka'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\CyubanSonekiExcelBuilder.php:145	Avoid unused local variables such as '$yn_rcyokka'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\CyubanSonekiExcelBuilder.php:145	Avoid unused local variables such as '$yn_rcyokuzai'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\CyubanSonekiExcelBuilder.php:146	Avoid unused local variables such as '$yn_retc'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\CyubanSonekiExcelBuilder.php:146	Avoid unused local variables such as '$yn_rryohi'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\CyubanSonekiExcelBuilder.php:151	Avoid unused local variables such as '$yn_atov'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\CyubanSonekiExcelBuilder.php:151	Avoid unused local variables such as '$yn_acyunyu'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\CyubanSonekiExcelBuilder.php:152	Avoid unused local variables such as '$yn_asoneki'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\CyubanSonekiExcelBuilder.php:152	Avoid unused local variables such as '$ri_asoneki'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\CyubanSonekiExcelBuilder.php:153	Avoid unused local variables such as '$tm_acyokka'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\CyubanSonekiExcelBuilder.php:153	Avoid unused local variables such as '$yn_acyokka'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\CyubanSonekiExcelBuilder.php:153	Avoid unused local variables such as '$yn_acyokuzai'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\CyubanSonekiExcelBuilder.php:154	Avoid unused local variables such as '$yn_aetc'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\CyubanSonekiExcelBuilder.php:154	Avoid unused local variables such as '$yn_aryohi'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\CyubanSonekiExcelBuilder.php:159	Avoid unused local variables such as '$yn_btov'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\CyubanSonekiExcelBuilder.php:159	Avoid unused local variables such as '$yn_bcyunyu'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\CyubanSonekiExcelBuilder.php:160	Avoid unused local variables such as '$yn_bsoneki'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\CyubanSonekiExcelBuilder.php:160	Avoid unused local variables such as '$ri_bsoneki'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\CyubanSonekiExcelBuilder.php:161	Avoid unused local variables such as '$tm_bcyokka'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\CyubanSonekiExcelBuilder.php:161	Avoid unused local variables such as '$yn_bcyokka'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\CyubanSonekiExcelBuilder.php:161	Avoid unused local variables such as '$yn_bcyokuzai'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\CyubanSonekiExcelBuilder.php:162	Avoid unused local variables such as '$yn_betc'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\CyubanSonekiExcelBuilder.php:162	Avoid unused local variables such as '$yn_bryohi'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\CyubanSonekiExcelBuilder.php:167	Avoid unused local variables such as '$yn_ctov'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\CyubanSonekiExcelBuilder.php:167	Avoid unused local variables such as '$yn_ccyunyu'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\CyubanSonekiExcelBuilder.php:168	Avoid unused local variables such as '$yn_csoneki'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\CyubanSonekiExcelBuilder.php:168	Avoid unused local variables such as '$ri_csoneki'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\CyubanSonekiExcelBuilder.php:169	Avoid unused local variables such as '$tm_ccyokka'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\CyubanSonekiExcelBuilder.php:169	Avoid unused local variables such as '$yn_ccyokka'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\CyubanSonekiExcelBuilder.php:169	Avoid unused local variables such as '$yn_ccyokuzai'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\CyubanSonekiExcelBuilder.php:170	Avoid unused local variables such as '$yn_cetc'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\CyubanSonekiExcelBuilder.php:170	Avoid unused local variables such as '$yn_cryohi'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\CyubanSonekiExcelBuilder.php:187	Avoid unused local variables such as '$yn_yosan'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\CyubanSonekiExcelBuilder.php:187	Avoid unused local variables such as '$yn_soneki'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\CyubanSonekiExcelBuilder.php:187	Avoid unused local variables such as '$ri_soneki'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\CyubanSonekiExcelBuilder.php:190	Avoid unused local variables such as '$yn_yosan_sub'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\CyubanSonekiExcelBuilder.php:190	Avoid unused local variables such as '$yn_soneki_sub'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\CyubanSonekiExcelBuilder.php:190	Avoid unused local variables such as '$ri_soneki_sub'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\CyubanSonekiExcelBuilder.php:193	Avoid unused local variables such as '$yn_yosan_rt'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\CyubanSonekiExcelBuilder.php:193	Avoid unused local variables such as '$yn_soneki_rt'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\CyubanSonekiExcelBuilder.php:193	Avoid unused local variables such as '$ri_soneki_rt'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\CyubanSonekiExcelBuilder.php:385	The method makeCyubanSheet() has a Cyclomatic Complexity of 22. The configured cyclomatic complexity threshold is 10.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\CyubanSonekiExcelBuilder.php:385	The method makeCyubanSheet() has an NPath complexity of 27650. The configured NPath complexity threshold is 200.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\CyubanSonekiExcelBuilder.php:385	The method makeCyubanSheet() has 213 lines of code. Current threshold is set to 100. Avoid really long methods.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\CyubanSonekiExcelBuilder.php:406	Avoid unused local variables such as '$index'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\CyubanSonekiExcelBuilder.php:606	The method makeKobanSheet() has a Cyclomatic Complexity of 20. The configured cyclomatic complexity threshold is 10.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\CyubanSonekiExcelBuilder.php:606	The method makeKobanSheet() has an NPath complexity of 30724. The configured NPath complexity threshold is 200.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\CyubanSonekiExcelBuilder.php:606	The method makeKobanSheet() has 214 lines of code. Current threshold is set to 100. Avoid really long methods.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\CyubanSonekiExcelBuilder.php:628	Avoid unused local variables such as '$index'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\CyubanSonekiExcelControllerModel.php:106	The method getKeikakuList uses an else expression. Else is never necessary and you can simplify the code to work without else.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\CyubanSonekiExcelControllerModel.php:111	The method getKeikakuList uses an else expression. Else is never necessary and you can simplify the code to work without else.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\CyubanSonekiExcelFactory.php:32	The class CyubanSonekiExcelFactory has a coupling between objects value of 13. Consider to reduce the number of dependencies under 13.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\CyubanSonekiExcelModel.php:44	The method getKobanList2() has 116 lines of code. Current threshold is set to 100. Avoid really long methods.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\CyubanSonekiExcelModel.php:140	Avoid using static access to class '\Concerto\FiscalYear' in method 'getKobanList2'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\CyubanSonekiExcelReadControllerModel.php:67	Avoid unused local variables such as '$model'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\CyubanSonekiExcelReadControllerModel.php:87	Avoid unused local variables such as '$params'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\CyubanSonekiExcelReadModel.php:136	The method validAndBuildCsv() has a Cyclomatic Complexity of 10. The configured cyclomatic complexity threshold is 10.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\CyubanSonekiExcelReadModel.php:171	The method validAndBuildCsv uses an else expression. Else is never necessary and you can simplify the code to work without else.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\CyubanSonekiExcelReadModel.php:300	Avoid unused local variables such as '$columns'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\CyubanSonekiExcelReadModel.php:403	Avoid using static access to class '\Concerto\standard\ArrayUtil' in method 'updateKobanInf'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\CyubanSonekiExcelReadModel.php:404	Avoid using static access to class '\Concerto\standard\ArrayUtil' in method 'updateKobanInf'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\CyubanSonekiOriginator.php:19	The method isValid() has a Cyclomatic Complexity of 16. The configured cyclomatic complexity threshold is 10.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\CyubanSonekiOriginator.php:29	Avoid using static access to class '\Concerto\Validate' in method 'isValid'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\CyubanSonekiOriginator.php:33	Avoid using static access to class '\Concerto\Validate' in method 'isValid'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\CyubanSonekiOriginator.php:39	Avoid using static access to class '\Concerto\Validate' in method 'isValid'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\CyubanSonekiOriginator.php:44	Avoid using static access to class '\Concerto\Validate' in method 'isValid'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\CyubanSonekiOriginator.php:49	Avoid using static access to class '\Concerto\Validate' in method 'isValid'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\CyunyuInfDispControllerModel.php:100	The method buildData() has a Cyclomatic Complexity of 26. The configured cyclomatic complexity threshold is 10.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\CyunyuInfDispControllerModel.php:100	The method buildData() has an NPath complexity of 10496. The configured NPath complexity threshold is 200.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\CyunyuInfDispControllerModel.php:100	The method buildData() has 223 lines of code. Current threshold is set to 100. Avoid really long methods.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\CyunyuInfDispControllerModel.php:196	The method buildData uses an else expression. Else is never necessary and you can simplify the code to work without else.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\CyunyuInfDispControllerModel.php:256	Avoid using static access to class '\Concerto\standard\StringUtil' in method 'buildData'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\CyunyuInfDispControllerModel.php:257	Avoid using static access to class '\Concerto\standard\StringUtil' in method 'buildData'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\CyunyuInfDispCyunyuLock.php:89	The method setCyunyuLock uses an else expression. Else is never necessary and you can simplify the code to work without else.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\CyunyuInfDispMntModel.php:27	The class CyunyuInfDispMntModel has 16 fields. Consider redesigning CyunyuInfDispMntModel to keep the number of fields under 15.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\CyunyuInfDispMntModel.php:71	The method __construct has 16 parameters. Consider reducing the number of parameters to less than 10.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\CyunyuInfDispMntModel.php:112	The method setCyunyuData() has a Cyclomatic Complexity of 40. The configured cyclomatic complexity threshold is 10.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\CyunyuInfDispMntModel.php:112	The method setCyunyuData() has an NPath complexity of 19552. The configured NPath complexity threshold is 200.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\CyunyuInfDispMntModel.php:112	The method setCyunyuData() has 385 lines of code. Current threshold is set to 100. Avoid really long methods.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\CyunyuInfDispMntModel.php:143	Avoid using static access to class '\Concerto\FiscalYear' in method 'setCyunyuData'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\CyunyuInfDispMntModel.php:155	The method setCyunyuData uses an else expression. Else is never necessary and you can simplify the code to work without else.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\CyunyuInfDispMntModel.php:160	The method setCyunyuData uses an else expression. Else is never necessary and you can simplify the code to work without else.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\CyunyuInfDispMntModel.php:168	The method setCyunyuData uses an else expression. Else is never necessary and you can simplify the code to work without else.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\CyunyuInfDispMntModel.php:183	The method setCyunyuData uses an else expression. Else is never necessary and you can simplify the code to work without else.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\CyunyuInfDispMntModel.php:193	The method setCyunyuData uses an else expression. Else is never necessary and you can simplify the code to work without else.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\CyunyuInfDispMntModel.php:200	Avoid using static access to class '\Concerto\FiscalYear' in method 'setCyunyuData'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\CyunyuInfDispMntModel.php:201	Avoid using static access to class '\Concerto\FiscalYear' in method 'setCyunyuData'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\CyunyuInfDispMntModel.php:256	The method setCyunyuData uses an else expression. Else is never necessary and you can simplify the code to work without else.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\CyunyuInfDispMntModel.php:320	The method setCyunyuData uses an else expression. Else is never necessary and you can simplify the code to work without else.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\CyunyuInfDispModel.php:61	The method __construct has 12 parameters. Consider reducing the number of parameters to less than 10.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\CyunyuInfDispModel.php:194	Avoid using static access to class '\Concerto\FiscalYear' in method 'getNendoList'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\CyunyuInfDispModel.php:195	The method getNendoList uses an else expression. Else is never necessary and you can simplify the code to work without else.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\CyunyuInfDispModel.php:196	Avoid using static access to class '\Concerto\FiscalYear' in method 'getNendoList'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\CyunyuInfDispModel.php:199	Avoid using static access to class '\Concerto\FiscalYear' in method 'getNendoList'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\CyunyuInfDispModel.php:200	Avoid using static access to class '\Concerto\FiscalYear' in method 'getNendoList'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\CyunyuInfDispModel.php:209	Avoid using static access to class '\Concerto\FiscalYear' in method 'getNendoList'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\CyunyuInfDispModel.php:212	Avoid using static access to class '\Concerto\FiscalYear' in method 'getNendoList'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\CyunyuInfDispModel.php:229	Avoid using static access to class '\Concerto\FiscalYear' in method 'getYYYYMMList'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\CyunyuInfDispModel.php:230	Avoid using static access to class '\Concerto\FiscalYear' in method 'getYYYYMMList'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\CyunyuInfDispModel.php:230	Avoid using static access to class '\Concerto\FiscalYear' in method 'getYYYYMMList'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\CyunyuInfDispModel.php:254	Avoid using static access to class '\Concerto\FiscalYear' in method 'getBumonList'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\CyunyuInfDispModel.php:319	Avoid using static access to class '\Concerto\FiscalYear' in method 'getNmTantoList'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\CyunyuInfDispModel.php:319	Avoid using static access to class '\Concerto\FiscalYear' in method 'getNmTantoList'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\CyunyuInfDispModel.php:320	Avoid using static access to class '\Concerto\FiscalYear' in method 'getNmTantoList'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\CyunyuInfDispModel.php:342	Avoid using static access to class '\Concerto\FiscalYear' in method 'getNmSyohinList'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\CyunyuInfDispModel.php:342	Avoid using static access to class '\Concerto\FiscalYear' in method 'getNmSyohinList'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\CyunyuInfDispModel.php:343	Avoid using static access to class '\Concerto\FiscalYear' in method 'getNmSyohinList'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\KobanSonekiChartControllerModel.php:54	The method buildChart() has a Cyclomatic Complexity of 10. The configured cyclomatic complexity threshold is 10.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\KobanSonekiChartControllerModel.php:63	Avoid using static access to class '\Concerto\standard\Server' in method 'buildChart'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\KobanSonekiChartControllerModel.php:177	Avoid unused local variables such as '$chart2'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\KobanSonekiChartControllerModel.php:185	Avoid using static access to class '\Concerto\chart\cpchart\ImageOperation' in method 'buildChartChildren'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\KobanSonekiChartFactory.php:150	Avoid unused parameters such as '$fg_project'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\KobanSonekiChartModel.php:74	The method getSeibanDtStartEnd() has a Cyclomatic Complexity of 13. The configured cyclomatic complexity threshold is 10.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\KobanSonekiChartModel.php:74	The method getSeibanDtStartEnd() has an NPath complexity of 1088. The configured NPath complexity threshold is 200.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\KobanSonekiChartModel.php:89	The method getSeibanDtStartEnd uses an else expression. Else is never necessary and you can simplify the code to work without else.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\KobanSonekiDispControllerModel.php:15	The class KobanSonekiDispControllerModel has an overall complexity of 73 which is very high. The configured complexity threshold is 50.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\KobanSonekiDispControllerModel.php:113	The method buildData() has a Cyclomatic Complexity of 15. The configured cyclomatic complexity threshold is 10.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\KobanSonekiDispControllerModel.php:113	The method buildData() has an NPath complexity of 2448. The configured NPath complexity threshold is 200.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\KobanSonekiDispControllerModel.php:113	The method buildData() has 223 lines of code. Current threshold is set to 100. Avoid really long methods.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\KobanSonekiDispControllerModel.php:154	The method buildData uses an else expression. Else is never necessary and you can simplify the code to work without else.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\KobanSonekiDispControllerModel.php:255	Avoid using static access to class '\Concerto\DateTimeUtil' in method 'buildData'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\KobanSonekiDispControllerModel.php:259	The method buildData uses an else expression. Else is never necessary and you can simplify the code to work without else.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\KobanSonekiDispControllerModel.php:342	The method buildGridCyubanData() has a Cyclomatic Complexity of 26. The configured cyclomatic complexity threshold is 10.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\KobanSonekiDispControllerModel.php:342	The method buildGridCyubanData() has an NPath complexity of 16777217. The configured NPath complexity threshold is 200.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\KobanSonekiDispControllerModel.php:342	The method buildGridCyubanData() has 161 lines of code. Current threshold is set to 100. Avoid really long methods.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\KobanSonekiDispControllerModel.php:361	Avoid unused local variables such as '$tm_pcyokka'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\KobanSonekiDispControllerModel.php:363	Avoid unused local variables such as '$yn_pcyokka'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\KobanSonekiDispControllerModel.php:365	Avoid unused local variables such as '$yn_pcyokuzai'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\KobanSonekiDispControllerModel.php:367	Avoid unused local variables such as '$yn_petc'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\KobanSonekiDispControllerModel.php:369	Avoid unused local variables such as '$yn_pryohi'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\KobanSonekiDispControllerModel.php:372	Avoid unused local variables such as '$yn_pcyunyu'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\KobanSonekiDispControllerModel.php:374	Avoid unused local variables such as '$yn_psoneki'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\KobanSonekiDispControllerModel.php:376	Avoid unused local variables such as '$ri_psoneki'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\KobanSonekiDispControllerModel.php:408	Avoid unused local variables such as '$tm_ycyokka'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\KobanSonekiDispControllerModel.php:410	Avoid unused local variables such as '$yn_ycyokka'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\KobanSonekiDispControllerModel.php:412	Avoid unused local variables such as '$yn_ycyokuzai'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\KobanSonekiDispControllerModel.php:414	Avoid unused local variables such as '$yn_yetc'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\KobanSonekiDispControllerModel.php:416	Avoid unused local variables such as '$yn_yryohi'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\KobanSonekiDispControllerModel.php:419	Avoid unused local variables such as '$yn_ycyunyu'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\KobanSonekiDispControllerModel.php:421	Avoid unused local variables such as '$yn_ysoneki'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\KobanSonekiDispControllerModel.php:423	Avoid unused local variables such as '$ri_ysoneki'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\KobanSonekiDispControllerModel.php:455	Avoid unused local variables such as '$tm_rcyokka'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\KobanSonekiDispControllerModel.php:457	Avoid unused local variables such as '$yn_rcyokka'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\KobanSonekiDispControllerModel.php:459	Avoid unused local variables such as '$yn_rcyokuzai'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\KobanSonekiDispControllerModel.php:461	Avoid unused local variables such as '$yn_retc'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\KobanSonekiDispControllerModel.php:463	Avoid unused local variables such as '$yn_rryohi'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\KobanSonekiDispControllerModel.php:466	Avoid unused local variables such as '$yn_rcyunyu'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\KobanSonekiDispControllerModel.php:468	Avoid unused local variables such as '$yn_rsoneki'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\KobanSonekiDispControllerModel.php:470	Avoid unused local variables such as '$ri_rsoneki'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\KobanSonekiDispControllerModel.php:509	The method buildGridProjectData() has a Cyclomatic Complexity of 25. The configured cyclomatic complexity threshold is 10.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\KobanSonekiDispControllerModel.php:509	The method buildGridProjectData() has an NPath complexity of 13056. The configured NPath complexity threshold is 200.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\KobanSonekiDispControllerModel.php:509	The method buildGridProjectData() has 184 lines of code. Current threshold is set to 100. Avoid really long methods.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\KobanSonekiDispControllerModel.php:581	Avoid using static access to class '\Concerto\DateTimeUtil' in method 'buildGridProjectData'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\KobanSonekiDispControllerModel.php:585	The method buildGridProjectData uses an else expression. Else is never necessary and you can simplify the code to work without else.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\KobanSonekiDispControllerModel.php:620	The method buildGridProjectData uses an else expression. Else is never necessary and you can simplify the code to work without else.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\KobanSonekiDispControllerModel.php:630	Avoid using static access to class '\Concerto\standard\ArrayUtil' in method 'buildGridProjectData'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\KobanSonekiDispControllerModel.php:637	Avoid using static access to class '\Concerto\standard\ArrayUtil' in method 'buildGridProjectData'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\KobanSonekiDispControllerModel.php:641	Avoid using static access to class '\Concerto\standard\ArrayUtil' in method 'buildGridProjectData'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\KobanSonekiDispControllerModel.php:650	Avoid using static access to class '\Concerto\standard\ArrayUtil' in method 'buildGridProjectData'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\KobanSonekiDispControllerModel.php:651	The method buildGridProjectData uses an else expression. Else is never necessary and you can simplify the code to work without else.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\KobanSonekiDispControllerModel.php:655	Avoid using static access to class '\Concerto\standard\ArrayUtil' in method 'buildGridProjectData'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\KobanSonekiDispControllerModel.php:659	Avoid using static access to class '\Concerto\standard\ArrayUtil' in method 'buildGridProjectData'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\KobanSonekiDispControllerModel.php:663	Avoid using static access to class '\Concerto\standard\ArrayUtil' in method 'buildGridProjectData'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\KobanSonekiDispControllerModel.php:672	Avoid using static access to class '\Concerto\standard\ArrayUtil' in method 'buildGridProjectData'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\KobanSonekiDispControllerModel.php:676	Avoid using static access to class '\Concerto\standard\ArrayUtil' in method 'buildGridProjectData'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\KobanSonekiDispControllerModel.php:678	The method buildGridProjectData uses an else expression. Else is never necessary and you can simplify the code to work without else.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\KobanSonekiDispControllerModel.php:689	Avoid using static access to class '\Concerto\standard\ArrayUtil' in method 'buildGridProjectData'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\KobanSonekiDispCyubanModel.php:109	The method getKobanList() has a Cyclomatic Complexity of 15. The configured cyclomatic complexity threshold is 10.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\KobanSonekiDispCyubanModel.php:109	The method getKobanList() has an NPath complexity of 1224. The configured NPath complexity threshold is 200.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\KobanSonekiDispCyubanModel.php:171	The method getKobanList uses an else expression. Else is never necessary and you can simplify the code to work without else.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\KobanSonekiDispFactory.php:31	The class KobanSonekiDispFactory has a coupling between objects value of 13. Consider to reduce the number of dependencies under 13.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\KobanSonekiDispFactory.php:169	The method getModel uses an else expression. Else is never necessary and you can simplify the code to work without else.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\KobanSonekiDispHatubanKakunin.php:24	Avoid unused private fields such as '$seibanTanto'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\KobanSonekiDispHatubanKakunin.php:25	Avoid unused private fields such as '$seibanTantoData'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\KobanSonekiDispHatubanKakunin.php:67	The method setHatubanKakunin uses an else expression. Else is never necessary and you can simplify the code to work without else.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\KobanSonekiDispProjectModel.php:182	The method getKobanList() has a Cyclomatic Complexity of 11. The configured cyclomatic complexity threshold is 10.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\KobanSonekiDispProjectModel.php:182	The method getKobanList() has an NPath complexity of 200. The configured NPath complexity threshold is 200.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\KobanSonekiDispProjectModel.php:251	The method getKobanList uses an else expression. Else is never necessary and you can simplify the code to work without else.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\KobanSonekiDispReplacePlan.php:59	The method replace() has 111 lines of code. Current threshold is set to 100. Avoid really long methods.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\KobanSonekiDispReplacePlan.php:159	Avoid unused local variables such as '$no_ko'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\KobanSonekiDispSeibanTanto.php:57	The method setSeibanTanto uses an else expression. Else is never necessary and you can simplify the code to work without else.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\KobanSonekiExcelBuilder.php:78	Avoid unused parameters such as '$excel'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\KobanSonekiExcelBuilder.php:119	Avoid unused local variables such as '$no_cyu'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\KobanSonekiExcelBuilder.php:120	Avoid unused local variables such as '$nm_setti'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\KobanSonekiExcelBuilder.php:121	Avoid unused local variables such as '$nm_syohin'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\KobanSonekiExcelBuilder.php:122	Avoid unused local variables such as '$nm_user'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\KobanSonekiExcelBuilder.php:135	Avoid unused local variables such as '$yn_ptov1'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\KobanSonekiExcelBuilder.php:136	Avoid unused local variables such as '$yn_pcyunyu1'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\KobanSonekiExcelBuilder.php:136	Avoid unused local variables such as '$yn_psoneki1'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\KobanSonekiExcelBuilder.php:136	Avoid unused local variables such as '$ri_psoneki1'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\KobanSonekiExcelBuilder.php:136	Avoid unused local variables such as '$tm_pcyokka1'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\KobanSonekiExcelBuilder.php:137	Avoid unused local variables such as '$yn_pcyokka1'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\KobanSonekiExcelBuilder.php:137	Avoid unused local variables such as '$yn_pcyokuzai1'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\KobanSonekiExcelBuilder.php:137	Avoid unused local variables such as '$yn_petc1'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\KobanSonekiExcelBuilder.php:137	Avoid unused local variables such as '$yn_pryohi1'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\KobanSonekiExcelBuilder.php:141	Avoid unused local variables such as '$yn_ytov1'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\KobanSonekiExcelBuilder.php:142	Avoid unused local variables such as '$yn_ycyunyu1'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\KobanSonekiExcelBuilder.php:142	Avoid unused local variables such as '$yn_ysoneki1'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\KobanSonekiExcelBuilder.php:142	Avoid unused local variables such as '$ri_ysoneki1'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\KobanSonekiExcelBuilder.php:142	Avoid unused local variables such as '$tm_ycyokka1'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\KobanSonekiExcelBuilder.php:143	Avoid unused local variables such as '$yn_ycyokka1'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\KobanSonekiExcelBuilder.php:143	Avoid unused local variables such as '$yn_ycyokuzai1'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\KobanSonekiExcelBuilder.php:143	Avoid unused local variables such as '$yn_yetc1'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\KobanSonekiExcelBuilder.php:143	Avoid unused local variables such as '$yn_yryohi1'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\KobanSonekiExcelBuilder.php:147	Avoid unused local variables such as '$yn_rtov1'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\KobanSonekiExcelBuilder.php:148	Avoid unused local variables such as '$yn_rcyunyu1'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\KobanSonekiExcelBuilder.php:148	Avoid unused local variables such as '$yn_rsoneki1'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\KobanSonekiExcelBuilder.php:148	Avoid unused local variables such as '$ri_rsoneki1'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\KobanSonekiExcelBuilder.php:148	Avoid unused local variables such as '$tm_rcyokka1'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\KobanSonekiExcelBuilder.php:149	Avoid unused local variables such as '$yn_rcyokka1'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\KobanSonekiExcelBuilder.php:149	Avoid unused local variables such as '$yn_rcyokuzai1'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\KobanSonekiExcelBuilder.php:149	Avoid unused local variables such as '$yn_retc1'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\KobanSonekiExcelBuilder.php:149	Avoid unused local variables such as '$yn_rryohi1'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\KobanSonekiExcelBuilder.php:166	Avoid unused local variables such as '$yn_ptov2'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\KobanSonekiExcelBuilder.php:167	Avoid unused local variables such as '$yn_pcyunyu2'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\KobanSonekiExcelBuilder.php:167	Avoid unused local variables such as '$yn_psoneki2'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\KobanSonekiExcelBuilder.php:167	Avoid unused local variables such as '$ri_psoneki2'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\KobanSonekiExcelBuilder.php:167	Avoid unused local variables such as '$tm_pcyokka2'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\KobanSonekiExcelBuilder.php:168	Avoid unused local variables such as '$yn_pcyokka2'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\KobanSonekiExcelBuilder.php:168	Avoid unused local variables such as '$yn_pcyokuzai2'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\KobanSonekiExcelBuilder.php:168	Avoid unused local variables such as '$yn_petc2'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\KobanSonekiExcelBuilder.php:168	Avoid unused local variables such as '$yn_pryohi2'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\KobanSonekiExcelBuilder.php:172	Avoid unused local variables such as '$yn_ytov2'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\KobanSonekiExcelBuilder.php:173	Avoid unused local variables such as '$yn_ycyunyu2'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\KobanSonekiExcelBuilder.php:173	Avoid unused local variables such as '$yn_ysoneki2'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\KobanSonekiExcelBuilder.php:173	Avoid unused local variables such as '$ri_ysoneki2'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\KobanSonekiExcelBuilder.php:173	Avoid unused local variables such as '$tm_ycyokka2'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\KobanSonekiExcelBuilder.php:174	Avoid unused local variables such as '$yn_ycyokka2'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\KobanSonekiExcelBuilder.php:174	Avoid unused local variables such as '$yn_ycyokuzai2'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\KobanSonekiExcelBuilder.php:174	Avoid unused local variables such as '$yn_yetc2'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\KobanSonekiExcelBuilder.php:174	Avoid unused local variables such as '$yn_yryohi2'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\KobanSonekiExcelBuilder.php:178	Avoid unused local variables such as '$yn_rtov2'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\KobanSonekiExcelBuilder.php:179	Avoid unused local variables such as '$yn_rcyunyu2'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\KobanSonekiExcelBuilder.php:179	Avoid unused local variables such as '$yn_rsoneki2'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\KobanSonekiExcelBuilder.php:179	Avoid unused local variables such as '$ri_rsoneki2'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\KobanSonekiExcelBuilder.php:179	Avoid unused local variables such as '$tm_rcyokka2'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\KobanSonekiExcelBuilder.php:180	Avoid unused local variables such as '$yn_rcyokka2'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\KobanSonekiExcelBuilder.php:180	Avoid unused local variables such as '$yn_rcyokuzai2'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\KobanSonekiExcelBuilder.php:180	Avoid unused local variables such as '$yn_retc2'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\KobanSonekiExcelBuilder.php:180	Avoid unused local variables such as '$yn_rryohi2'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\KobanSonekiExcelBuilder.php:360	Avoid unused local variables such as '$no'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\KobanSonekiExcelFactory.php:29	The class KobanSonekiExcelFactory has a coupling between objects value of 16. Consider to reduce the number of dependencies under 13.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\KobanTyouseiDispControllerModel.php:77	Avoid unused local variables such as '$no_cyu'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\KobanTyouseiDispMntModel.php:104	The method setTyouseiData uses an else expression. Else is never necessary and you can simplify the code to work without else.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\PostCyubanSonekiDisp.php:26	Avoid using static access to class '\Concerto\auth\Csrf' in method 'isValidToken'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\PostCyubanSonekiExcelRead.php:26	Avoid using static access to class '\Concerto\auth\Csrf' in method 'isValidToken'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\PostCyubanSonekiExcelRead.php:33	Avoid using static access to class '\Concerto\Validate' in method 'isValidKb_nendo'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\PostCyubanSonekiExcelRead.php:38	Avoid using static access to class '\Concerto\Validate' in method 'isValidCd_bumon'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\PostCyubanSonekiExcelRead.php:43	Avoid using static access to class '\Concerto\Validate' in method 'isValidMAX_FILE_SIZE'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\PostCyunyuInfDisp.php:13	The class PostCyunyuInfDisp has 12 public methods. Consider refactoring PostCyunyuInfDisp to keep number of public methods under 10.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\PostCyunyuInfDisp.php:29	Avoid using static access to class '\Concerto\auth\Csrf' in method 'isValidToken'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\PostCyunyuInfDisp.php:44	Avoid using static access to class '\Concerto\Validate' in method 'isValidFg_lock'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\PostCyunyuInfDisp.php:52	Avoid using static access to class '\Concerto\Validate' in method 'isValidNo_cyu'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\PostCyunyuInfDisp.php:60	Avoid using static access to class '\Concerto\Validate' in method 'isValidNo_ko'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\PostCyunyuInfDisp.php:68	Avoid using static access to class '\Concerto\Validate' in method 'isValidNo_seq'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\PostCyunyuInfDisp.php:84	Avoid using static access to class '\Concerto\Validate' in method 'isValidKb_nendo'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\PostCyunyuInfDisp.php:92	Avoid using static access to class '\Concerto\Validate' in method 'isValidCd_genka_yoso'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\PostCyunyuInfDisp.php:108	Avoid using static access to class '\Concerto\Validate' in method 'isValidCd_bumon'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\PostCyunyuInfDisp.php:124	Avoid using static access to class '\Concerto\Validate' in method 'isValidCd_tanto'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\PostCyunyuInfDisp.php:140	Avoid using static access to class '\Concerto\Validate' in method 'isValidNm_tanto'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\PostCyunyuInfDisp.php:141	Avoid using static access to class '\Concerto\Validate' in method 'isValidNm_tanto'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\PostCyunyuInfDisp.php:157	Avoid using static access to class '\Concerto\Validate' in method 'isValidNm_syohin'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\PostCyunyuInfDisp.php:158	Avoid using static access to class '\Concerto\Validate' in method 'isValidNm_syohin'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\PostCyunyuInfDisp.php:169	Avoid using static access to class '\Concerto\Validate' in method 'isValidNum_data'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\PostCyunyuInfDisp.php:169	Avoid using static access to class '\Concerto\Validate' in method 'isValidNum_data'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\PostKobanSonekiDisp.php:26	Avoid using static access to class '\Concerto\auth\Csrf' in method 'isValidToken'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\PostKobanSonekiDisp.php:44	Avoid using static access to class '\Concerto\Validate' in method 'isValidKb_tanto'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\PostKobanSonekiDisp.php:56	Avoid using static access to class '\Concerto\Validate' in method 'isValidDt_hatuban'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\PostKobanSonekiDisp.php:68	Avoid using static access to class '\Concerto\Validate' in method 'isValidDt_kakunin'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\PostKobanTyouseiDisp.php:28	Avoid using static access to class '\Concerto\auth\Csrf' in method 'isValidToken'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\PostKobanTyouseiDisp.php:37	Avoid using static access to class '\Concerto\Validate' in method 'isValidNo_ko'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\PostKobanTyouseiDisp.php:48	Avoid using static access to class '\Concerto\Validate' in method 'isValidYn_ttov'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\PostKobanTyouseiDisp.php:59	Avoid using static access to class '\Concerto\Validate' in method 'isValidYn_tsoneki'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\PostKobanTyouseiDisp.php:72	The method isValidNm_biko uses an else expression. Else is never necessary and you can simplify the code to work without else.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\PostKobanTyouseiDisp.php:73	Avoid using static access to class '\Concerto\Validate' in method 'isValidNm_biko'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\PostKobanTyouseiDisp.php:74	Avoid using static access to class '\Concerto\Validate' in method 'isValidNm_biko'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\QueryCyubanSonekiChartMain.php:28	Avoid using static access to class '\Concerto\Validate' in method 'isValidKb_nendo'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\QueryCyubanSonekiChartMain.php:38	Avoid using static access to class '\Concerto\Validate' in method 'isValidCd_bumon'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\QueryCyubanSonekiChartMain.php:46	Avoid using static access to class '\Concerto\Validate' in method 'isValidId'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\QueryCyubanSonekiDisp.php:30	Avoid using static access to class '\Concerto\Validate' in method 'isValidKb_nendo'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\QueryCyubanSonekiDisp.php:38	Avoid using static access to class '\Concerto\Validate' in method 'isValidCd_bumon'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\QueryCyubanSonekiDisp.php:46	Avoid using static access to class '\Concerto\Validate' in method 'isValidChk_nendo_all'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\QueryCyubanSonekiDisp.php:54	Avoid using static access to class '\Concerto\Validate' in method 'isValidChk_kansei'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\QueryCyubanSonekiDisp.php:62	Avoid using static access to class '\Concerto\Validate' in method 'isValidChk_job'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\QueryCyubanSonekiDisp.php:72	Avoid using static access to class '\Concerto\Validate' in method 'isValidNarrow_tanto'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\QueryCyubanSonekiDisp.php:74	Avoid using static access to class '\Concerto\Validate' in method 'isValidNarrow_tanto'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\QueryCyubanSonekiDisp.php:82	Avoid using static access to class '\Concerto\Validate' in method 'isValidFg_cyuban'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\QueryCyubanSonekiDisp.php:90	Avoid using static access to class '\Concerto\Validate' in method 'isValidCd_kisyu'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\QueryCyubanSonekiDisp.php:98	Avoid using static access to class '\Concerto\Validate' in method 'isValidNo_bunya_eigyo'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\QueryCyubanSonekiDisp.php:106	Avoid using static access to class '\Concerto\Validate' in method 'isValidNo_bunya_seizo'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\QueryCyunyuInfCdBumon.php:40	Avoid using static access to class '\Concerto\Validate' in method 'isValidCd_bumon'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\QueryCyunyuInfDisp.php:28	Avoid using static access to class '\Concerto\Validate' in method 'isValidNo_cyu'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\QueryCyunyuInfDisp.php:36	Avoid using static access to class '\Concerto\Validate' in method 'isValidNo_ko'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\QueryCyunyuInfDisp.php:55	Avoid using static access to class '\Concerto\Validate' in method 'isValidNo_seq'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\QueryKobanSonekiChartMain.php:28	Avoid using static access to class '\Concerto\Validate' in method 'isValidNo_cyu'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\QueryKobanSonekiChartMain.php:36	Avoid using static access to class '\Concerto\Validate' in method 'isValidNo_ko'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\QueryKobanSonekiChartMain.php:46	Avoid using static access to class '\Concerto\Validate' in method 'isValidId'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\QueryKobanSonekiDisp.php:29	Avoid using static access to class '\Concerto\Validate' in method 'isValidNo_cyu'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\QueryKobanSonekiDisp.php:31	Avoid using static access to class '\Concerto\Validate' in method 'isValidNo_cyu'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\QueryKobanSonekiDisp.php:39	Avoid using static access to class '\Concerto\Validate' in method 'isValidFg_koban'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\QueryKobanSonekiDisp.php:47	Avoid using static access to class '\Concerto\Validate' in method 'isValidFg_project'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\QueryKobanTyouseiDisp.php:26	Avoid using static access to class '\Concerto\Validate' in method 'isValidNo_cyu'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\chart\CyubanSonekiChart1.php:80	Avoid using static access to class '\Concerto\FiscalYear' in method 'calcData'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\chart\CyubanSonekiChart1.php:89	The method calcData uses an else expression. Else is never necessary and you can simplify the code to work without else.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\chart\CyubanSonekiChart1.php:102	The method calcData uses an else expression. Else is never necessary and you can simplify the code to work without else.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\chart\CyubanSonekiChart1.php:108	Avoid using static access to class '\Concerto\standard\ArrayUtil' in method 'calcData'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\chart\CyubanSonekiChart1.php:115	Avoid using static access to class '\Concerto\standard\ArrayUtil' in method 'calcData'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\chart\CyubanSonekiChart2.php:80	Avoid using static access to class '\Concerto\FiscalYear' in method 'calcData'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\chart\CyubanSonekiChart2.php:89	The method calcData uses an else expression. Else is never necessary and you can simplify the code to work without else.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\chart\CyubanSonekiChart2.php:102	The method calcData uses an else expression. Else is never necessary and you can simplify the code to work without else.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\chart\CyubanSonekiChart2.php:108	Avoid using static access to class '\Concerto\standard\ArrayUtil' in method 'calcData'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\chart\CyubanSonekiChart2.php:115	Avoid using static access to class '\Concerto\standard\ArrayUtil' in method 'calcData'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\chart\CyubanSonekiChart3.php:23	Avoid using static access to class '\Concerto\FiscalYear' in method 'calcData'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\chart\CyubanSonekiChart3.php:108	Avoid using static access to class '\Concerto\standard\ArrayUtil' in method 'setScaleMax'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\chart\CyubanSonekiChart4.php:80	Avoid using static access to class '\Concerto\FiscalYear' in method 'calcData'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\chart\CyubanSonekiChart4.php:89	The method calcData uses an else expression. Else is never necessary and you can simplify the code to work without else.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\chart\CyubanSonekiChart4.php:95	Avoid using static access to class '\Concerto\standard\ArrayUtil' in method 'calcData'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\chart\CyubanSonekiChart4.php:122	Avoid using static access to class '\Concerto\standard\ArrayUtil' in method 'calcData'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\chart\KobanSonekiChart1.php:78	Avoid using static access to class '\Concerto\DateTimeUtil' in method 'calcData'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\chart\KobanSonekiChart1.php:144	The method cyunyuToChartList uses an else expression. Else is never necessary and you can simplify the code to work without else.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\chart\KobanSonekiChart1.php:145	Avoid using static access to class '\Concerto\standard\ArrayUtil' in method 'cyunyuToChartList'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\chart\KobanSonekiChart1.php:151	Avoid using static access to class '\Concerto\standard\ArrayUtil' in method 'cyunyuToChartList'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\chart\KobanSonekiChart1.php:165	Avoid using static access to class '\Concerto\standard\ArrayUtil' in method 'cyunyuToChartList'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\chart\KobanSonekiChart2.php:31	Avoid using static access to class '\Concerto\DateTimeUtil' in method 'calcData'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\chart\KobanSonekiChart2.php:62	The method calcData uses an else expression. Else is never necessary and you can simplify the code to work without else.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\chart\KobanSonekiChart2.php:63	Avoid using static access to class '\Concerto\standard\ArrayUtil' in method 'calcData'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\chart\KobanSonekiChart2.php:69	Avoid using static access to class '\Concerto\standard\ArrayUtil' in method 'calcData'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\chart\KobanSonekiChart2.php:82	The method calcData uses an else expression. Else is never necessary and you can simplify the code to work without else.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\chart\KobanSonekiChart2.php:83	Avoid using static access to class '\Concerto\standard\ArrayUtil' in method 'calcData'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\chart\KobanSonekiChart2.php:89	Avoid using static access to class '\Concerto\standard\ArrayUtil' in method 'calcData'.
+D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\chart\KobanSonekiChart2.php:114	Avoid using static access to class '\Concerto\standard\ArrayUtil' in method 'setScaleMax'.

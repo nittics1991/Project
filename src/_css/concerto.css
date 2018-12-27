@@ -1,0 +1,144 @@
+/***************************************************************************************************
+*	Concerto Standard CSS
+***************************************************************************************************/
+@charset "UTF-8";
+
+*{
+	margin:0;
+	padding:0;
+}
+
+html {
+	height:100%;
+}
+
+body{
+	height:100%;
+	background-color:#c0c0c0;
+	font-size:12px;
+}
+
+img{
+	border:0;
+}
+
+:invalid {
+	border-color:#ff0000;
+}
+
+table{
+	border:1px ridge #c0c0c0;	/*灰色*/
+}
+
+th{
+	font-size:12px;
+	background-color:#99ff99;	/*薄緑色*/
+	white-space:nowrap;
+}
+
+td{
+	font-size:12px;
+	white-space:nowrap;
+}
+
+hr{
+	border:1px ridge #c0c0c0;
+}
+
+dt{
+	font-size:12px;
+	font-weight:bold;
+}
+
+dd{
+	font-size:12px;
+	padding-left:1em;
+	text-indent:1em;
+}
+
+/*ボタン(jquery ui利用)*/
+a.ui-state-default{
+	text-align:center;
+	padding-left:12px;
+	padding-right:12px;
+	padding-top:1px;
+	padding-bottom:1px;
+	border-radius: 4px;  
+	-moz-border-radius: 4px;  
+	-webkit-border-radius: 4px; 
+}
+
+/*ボタン並べ*/
+.table-button{
+	border:0;
+}
+
+/*ボタン並べ右寄せ*/
+.table-button-right{
+	border:0;
+	text-align:right;
+}
+
+/*表題選択*/
+.th-title{
+	background-color:#afffff;	/*空色*/
+}
+
+/*表奇数行右寄せ*/
+.td-odd-right{
+	background-color:#ccffff;	/*薄空色*/
+	text-align:right;
+}
+
+/*表奇数行左寄せ*/
+.td-odd-left{
+	background-color:#ccffff;	/*薄空色*/
+	text-align:left;
+}
+
+/*表偶数行右寄せ*/
+.td-even-right{
+	background-color:#ffffff;	/*白色*/
+	text-align:right;
+}
+
+/*表偶数行左寄せ*/
+.td-even-left{
+	background-color:#ffffff;	/*白色*/
+	text-align:left;
+}
+
+/*Input ReadOnly*/
+.input-text-readonly {
+	background-color:#afffff;	/*空色*/
+}
+
+/*右寄せ*/
+.input-text-right{
+	text-align:right;
+}
+
+/* suggest用ID*/
+#suggest1,#suggest2,#suggest3 {
+	position: absolute;
+	background-color: #00ff00;
+	border: 1px solid #ccccff;
+	width: 252px;
+}
+
+#suggest1 div ,#suggest2 div ,#suggest3 div{
+	padding:1px;
+	display:block;
+	width:250px;
+	overflow:hidden;
+	white-space:
+}
+
+#suggest1 div.select, #suggest2 div.select, #suggest3 div.select{
+	color: #ffffff;
+	background-color: #ff0000;
+}
+
+#suggest div.over ,#suggest2 div.over, ,#suggest3 div.over{
+	background-color: #ff0000;
+}

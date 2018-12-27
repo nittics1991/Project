@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+.gt-inner {
+	display: block;
+	height:auto;
+	white-space:normal;
+	word-break:normal;
+}
+
+.gt-b-ie .gt-row td {
+	height:auto;
+}
+
+.gt-b-ie .gt-hd-row td , .gt-b-safari .gt-hd-row td {
+	height:auto;
+}

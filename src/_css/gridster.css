@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+.gridster .gs-w {
+	background: #e0e0e0;
+}
+
+.gridster .player {
+	background: #ffff00;
+}
+
+.gridster .preview-holder {
+	border:none;
+	background: #ff0000;
+}

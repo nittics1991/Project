@@ -1,0 +1,2540 @@
+
+
+ ------ ------------------------------------------------------------------------- 
+  Line   cyuban_soneki_chart_main.php                                             
+ ------ ------------------------------------------------------------------------- 
+  8      Undefined variable: $configSystem                                        
+  9      Parameter #1 $pdo of class seiban_kanri2\model\CyubanSonekiChartFactory  
+         constructor expects PDO, resource given.                                 
+  15     Undefined variable: $configSystem                                        
+  16     Call to an undefined method object::write().                             
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   cyuban_soneki_chart_make.php                                             
+ ------ ------------------------------------------------------------------------- 
+  8      Undefined variable: $configSystem                                        
+  9      Parameter #1 $pdo of class seiban_kanri2\model\CyubanSonekiChartFactory  
+         constructor expects PDO, resource given.                                 
+  16     Access to an undefined property                                          
+         seiban_kanri2\model\CyubanSonekiChartControllerModel::$task_result.      
+  17     Undefined variable: $configSystem                                        
+  18     Access to an undefined property                                          
+         seiban_kanri2\model\CyubanSonekiChartControllerModel::$task_error.       
+  18     Call to an undefined method object::write().                             
+  21     Undefined variable: $configSystem                                        
+  22     Call to an undefined method object::write().                             
+  25     Casting to array something that's already array.                         
+  25     Variable $files might not be defined.                                    
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   cyuban_soneki_disp.php                                                  
+ ------ ------------------------------------------------------------------------ 
+  10     Undefined variable: $configSystem                                       
+  12     Parameter #1 $pdo of class seiban_kanri2\model\CyubanSonekiDispFactory  
+         constructor expects PDO, resource given.                                
+  18     Access to an undefined property                                         
+         seiban_kanri2\model\CyubanSonekiDispControllerModel::$act.              
+  20     Undefined variable: $configSystem                                       
+  23     Undefined variable: $configSystem                                       
+  29     Parameter #1 $config of method                                          
+         seiban_kanri2\model\CyubanSonekiDispControllerModel::buildData()        
+         expects array|null, Concerto\conf\Config given.                         
+ ------ ------------------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   cyuban_soneki_excel_make.php                                             
+ ------ ------------------------------------------------------------------------- 
+  8      Undefined variable: $configSystem                                        
+  10     Parameter #1 $pdo of class seiban_kanri2\model\CyubanSonekiExcelFactory  
+         constructor expects PDO, resource given.                                 
+  26     Undefined variable: $configSystem                                        
+  27     Call to an undefined method object::write().                             
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   cyuban_soneki_excel_read.php                                          
+ ------ ---------------------------------------------------------------------- 
+  8      Undefined variable: $configSystem                                     
+  10     Parameter #1 $pdo of class                                            
+         seiban_kanri2\model\CyubanSonekiExcelReadFactory constructor expects  
+         PDO, resource given.                                                  
+  16     Access to an undefined property                                       
+         seiban_kanri2\model\CyubanSonekiExcelReadControllerModel::$act.       
+  23     Undefined variable: $configSystem                                     
+  24     Call to an undefined method object::write().                          
+ ------ ---------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   cyuban_soneki_grid.php                                                  
+ ------ ------------------------------------------------------------------------ 
+  8      Undefined variable: $configSystem                                       
+  9      Parameter #1 $pdo of class seiban_kanri2\model\CyubanSonekiDispFactory  
+         constructor expects PDO, resource given.                                
+ ------ ------------------------------------------------------------------------ 
+
+ ------ --------------------------------------------------------------------- 
+  Line   cyunyu_inf_cd_bumon_ajax.php                                         
+ ------ --------------------------------------------------------------------- 
+  8      Undefined variable: $configSystem                                    
+  9      Parameter #1 $pdo of class seiban_kanri2\model\CyunyuInfDispFactory  
+         constructor expects PDO, resource given.                             
+  16     Variable $dataset might not be defined.                              
+ ------ --------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   cyunyu_inf_disp.php                                                   
+ ------ ---------------------------------------------------------------------- 
+  8      Undefined variable: $configSystem                                     
+  9      Parameter #1 $pdo of class seiban_kanri2\model\CyunyuInfDispFactory   
+         constructor expects PDO, resource given.                              
+  14     Access to an undefined property                                       
+         seiban_kanri2\model\CyunyuInfDispControllerModel::$keikaku.           
+  18     Undefined variable: $configSystem                                     
+  19     Call to an undefined method object::write().                          
+  23     Access to an undefined property                                       
+         seiban_kanri2\model\CyunyuInfDispControllerModel::$act.               
+  32     Undefined variable: $configSystem                                     
+  33     Call to an undefined method object::write().                          
+  39     Method seiban_kanri2\model\CyunyuInfDispControllerModel::buildData()  
+         invoked with 1 parameter, 0 required.                                 
+  39     Undefined variable: $config                                           
+ ------ ---------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------- 
+  Line   cyunyu_inf_grid1.php                                                 
+ ------ --------------------------------------------------------------------- 
+  8      Undefined variable: $configSystem                                    
+  9      Parameter #1 $pdo of class seiban_kanri2\model\CyunyuInfDispFactory  
+         constructor expects PDO, resource given.                             
+ ------ --------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------- 
+  Line   cyunyu_inf_grid2.php                                                 
+ ------ --------------------------------------------------------------------- 
+  8      Undefined variable: $configSystem                                    
+  9      Parameter #1 $pdo of class seiban_kanri2\model\CyunyuInfDispFactory  
+         constructor expects PDO, resource given.                             
+ ------ --------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   koban_soneki_chart_main.php                                             
+ ------ ------------------------------------------------------------------------ 
+  12     Undefined variable: $configSystem                                       
+  13     Parameter #1 $pdo of class seiban_kanri2\model\KobanSonekiChartFactory  
+         constructor expects PDO, resource given.                                
+  19     Undefined variable: $configSystem                                       
+  20     Call to an undefined method object::write().                            
+ ------ ------------------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   koban_soneki_chart_make.php                                             
+ ------ ------------------------------------------------------------------------ 
+  11     Undefined variable: $configSystem                                       
+  12     Parameter #1 $pdo of class seiban_kanri2\model\KobanSonekiChartFactory  
+         constructor expects PDO, resource given.                                
+  19     Access to an undefined property                                         
+         seiban_kanri2\model\KobanSonekiChartControllerModel::$task_result.      
+  20     Undefined variable: $configSystem                                       
+  21     Access to an undefined property                                         
+         seiban_kanri2\model\KobanSonekiChartControllerModel::$task_error.       
+  21     Call to an undefined method object::write().                            
+  24     Undefined variable: $configSystem                                       
+  25     Call to an undefined method object::write().                            
+ ------ ------------------------------------------------------------------------ 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   koban_soneki_disp.php                                                  
+ ------ ----------------------------------------------------------------------- 
+  8      Undefined variable: $configSystem                                      
+  9      Parameter #1 $pdo of class seiban_kanri2\model\KobanSonekiDispFactory  
+         constructor expects PDO, resource given.                               
+  15     Access to an undefined property                                        
+         seiban_kanri2\model\KobanSonekiDispControllerModel::$act.              
+  17     Method                                                                 
+         seiban_kanri2\model\KobanSonekiDispControllerModel::setSeibanTanto()   
+         invoked with 3 parameters, 0 required.                                 
+  17     Undefined variable: $input_code                                        
+  17     Undefined variable: $kb_tanto                                          
+  17     Undefined variable: $no_cyu                                            
+  27     Undefined variable: $configSystem                                      
+  28     Call to an undefined method object::write().                           
+ ------ ----------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   koban_soneki_excel_make.php                                             
+ ------ ------------------------------------------------------------------------ 
+  12     Undefined variable: $configSystem                                       
+  13     Parameter #1 $pdo of class seiban_kanri2\model\KobanSonekiExcelFactory  
+         constructor expects PDO, resource given.                                
+  28     Undefined variable: $configSystem                                       
+  29     Call to an undefined method object::write().                            
+ ------ ------------------------------------------------------------------------ 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   koban_soneki_grid1.php                                                 
+ ------ ----------------------------------------------------------------------- 
+  8      Undefined variable: $configSystem                                      
+  9      Parameter #1 $pdo of class seiban_kanri2\model\KobanSonekiDispFactory  
+         constructor expects PDO, resource given.                               
+ ------ ----------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   koban_soneki_grid2.php                                                 
+ ------ ----------------------------------------------------------------------- 
+  8      Undefined variable: $configSystem                                      
+  9      Parameter #1 $pdo of class seiban_kanri2\model\KobanSonekiDispFactory  
+         constructor expects PDO, resource given.                               
+ ------ ----------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   koban_tyousei_disp.php                                                  
+ ------ ------------------------------------------------------------------------ 
+  8      Undefined variable: $configSystem                                       
+  9      Parameter #1 $pdo of class seiban_kanri2\model\KobanTyouseiDispFactory  
+         constructor expects PDO, resource given.                                
+  14     Access to an undefined property                                         
+         seiban_kanri2\model\KobanTyouseiDispControllerModel::$act.              
+  19     Undefined variable: $configSystem                                       
+  20     Call to an undefined method object::write().                            
+ ------ ------------------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   login.php                                                                
+ ------ ------------------------------------------------------------------------- 
+  28     Access to an undefined property                                          
+         Concerto\standard\Session::$input_group.                                 
+  44     Access to an undefined property Concerto\standard\Session::$kb_nendo.    
+  44     Access to an undefined property Concerto\standard\Session::$kb_nendo.    
+  45     Access to an undefined property Concerto\standard\Session::$cd_bumon.    
+  45     Access to an undefined property Concerto\standard\Session::$cd_bumon.    
+  46     Access to an undefined property                                          
+         Concerto\standard\Session::$chk_nendo_all.                               
+  46     Access to an undefined property                                          
+         Concerto\standard\Session::$chk_nendo_all.                               
+  47     Access to an undefined property Concerto\standard\Session::$chk_kansei.  
+  47     Access to an undefined property Concerto\standard\Session::$chk_kansei.  
+  48     Access to an undefined property Concerto\standard\Session::$chk_job.     
+  48     Access to an undefined property Concerto\standard\Session::$chk_job.     
+  49     Access to an undefined property                                          
+         Concerto\standard\Session::$narrow_tanto.                                
+  49     Access to an undefined property                                          
+         Concerto\standard\Session::$narrow_tanto.                                
+  51     Access to an undefined property Concerto\standard\Session::$cd_kisyu.    
+  51     Access to an undefined property Concerto\standard\Session::$cd_kisyu.    
+  52     Access to an undefined property                                          
+         Concerto\standard\Session::$no_bunya_eigyo.                              
+  52     Access to an undefined property                                          
+         Concerto\standard\Session::$no_bunya_eigyo.                              
+  53     Access to an undefined property                                          
+         Concerto\standard\Session::$no_bunya_seizo.                              
+  53     Access to an undefined property                                          
+         Concerto\standard\Session::$no_bunya_seizo.                              
+  55     Access to an undefined property Concerto\standard\Session::$no_cyu.      
+  55     Access to an undefined property Concerto\standard\Session::$no_cyu.      
+  56     Access to an undefined property Concerto\standard\Session::$no_ko.       
+  56     Access to an undefined property Concerto\standard\Session::$no_ko.       
+  57     Access to an undefined property Concerto\standard\Session::$fg_koban.    
+  57     Access to an undefined property Concerto\standard\Session::$fg_koban.    
+  58     Access to an undefined property Concerto\standard\Session::$fg_crt.      
+  58     Access to an undefined property Concerto\standard\Session::$fg_crt.      
+  59     Access to an undefined property Concerto\standard\Session::$fg_lock.     
+  59     Access to an undefined property Concerto\standard\Session::$fg_lock.     
+  60     Access to an undefined property Concerto\standard\Session::$fg_cyuban.   
+  60     Access to an undefined property Concerto\standard\Session::$fg_cyuban.   
+  61     Access to an undefined property Concerto\standard\Session::$fg_project.  
+  61     Access to an undefined property Concerto\standard\Session::$fg_project.  
+  62     Access to an undefined property Concerto\standard\Session::$cd_tmp.      
+  62     Access to an undefined property Concerto\standard\Session::$cd_tmp.      
+  63     Access to an undefined property Concerto\standard\Session::$no_seq.      
+  63     Access to an undefined property Concerto\standard\Session::$no_seq.      
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   model\CyubanSonekiChartControllerModel.php                               
+ ------ ------------------------------------------------------------------------- 
+  40     Call to an undefined method object::getQuery().                          
+  43     Cannot access property $kb_nendo on array.                               
+  44     Cannot access property $kb_nendo on array.                               
+  45     Cannot access property $cd_bumon on array.                               
+  46     Cannot access property $cd_bumon on array.                               
+  47     Cannot access property $fg_cyuban on array.                              
+  48     Cannot access property $fg_cyuban on array.                              
+  61     Call to an undefined method object::getFileOperation().                  
+  64     Call to an undefined method object::getTaskManager().                    
+  67     Cannot access property $kb_nendo on array.                               
+  68     Cannot access property $cd_bumon on array.                               
+  79     Access to an undefined property                                          
+         seiban_kanri2\model\CyubanSonekiChartControllerModel::$task_result.      
+  80     Access to an undefined property                                          
+         seiban_kanri2\model\CyubanSonekiChartControllerModel::$task_error.       
+  83     Access to an undefined property                                          
+         seiban_kanri2\model\CyubanSonekiChartControllerModel::$kb_nendo.         
+  83     Cannot access property $kb_nendo on array.                               
+  84     Access to an undefined property                                          
+         seiban_kanri2\model\CyubanSonekiChartControllerModel::$cd_bumon.         
+  84     Cannot access property $cd_bumon on array.                               
+  87     Access to an undefined property                                          
+         seiban_kanri2\model\CyubanSonekiChartControllerModel::$id.               
+  88     Access to an undefined property                                          
+         seiban_kanri2\model\CyubanSonekiChartControllerModel::$file.             
+  108    Call to an undefined method object::getChartQuery().                     
+  116    Access to an undefined property                                          
+         seiban_kanri2\model\CyubanSonekiChartControllerModel::$kb_nendo.         
+  117    Cannot access property $kb_nendo on array.                               
+  118    Access to an undefined property                                          
+         seiban_kanri2\model\CyubanSonekiChartControllerModel::$cd_bumon.         
+  119    Cannot access property $cd_bumon on array.                               
+  120    Access to an undefined property                                          
+         seiban_kanri2\model\CyubanSonekiChartControllerModel::$id.               
+  121    Access to an undefined property                                          
+         seiban_kanri2\model\CyubanSonekiChartControllerModel::$file.             
+  130    Access to an undefined property                                          
+         seiban_kanri2\model\CyubanSonekiChartControllerModel::$kb_nendo.         
+  131    Access to an undefined property                                          
+         seiban_kanri2\model\CyubanSonekiChartControllerModel::$cd_bumon.         
+  134    Access to an undefined property                                          
+         seiban_kanri2\model\CyubanSonekiChartControllerModel::$id.               
+  139    Access to an undefined property                                          
+         seiban_kanri2\model\CyubanSonekiChartControllerModel::$file.             
+  146    Access to an undefined property                                          
+         seiban_kanri2\model\CyubanSonekiChartControllerModel::$file.             
+  155    Access to an undefined property                                          
+         seiban_kanri2\model\CyubanSonekiChartControllerModel::$file.             
+  156    Call to method merge() on an unknown class Concerto\chart\cpchart\this.  
+  157    Access to an undefined property                                          
+         seiban_kanri2\model\CyubanSonekiChartControllerModel::$file.             
+  162    Access to an undefined property                                          
+         seiban_kanri2\model\CyubanSonekiChartControllerModel::$id.               
+  163    Access to an undefined property                                          
+         seiban_kanri2\model\CyubanSonekiChartControllerModel::$file.             
+  182    Call to an undefined method object::getChartDefinition().                
+  184    Call to an undefined method object::getChartBuilder().                   
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   model\CyubanSonekiDispControllerModel.php                                
+ ------ ------------------------------------------------------------------------- 
+  39     Call to an undefined method object::getQuery().                          
+  42     Cannot access property $kb_nendo on array.                               
+  43     Cannot access property $kb_nendo on array.                               
+  44     Cannot access property $cd_bumon on array.                               
+  45     Cannot access property $cd_bumon on array.                               
+  46     Cannot access property $narrow_tanto on array.                           
+  47     Cannot access property $narrow_tanto on array.                           
+  48     Cannot access property $cd_kisyu on array.                               
+  49     Cannot access property $cd_kisyu on array.                               
+  50     Cannot access property $no_bunya_eigyo on array.                         
+  51     Cannot access property $no_bunya_eigyo on array.                         
+  52     Cannot access property $no_bunya_seizo on array.                         
+  53     Cannot access property $no_bunya_seizo on array.                         
+  55     Cannot access property $chk_nendo_all on array.                          
+  56     Cannot access property $chk_nendo_all on array.                          
+  58     Cannot access property $chk_kansei on array.                             
+  59     Cannot access property $chk_kansei on array.                             
+  61     Cannot access property $fg_cyuban on array.                              
+  62     Cannot access property $fg_cyuban on array.                              
+  64     Cannot access property $chk_job on array.                                
+  65     Cannot access property $chk_job on array.                                
+  69     Cannot access property $kb_nendo on array.                               
+  70     Cannot access property $chk_nendo_all on array.                          
+  81     Call to an undefined method object::getPost().                           
+  82     Access to an undefined property                                          
+         seiban_kanri2\model\CyubanSonekiDispControllerModel::$act.               
+  95     Call to an undefined method object::getMementoOriginator().              
+  98     Cannot access property $cd_bumon on array.                               
+  99     Cannot access property $kb_nendo on array.                               
+  100    Cannot access property $chk_kansei on array.                             
+  101    Cannot access property $chk_job on array.                                
+  102    Cannot access property $narrow_tanto on array.                           
+  103    Cannot access property $chk_nendo_all on array.                          
+  104    Cannot access property $fg_cyuban on array.                              
+  107    Call to an undefined method object::getMementoCookieManager().           
+  122    Call to an undefined method object::getMementoOriginator().              
+  124    Call to an undefined method object::getMementoCookieManager().           
+  139    Call to an undefined method object::getModel().                          
+  141    Cannot access property $cd_bumon on array.                               
+  142    Cannot access property $kb_nendo on array.                               
+  143    Cannot access property $chk_nendo_all on array.                          
+  144    Cannot access property $chk_kansei on array.                             
+  145    Cannot access property $chk_job on array.                                
+  146    Cannot access property $narrow_tanto on array.                           
+  147    Cannot access property $fg_cyuban on array.                              
+  149    Access to an undefined property                                          
+         seiban_kanri2\model\CyubanSonekiDispControllerModel::$cd_kisyu.          
+  149    Cannot access property $cd_kisyu on array.                               
+  150    Access to an undefined property                                          
+         seiban_kanri2\model\CyubanSonekiDispControllerModel::$no_bunya_eigyo.    
+  150    Cannot access property $no_bunya_eigyo on array.                         
+  151    Cannot access property $no_bunya_eigyo on array.                         
+  152    Access to an undefined property                                          
+         seiban_kanri2\model\CyubanSonekiDispControllerModel::$no_bunya_seizo.    
+  152    Cannot access property $no_bunya_seizo on array.                         
+  154    Access to an undefined property                                          
+         seiban_kanri2\model\CyubanSonekiDispControllerModel::$nendo_list.        
+  155    Access to an undefined property                                          
+         seiban_kanri2\model\CyubanSonekiDispControllerModel::$bumon_list.        
+  160    Access to an undefined property                                          
+         seiban_kanri2\model\CyubanSonekiDispControllerModel::$tanto_list.        
+  161    Cannot access property $input_code on array.                             
+  179    Access to an undefined property                                          
+         seiban_kanri2\model\CyubanSonekiDispControllerModel::$kisyu_list.        
+  180    Access to an undefined property                                          
+         seiban_kanri2\model\CyubanSonekiDispControllerModel::$bunya_eigyo_list.  
+  181    Access to an undefined property                                          
+         seiban_kanri2\model\CyubanSonekiDispControllerModel::$bunya_seizo_list.  
+  190    Access to an undefined property                                          
+         seiban_kanri2\model\CyubanSonekiDispControllerModel::$yn_ycyunyu.        
+  191    Access to an undefined property                                          
+         seiban_kanri2\model\CyubanSonekiDispControllerModel::$yn_ysoneki.        
+  192    Access to an undefined property                                          
+         seiban_kanri2\model\CyubanSonekiDispControllerModel::$ri_ysoneki.        
+  195    Access to an undefined property                                          
+         seiban_kanri2\model\CyubanSonekiDispControllerModel::$dt_hakkou_diff_da  
+         te.                                                                      
+  197    Access to an undefined property                                          
+         seiban_kanri2\model\CyubanSonekiDispControllerModel::$dt_cyunyu_diff_da  
+         te.                                                                      
+  200    Access to an undefined property                                          
+         seiban_kanri2\model\CyubanSonekiDispControllerModel::$isPastFiscalYear.  
+  221    Call to an undefined method object::getModel().                          
+  229    Access to an undefined property                                          
+         seiban_kanri2\model\CyubanSonekiDispControllerModel::$yn_psp.            
+  230    Access to an undefined property                                          
+         seiban_kanri2\model\CyubanSonekiDispControllerModel::$yn_ptov.           
+  231    Access to an undefined property                                          
+         seiban_kanri2\model\CyubanSonekiDispControllerModel::$yn_parari.         
+  232    Access to an undefined property                                          
+         seiban_kanri2\model\CyubanSonekiDispControllerModel::$tm_pcyokka.        
+  233    Access to an undefined property                                          
+         seiban_kanri2\model\CyubanSonekiDispControllerModel::$yn_pcyokka.        
+  234    Access to an undefined property                                          
+         seiban_kanri2\model\CyubanSonekiDispControllerModel::$yn_pcyokuzai.      
+  235    Access to an undefined property                                          
+         seiban_kanri2\model\CyubanSonekiDispControllerModel::$yn_pryohi.         
+  236    Access to an undefined property                                          
+         seiban_kanri2\model\CyubanSonekiDispControllerModel::$yn_petc.           
+  237    Access to an undefined property                                          
+         seiban_kanri2\model\CyubanSonekiDispControllerModel::$yn_pcyunyu.        
+  238    Access to an undefined property                                          
+         seiban_kanri2\model\CyubanSonekiDispControllerModel::$yn_psoneki.        
+  239    Access to an undefined property                                          
+         seiban_kanri2\model\CyubanSonekiDispControllerModel::$ri_psoneki.        
+  241    Access to an undefined property                                          
+         seiban_kanri2\model\CyubanSonekiDispControllerModel::$yn_ysp.            
+  242    Access to an undefined property                                          
+         seiban_kanri2\model\CyubanSonekiDispControllerModel::$yn_ytov.           
+  243    Access to an undefined property                                          
+         seiban_kanri2\model\CyubanSonekiDispControllerModel::$yn_yarari.         
+  244    Access to an undefined property                                          
+         seiban_kanri2\model\CyubanSonekiDispControllerModel::$tm_ycyokka.        
+  245    Access to an undefined property                                          
+         seiban_kanri2\model\CyubanSonekiDispControllerModel::$yn_ycyokka.        
+  246    Access to an undefined property                                          
+         seiban_kanri2\model\CyubanSonekiDispControllerModel::$yn_ycyokuzai.      
+  247    Access to an undefined property                                          
+         seiban_kanri2\model\CyubanSonekiDispControllerModel::$yn_yryohi.         
+  248    Access to an undefined property                                          
+         seiban_kanri2\model\CyubanSonekiDispControllerModel::$yn_yetc.           
+  249    Access to an undefined property                                          
+         seiban_kanri2\model\CyubanSonekiDispControllerModel::$yn_ycyunyu.        
+  250    Access to an undefined property                                          
+         seiban_kanri2\model\CyubanSonekiDispControllerModel::$yn_ysoneki.        
+  251    Access to an undefined property                                          
+         seiban_kanri2\model\CyubanSonekiDispControllerModel::$ri_ysoneki.        
+  253    Access to an undefined property                                          
+         seiban_kanri2\model\CyubanSonekiDispControllerModel::$yn_rsp.            
+  254    Access to an undefined property                                          
+         seiban_kanri2\model\CyubanSonekiDispControllerModel::$yn_rtov.           
+  255    Access to an undefined property                                          
+         seiban_kanri2\model\CyubanSonekiDispControllerModel::$yn_rarari.         
+  256    Access to an undefined property                                          
+         seiban_kanri2\model\CyubanSonekiDispControllerModel::$tm_rcyokka.        
+  257    Access to an undefined property                                          
+         seiban_kanri2\model\CyubanSonekiDispControllerModel::$yn_rcyokka.        
+  258    Access to an undefined property                                          
+         seiban_kanri2\model\CyubanSonekiDispControllerModel::$yn_rcyokuzai.      
+  259    Access to an undefined property                                          
+         seiban_kanri2\model\CyubanSonekiDispControllerModel::$yn_rryohi.         
+  260    Access to an undefined property                                          
+         seiban_kanri2\model\CyubanSonekiDispControllerModel::$yn_retc.           
+  261    Access to an undefined property                                          
+         seiban_kanri2\model\CyubanSonekiDispControllerModel::$yn_rcyunyu.        
+  262    Access to an undefined property                                          
+         seiban_kanri2\model\CyubanSonekiDispControllerModel::$yn_rsoneki.        
+  263    Access to an undefined property                                          
+         seiban_kanri2\model\CyubanSonekiDispControllerModel::$ri_rsoneki.        
+  274    Call to an undefined method object::getModel().                          
+  282    Access to an undefined property                                          
+         seiban_kanri2\model\CyubanSonekiDispControllerModel::$yn_atov.           
+  283    Access to an undefined property                                          
+         seiban_kanri2\model\CyubanSonekiDispControllerModel::$tm_acyokka.        
+  284    Access to an undefined property                                          
+         seiban_kanri2\model\CyubanSonekiDispControllerModel::$yn_acyokka.        
+  285    Access to an undefined property                                          
+         seiban_kanri2\model\CyubanSonekiDispControllerModel::$yn_acyokuzai.      
+  286    Access to an undefined property                                          
+         seiban_kanri2\model\CyubanSonekiDispControllerModel::$yn_aryohi.         
+  287    Access to an undefined property                                          
+         seiban_kanri2\model\CyubanSonekiDispControllerModel::$yn_aetc.           
+  288    Access to an undefined property                                          
+         seiban_kanri2\model\CyubanSonekiDispControllerModel::$yn_acyunyu.        
+  289    Access to an undefined property                                          
+         seiban_kanri2\model\CyubanSonekiDispControllerModel::$yn_asoneki.        
+  290    Access to an undefined property                                          
+         seiban_kanri2\model\CyubanSonekiDispControllerModel::$ri_asoneki.        
+  301    Call to an undefined method object::getModel().                          
+  309    Access to an undefined property                                          
+         seiban_kanri2\model\CyubanSonekiDispControllerModel::$yn_btov.           
+  310    Access to an undefined property                                          
+         seiban_kanri2\model\CyubanSonekiDispControllerModel::$tm_bcyokka.        
+  311    Access to an undefined property                                          
+         seiban_kanri2\model\CyubanSonekiDispControllerModel::$yn_bcyokka.        
+  312    Access to an undefined property                                          
+         seiban_kanri2\model\CyubanSonekiDispControllerModel::$yn_bcyokuzai.      
+  313    Access to an undefined property                                          
+         seiban_kanri2\model\CyubanSonekiDispControllerModel::$yn_bryohi.         
+  314    Access to an undefined property                                          
+         seiban_kanri2\model\CyubanSonekiDispControllerModel::$yn_betc.           
+  315    Access to an undefined property                                          
+         seiban_kanri2\model\CyubanSonekiDispControllerModel::$yn_bcyunyu.        
+  316    Access to an undefined property                                          
+         seiban_kanri2\model\CyubanSonekiDispControllerModel::$yn_bsoneki.        
+  317    Access to an undefined property                                          
+         seiban_kanri2\model\CyubanSonekiDispControllerModel::$ri_bsoneki.        
+  328    Call to an undefined method object::getModel().                          
+  336    Access to an undefined property                                          
+         seiban_kanri2\model\CyubanSonekiDispControllerModel::$yn_ctov.           
+  337    Access to an undefined property                                          
+         seiban_kanri2\model\CyubanSonekiDispControllerModel::$tm_ccyokka.        
+  338    Access to an undefined property                                          
+         seiban_kanri2\model\CyubanSonekiDispControllerModel::$yn_ccyokka.        
+  339    Access to an undefined property                                          
+         seiban_kanri2\model\CyubanSonekiDispControllerModel::$yn_ccyokuzai.      
+  340    Access to an undefined property                                          
+         seiban_kanri2\model\CyubanSonekiDispControllerModel::$yn_cryohi.         
+  341    Access to an undefined property                                          
+         seiban_kanri2\model\CyubanSonekiDispControllerModel::$yn_cetc.           
+  342    Access to an undefined property                                          
+         seiban_kanri2\model\CyubanSonekiDispControllerModel::$yn_ccyunyu.        
+  343    Access to an undefined property                                          
+         seiban_kanri2\model\CyubanSonekiDispControllerModel::$yn_csoneki.        
+  344    Access to an undefined property                                          
+         seiban_kanri2\model\CyubanSonekiDispControllerModel::$ri_csoneki.        
+  363    Call to an undefined method object::getModel().                          
+  371    Call to function is_null() with string will always evaluate to false.    
+  373    Variable $yn_yosan might not be defined.                                 
+  374    Variable $yn_soneki might not be defined.                                
+  378    Variable $yn_soneki might not be defined.                                
+  380    Access to an undefined property                                          
+         seiban_kanri2\model\CyubanSonekiDispControllerModel::$yn_yosan_sub.      
+  382    Access to an undefined property                                          
+         seiban_kanri2\model\CyubanSonekiDispControllerModel::$yn_soneki_sub.     
+  384    Access to an undefined property                                          
+         seiban_kanri2\model\CyubanSonekiDispControllerModel::$ri_soneki_sub.     
+  387    Access to an undefined property                                          
+         seiban_kanri2\model\CyubanSonekiDispControllerModel::$yn_yosan_rt.       
+  389    Access to an undefined property                                          
+         seiban_kanri2\model\CyubanSonekiDispControllerModel::$yn_soneki_rt.      
+  391    Access to an undefined property                                          
+         seiban_kanri2\model\CyubanSonekiDispControllerModel::$ri_soneki_rt.      
+  394    Access to an undefined property                                          
+         seiban_kanri2\model\CyubanSonekiDispControllerModel::$yn_yosan.          
+  394    Variable $yn_yosan might not be defined.                                 
+  395    Access to an undefined property                                          
+         seiban_kanri2\model\CyubanSonekiDispControllerModel::$yn_soneki.         
+  395    Variable $yn_soneki might not be defined.                                
+  396    Access to an undefined property                                          
+         seiban_kanri2\model\CyubanSonekiDispControllerModel::$ri_soneki.         
+  407    Cannot access property $input_code on array.                             
+  409    Cannot access property $cd_bumon on array.                               
+  410    Cannot access property $kb_nendo on array.                               
+  411    Cannot access property $chk_nendo_all on array.                          
+  412    Cannot access property $chk_kansei on array.                             
+  413    Cannot access property $chk_job on array.                                
+  414    Cannot access property $narrow_tanto on array.                           
+  415    Cannot access property $fg_cyuban on array.                              
+  417    Cannot access property $cd_kisyu on array.                               
+  418    Cannot access property $no_bunya_eigyo on array.                         
+  419    Cannot access property $no_bunya_eigyo on array.                         
+  420    Cannot access property $no_bunya_seizo on array.                         
+  432    Call to an undefined method object::getModel().                          
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   model\CyubanSonekiDispGridModel.php                                    
+ ------ ----------------------------------------------------------------------- 
+  145    Part $listSql (array) of encapsed string cannot be cast to string.     
+  174    Call to function is_null() with string will always evaluate to false.  
+  178    Call to function is_null() with string will always evaluate to false.  
+  208    Undefined variable: $argv2                                             
+  209    Method seiban_kanri2\model\CyubanSonekiDispGridModel::buildGridSql()   
+         invoked with 9 parameters, 8 required.                                 
+  209    Parameter #6 $cd_kisyu of method                                       
+         seiban_kanri2\model\CyubanSonekiDispGridModel::buildGridSql() expects  
+         string, null given.                                                    
+  209    Parameter #7 $no_bunya_eigyo of method                                 
+         seiban_kanri2\model\CyubanSonekiDispGridModel::buildGridSql() expects  
+         string, null given.                                                    
+  209    Parameter #8 $no_bunya_seizo of method                                 
+         seiban_kanri2\model\CyubanSonekiDispGridModel::buildGridSql() expects  
+         string, null given.                                                    
+  223    Part $listSql (array) of encapsed string cannot be cast to string.     
+  290    Undefined variable: $argv2                                             
+  291    Method seiban_kanri2\model\CyubanSonekiDispGridModel::buildGridSql()   
+         invoked with 9 parameters, 8 required.                                 
+  291    Parameter #6 $cd_kisyu of method                                       
+         seiban_kanri2\model\CyubanSonekiDispGridModel::buildGridSql() expects  
+         string, null given.                                                    
+  291    Parameter #7 $no_bunya_eigyo of method                                 
+         seiban_kanri2\model\CyubanSonekiDispGridModel::buildGridSql() expects  
+         string, null given.                                                    
+  291    Parameter #8 $no_bunya_seizo of method                                 
+         seiban_kanri2\model\CyubanSonekiDispGridModel::buildGridSql() expects  
+         string, null given.                                                    
+  305    Part $listSql (array) of encapsed string cannot be cast to string.     
+ ------ ----------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   model\CyubanSonekiDispModel.php                                        
+ ------ ----------------------------------------------------------------------- 
+  73     Access to an undefined property                                        
+         seiban_kanri2\model\CyubanSonekiDispModel::$cyunyuInf.                 
+  73     Undefined variable: $cyunyuInf                                         
+  108    PHPDoc tag @param has invalid value (string 年度): Unexpected token    
+         "年度", expected TOKEN_VARIABLE at offset 56                           
+  121    Call to function is_null() with string will always evaluate to false.  
+ ------ ----------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   model\CyubanSonekiExcelBuilder.php                                       
+ ------ ------------------------------------------------------------------------- 
+  43     Access to an undefined property                                          
+         seiban_kanri2\model\CyubanSonekiExcelControllerModel::$temp_dir.         
+  55     Parameter $book of method                                                
+         seiban_kanri2\model\CyubanSonekiExcelBuilder::build() has invalid        
+         typehint type seiban_kanri2\model\Workbook.                              
+  55     Parameter $excel of method                                               
+         seiban_kanri2\model\CyubanSonekiExcelBuilder::build() has invalid        
+         typehint type seiban_kanri2\model\EXCEL.                                 
+  58     Call to method Worksheets() on an unknown class                          
+         seiban_kanri2\model\Workbook.                                            
+  64     Call to method Worksheets() on an unknown class                          
+         seiban_kanri2\model\Workbook.                                            
+  70     Call to method Worksheets() on an unknown class                          
+         seiban_kanri2\model\Workbook.                                            
+  76     Call to method Worksheets() on an unknown class                          
+         seiban_kanri2\model\Workbook.                                            
+  82     Call to method Worksheets() on an unknown class                          
+         seiban_kanri2\model\Workbook.                                            
+  88     Call to method Worksheets() on an unknown class                          
+         seiban_kanri2\model\Workbook.                                            
+  93     Call to method Worksheets() on an unknown class                          
+         seiban_kanri2\model\Workbook.                                            
+  98     Call to method Worksheets() on an unknown class                          
+         seiban_kanri2\model\Workbook.                                            
+  104    Call to method Worksheets() on an unknown class                          
+         seiban_kanri2\model\Workbook.                                            
+  110    Call to method Worksheets() on an unknown class                          
+         seiban_kanri2\model\Workbook.                                            
+  121    Parameter $sheet of method                                               
+         seiban_kanri2\model\CyubanSonekiExcelBuilder::makeSheet1a() has invalid  
+         typehint type seiban_kanri2\model\Worksheet.                             
+  121    Return typehint of method                                                
+         seiban_kanri2\model\CyubanSonekiExcelBuilder::makeSheet1a() has invalid  
+         type seiban_kanri2\model\Range.                                          
+  124    Parameter #1 $var_array of function extract is passed by reference, so   
+         it expects variables only.                                               
+  127    Undefined variable: $yn_parari                                           
+  127    Undefined variable: $yn_pcyunyu                                          
+  127    Undefined variable: $yn_psp                                              
+  127    Undefined variable: $yn_ptov                                             
+  128    Undefined variable: $ri_psoneki                                          
+  128    Undefined variable: $yn_psoneki                                          
+  129    Undefined variable: $tm_pcyokka                                          
+  129    Undefined variable: $yn_pcyokka                                          
+  129    Undefined variable: $yn_pcyokuzai                                        
+  130    Undefined variable: $yn_petc                                             
+  130    Undefined variable: $yn_pryohi                                           
+  135    Undefined variable: $yn_yarari                                           
+  135    Undefined variable: $yn_ycyunyu                                          
+  135    Undefined variable: $yn_ysp                                              
+  135    Undefined variable: $yn_ytov                                             
+  136    Undefined variable: $ri_ysoneki                                          
+  136    Undefined variable: $yn_ysoneki                                          
+  137    Undefined variable: $tm_ycyokka                                          
+  137    Undefined variable: $yn_ycyokka                                          
+  137    Undefined variable: $yn_ycyokuzai                                        
+  138    Undefined variable: $yn_yetc                                             
+  138    Undefined variable: $yn_yryohi                                           
+  143    Undefined variable: $yn_rarari                                           
+  143    Undefined variable: $yn_rcyunyu                                          
+  143    Undefined variable: $yn_rsp                                              
+  143    Undefined variable: $yn_rtov                                             
+  144    Undefined variable: $ri_rsoneki                                          
+  144    Undefined variable: $yn_rsoneki                                          
+  145    Undefined variable: $tm_rcyokka                                          
+  145    Undefined variable: $yn_rcyokka                                          
+  145    Undefined variable: $yn_rcyokuzai                                        
+  146    Undefined variable: $yn_retc                                             
+  146    Undefined variable: $yn_rryohi                                           
+  151    Undefined variable: $yn_acyunyu                                          
+  151    Undefined variable: $yn_atov                                             
+  152    Undefined variable: $ri_asoneki                                          
+  152    Undefined variable: $yn_asoneki                                          
+  153    Undefined variable: $tm_acyokka                                          
+  153    Undefined variable: $yn_acyokka                                          
+  153    Undefined variable: $yn_acyokuzai                                        
+  154    Undefined variable: $yn_aetc                                             
+  154    Undefined variable: $yn_aryohi                                           
+  159    Undefined variable: $yn_bcyunyu                                          
+  159    Undefined variable: $yn_btov                                             
+  160    Undefined variable: $ri_bsoneki                                          
+  160    Undefined variable: $yn_bsoneki                                          
+  161    Undefined variable: $tm_bcyokka                                          
+  161    Undefined variable: $yn_bcyokka                                          
+  161    Undefined variable: $yn_bcyokuzai                                        
+  162    Undefined variable: $yn_betc                                             
+  162    Undefined variable: $yn_bryohi                                           
+  167    Undefined variable: $yn_ccyunyu                                          
+  167    Undefined variable: $yn_ctov                                             
+  168    Undefined variable: $ri_csoneki                                          
+  168    Undefined variable: $yn_csoneki                                          
+  169    Undefined variable: $tm_ccyokka                                          
+  169    Undefined variable: $yn_ccyokka                                          
+  169    Undefined variable: $yn_ccyokuzai                                        
+  170    Undefined variable: $yn_cetc                                             
+  170    Undefined variable: $yn_cryohi                                           
+  174    Call to method range() on an unknown class                               
+         seiban_kanri2\model\Worksheet.                                           
+  183    Parameter $sheet of method                                               
+         seiban_kanri2\model\CyubanSonekiExcelBuilder::makeSheet1b() has invalid  
+         typehint type seiban_kanri2\model\Worksheet.                             
+  183    Return typehint of method                                                
+         seiban_kanri2\model\CyubanSonekiExcelBuilder::makeSheet1b() has invalid  
+         type seiban_kanri2\model\Range.                                          
+  185    Parameter #1 $var_array of function extract is passed by reference, so   
+         it expects variables only.                                               
+  187    Undefined variable: $ri_soneki                                           
+  187    Undefined variable: $yn_soneki                                           
+  187    Undefined variable: $yn_yosan                                            
+  190    Undefined variable: $ri_soneki_sub                                       
+  190    Undefined variable: $yn_soneki_sub                                       
+  190    Undefined variable: $yn_yosan_sub                                        
+  193    Undefined variable: $ri_soneki_rt                                        
+  193    Undefined variable: $yn_soneki_rt                                        
+  193    Undefined variable: $yn_yosan_rt                                         
+  196    Call to method range() on an unknown class                               
+         seiban_kanri2\model\Worksheet.                                           
+  205    Parameter $sheet of method                                               
+         seiban_kanri2\model\CyubanSonekiExcelBuilder::makeSheet2() has invalid   
+         typehint type seiban_kanri2\model\Worksheet.                             
+  205    Return typehint of method                                                
+         seiban_kanri2\model\CyubanSonekiExcelBuilder::makeSheet2() has invalid   
+         type seiban_kanri2\model\Range.                                          
+  216    Parameter $sheet of method                                               
+         seiban_kanri2\model\CyubanSonekiExcelBuilder::makeSheet3() has invalid   
+         typehint type seiban_kanri2\model\Worksheet.                             
+  216    Return typehint of method                                                
+         seiban_kanri2\model\CyubanSonekiExcelBuilder::makeSheet3() has invalid   
+         type seiban_kanri2\model\Range.                                          
+  218    Parameter #1 $sheet of method                                            
+         seiban_kanri2\model\CyubanSonekiExcelBuilder::makeKobanSheet() expects   
+         seiban_kanri2\model\Workbook, seiban_kanri2\model\Worksheet given.       
+  227    Parameter $sheet of method                                               
+         seiban_kanri2\model\CyubanSonekiExcelBuilder::makeSheet4() has invalid   
+         typehint type seiban_kanri2\model\Worksheet.                             
+  227    Return typehint of method                                                
+         seiban_kanri2\model\CyubanSonekiExcelBuilder::makeSheet4() has invalid   
+         type seiban_kanri2\model\Range.                                          
+  238    Parameter $sheet of method                                               
+         seiban_kanri2\model\CyubanSonekiExcelBuilder::makeSheet5() has invalid   
+         typehint type seiban_kanri2\model\Worksheet.                             
+  238    Return typehint of method                                                
+         seiban_kanri2\model\CyubanSonekiExcelBuilder::makeSheet5() has invalid   
+         type seiban_kanri2\model\Range.                                          
+  240    Parameter #1 $sheet of method                                            
+         seiban_kanri2\model\CyubanSonekiExcelBuilder::makeKobanSheet() expects   
+         seiban_kanri2\model\Workbook, seiban_kanri2\model\Worksheet given.       
+  249    Parameter $sheet of method                                               
+         seiban_kanri2\model\CyubanSonekiExcelBuilder::makeSheet6() has invalid   
+         typehint type seiban_kanri2\model\Worksheet.                             
+  249    Return typehint of method                                                
+         seiban_kanri2\model\CyubanSonekiExcelBuilder::makeSheet6() has invalid   
+         type seiban_kanri2\model\Range.                                          
+  262    Call to method range() on an unknown class                               
+         seiban_kanri2\model\Worksheet.                                           
+  271    Parameter $sheet of method                                               
+         seiban_kanri2\model\CyubanSonekiExcelBuilder::makeSheet7() has invalid   
+         typehint type seiban_kanri2\model\Worksheet.                             
+  271    Return typehint of method                                                
+         seiban_kanri2\model\CyubanSonekiExcelBuilder::makeSheet7() has invalid   
+         type seiban_kanri2\model\Range.                                          
+  278    Access to property $Shapes on an unknown class                           
+         seiban_kanri2\model\Worksheet.                                           
+  294    Access to property $Shapes on an unknown class                           
+         seiban_kanri2\model\Worksheet.                                           
+  310    Access to property $Shapes on an unknown class                           
+         seiban_kanri2\model\Worksheet.                                           
+  326    Access to property $Shapes on an unknown class                           
+         seiban_kanri2\model\Worksheet.                                           
+  346    Parameter $sheet of method                                               
+         seiban_kanri2\model\CyubanSonekiExcelBuilder::makeSheet8() has invalid   
+         typehint type seiban_kanri2\model\Worksheet.                             
+  346    Return typehint of method                                                
+         seiban_kanri2\model\CyubanSonekiExcelBuilder::makeSheet8() has invalid   
+         type seiban_kanri2\model\Range.                                          
+  357    Parameter $sheet of method                                               
+         seiban_kanri2\model\CyubanSonekiExcelBuilder::makeSheet9() has invalid   
+         typehint type seiban_kanri2\model\Worksheet.                             
+  357    Return typehint of method                                                
+         seiban_kanri2\model\CyubanSonekiExcelBuilder::makeSheet9() has invalid   
+         type seiban_kanri2\model\Range.                                          
+  359    Parameter #1 $sheet of method                                            
+         seiban_kanri2\model\CyubanSonekiExcelBuilder::makeKobanSheet() expects   
+         seiban_kanri2\model\Workbook, seiban_kanri2\model\Worksheet given.       
+  368    Parameter $sheet of method                                               
+         seiban_kanri2\model\CyubanSonekiExcelBuilder::makeSheet10() has invalid  
+         typehint type seiban_kanri2\model\Worksheet.                             
+  368    Return typehint of method                                                
+         seiban_kanri2\model\CyubanSonekiExcelBuilder::makeSheet10() has invalid  
+         type seiban_kanri2\model\Range.                                          
+  375    Call to method range() on an unknown class                               
+         seiban_kanri2\model\Worksheet.                                           
+  385    PHPDoc tag @param has invalid value (Workbook EXCEL SHEET): Unexpected   
+         token "EXCEL", expected TOKEN_VARIABLE at offset 64                      
+  385    PHPDoc tag @param has invalid value (integer 0:計画 1:実績               
+         2:予測): Unexpected token "0", expected TOKEN_VARIABLE at offset 99      
+  385    Return typehint of method                                                
+         seiban_kanri2\model\CyubanSonekiExcelBuilder::makeCyubanSheet() has      
+         invalid type seiban_kanri2\model\Range.                                  
+  423    Offset 1 does not exist on array(0 => float|int, ?1 => mixed, ?2 =>      
+         mixed, ?3 => float|int, ?4 => mixed, ?5 => mixed, ?6 => mixed, ?7 =>     
+         mixed, ?8 => mixed, ?9 => mixed, ?10 => mixed, ?11 => float|int, ?12 =>  
+         mixed).                                                                  
+  423    Offset 12 does not exist on array(0 => float|int, ?1 => mixed, ?2 =>     
+         mixed, ?3 => float|int, ?4 => mixed, ?5 => mixed, ?6 => mixed, ?7 =>     
+         mixed, ?8 => mixed, ?9 => mixed, ?10 => mixed, ?11 => float|int, ?12 =>  
+         mixed).                                                                  
+  423    Variable $subtotal might not be defined.                                 
+  423    Variable $subtotal might not be defined.                                 
+  423    Variable $subtotal might not be defined.                                 
+  424    Offset 2 does not exist on array(0 => float|int, ?1 => mixed, ?2 =>      
+         mixed, ?3 => float|int, ?4 => mixed, ?5 => mixed, ?6 => mixed, ?7 =>     
+         mixed, ?8 => mixed, ?9 => mixed, ?10 => mixed, ?11 => float|int, ?12 =>  
+         mixed).                                                                  
+  424    Offset 3 does not exist on array(0 => float|int, ?1 => mixed, ?2 =>      
+         mixed, ?3 => float|int, ?4 => mixed, ?5 => mixed, ?6 => mixed, ?7 =>     
+         mixed, ?8 => mixed, ?9 => mixed, ?10 => mixed, ?11 => float|int, ?12 =>  
+         mixed).                                                                  
+  424    Variable $subtotal might not be defined.                                 
+  424    Variable $subtotal might not be defined.                                 
+  425    Offset 4 does not exist on array(0 => float|int, ?1 => mixed, ?2 =>      
+         mixed, ?3 => float|int, ?4 => mixed, ?5 => mixed, ?6 => mixed, ?7 =>     
+         mixed, ?8 => mixed, ?9 => mixed, ?10 => mixed, ?11 => float|int, ?12 =>  
+         mixed).                                                                  
+  425    Offset 5 does not exist on array(0 => float|int, ?1 => mixed, ?2 =>      
+         mixed, ?3 => float|int, ?4 => mixed, ?5 => mixed, ?6 => mixed, ?7 =>     
+         mixed, ?8 => mixed, ?9 => mixed, ?10 => mixed, ?11 => float|int, ?12 =>  
+         mixed).                                                                  
+  425    Offset 6 does not exist on array(0 => float|int, ?1 => mixed, ?2 =>      
+         mixed, ?3 => float|int, ?4 => mixed, ?5 => mixed, ?6 => mixed, ?7 =>     
+         mixed, ?8 => mixed, ?9 => mixed, ?10 => mixed, ?11 => float|int, ?12 =>  
+         mixed).                                                                  
+  425    Variable $subtotal might not be defined.                                 
+  425    Variable $subtotal might not be defined.                                 
+  425    Variable $subtotal might not be defined.                                 
+  426    Offset 7 does not exist on array(0 => float|int, ?1 => mixed, ?2 =>      
+         mixed, ?3 => float|int, ?4 => mixed, ?5 => mixed, ?6 => mixed, ?7 =>     
+         mixed, ?8 => mixed, ?9 => mixed, ?10 => mixed, ?11 => float|int, ?12 =>  
+         mixed).                                                                  
+  426    Offset 8 does not exist on array(0 => float|int, ?1 => mixed, ?2 =>      
+         mixed, ?3 => float|int, ?4 => mixed, ?5 => mixed, ?6 => mixed, ?7 =>     
+         mixed, ?8 => mixed, ?9 => mixed, ?10 => mixed, ?11 => float|int, ?12 =>  
+         mixed).                                                                  
+  426    Variable $subtotal might not be defined.                                 
+  426    Variable $subtotal might not be defined.                                 
+  429    Offset 9 does not exist on array(0 => float|int, ?1 => mixed, ?2 =>      
+         mixed, ?3 => float|int, ?4 => mixed, ?5 => mixed, ?6 => mixed, ?7 =>     
+         mixed, ?8 => mixed, ?9 => mixed, ?10 => mixed, ?11 => float|int, ?12 =>  
+         mixed).                                                                  
+  429    Variable $subtotal might not be defined.                                 
+  431    Offset 10 does not exist on array(0 => float|int, ?1 => mixed, ?2 =>     
+         mixed, ?3 => float|int, ?4 => mixed, ?5 => mixed, ?6 => mixed, ?7 =>     
+         mixed, ?8 => mixed, ?9 => mixed, ?10 => mixed, ?11 => float|int, ?12 =>  
+         mixed).                                                                  
+  431    Offset 11 does not exist on array(0 => float|int, ?1 => mixed, ?2 =>     
+         mixed, ?3 => float|int, ?4 => mixed, ?5 => mixed, ?6 => mixed, ?7 =>     
+         mixed, ?8 => mixed, ?9 => mixed, ?10 => mixed, ?11 => float|int, ?12 =>  
+         mixed).                                                                  
+  431    Variable $subtotal might not be defined.                                 
+  431    Variable $subtotal might not be defined.                                 
+  492    Variable $yn_soneki might not be defined.                                
+  523    Variable $ri_soneki might not be defined.                                
+  523    Variable $yn_cyunyu might not be defined.                                
+  523    Variable $yn_soneki might not be defined.                                
+  524    Variable $tm_cyokka might not be defined.                                
+  524    Variable $yn_cyokka might not be defined.                                
+  524    Variable $yn_cyokuzai might not be defined.                              
+  524    Variable $yn_etc might not be defined.                                   
+  524    Variable $yn_ryohi might not be defined.                                 
+  536    Variable $subtotal might not be defined.                                 
+  537    Offset 1 does not exist on array(0 => float|int, ?1 => mixed, ?2 =>      
+         mixed, ?3 => float|int, ?4 => mixed, ?5 => mixed, ?6 => mixed, ?7 =>     
+         mixed, ?8 => mixed, ?9 => mixed, ?10 => mixed, ?11 => float|int, ?12 =>  
+         mixed).                                                                  
+  537    Variable $yn_cyunyu might not be defined.                                
+  538    Offset 2 does not exist on array(0 => float|int, 1 => array|float|int,   
+         ?2 => mixed, ?3 => float|int, ?4 => mixed, ?5 => mixed, ?6 => mixed, ?7  
+         => mixed, ?8 => mixed, ?9 => mixed, ?10 => mixed, ?11 => float|int, ?12  
+         => mixed).                                                               
+  538    Variable $yn_soneki might not be defined.                                
+  541    Offset 4 does not exist on array(0 => float|int, 1 => array|float|int,   
+         2 => array|float|int, 3 => float|int, ?4 => mixed, ?5 => mixed, ?6 =>    
+         mixed, ?7 => mixed, ?8 => mixed, ?9 => mixed, ?10 => mixed, ?11 =>       
+         float|int, ?12 => mixed).                                                
+  541    Variable $tm_cyokka might not be defined.                                
+  542    Offset 5 does not exist on array(0 => float|int, 1 => array|float|int,   
+         2 => array|float|int, 3 => float|int, 4 => array|float|int, ?5 =>        
+         mixed, ?6 => mixed, ?7 => mixed, ?8 => mixed, ?9 => mixed, ?10 =>        
+         mixed, ?11 => float|int, ?12 => mixed).                                  
+  542    Variable $yn_cyokka might not be defined.                                
+  543    Offset 6 does not exist on array(0 => float|int, 1 => array|float|int,   
+         2 => array|float|int, 3 => float|int, 4 => array|float|int, 5 =>         
+         array|float|int, ?6 => mixed, ?7 => mixed, ?8 => mixed, ?9 => mixed,     
+         ?10 => mixed, ?11 => float|int, ?12 => mixed).                           
+  543    Variable $yn_cyokuzai might not be defined.                              
+  544    Offset 7 does not exist on array(0 => float|int, 1 => array|float|int,   
+         2 => array|float|int, 3 => float|int, 4 => array|float|int, 5 =>         
+         array|float|int, 6 => array|float|int, ?7 => mixed, ?8 => mixed, ?9 =>   
+         mixed, ?10 => mixed, ?11 => float|int, ?12 => mixed).                    
+  544    Variable $yn_etc might not be defined.                                   
+  545    Offset 8 does not exist on array(0 => float|int, 1 => array|float|int,   
+         2 => array|float|int, 3 => float|int, 4 => array|float|int, 5 =>         
+         array|float|int, 6 => array|float|int, 7 => array|float|int, ?8 =>       
+         mixed, ?9 => mixed, ?10 => mixed, ?11 => float|int, ?12 => mixed).       
+  545    Variable $yn_ryohi might not be defined.                                 
+  546    Offset 9 does not exist on array(0 => float|int, 1 => array|float|int,   
+         2 => array|float|int, 3 => float|int, 4 => array|float|int, 5 =>         
+         array|float|int, 6 => array|float|int, 7 => array|float|int, 8 =>        
+         array|float|int, ?9 => mixed, ?10 => mixed, ?11 => float|int, ?12 =>     
+         mixed).                                                                  
+  547    Offset 10 does not exist on array(0 => float|int, 1 => array|float|int,  
+         2 => array|float|int, 3 => float|int, 4 => array|float|int, 5 =>         
+         array|float|int, 6 => array|float|int, 7 => array|float|int, 8 =>        
+         array|float|int, 9 => array|float|int, ?10 => mixed, ?11 => float|int,   
+         ?12 => mixed).                                                           
+  550    Offset 12 does not exist on array(0 => float|int, 1 => array|float|int,  
+         2 => array|float|int, 3 => float|int, 4 => array|float|int, 5 =>         
+         array|float|int, 6 => array|float|int, 7 => array|float|int, 8 =>        
+         array|float|int, 9 => array|float|int, 10 => array|float|int, 11 =>      
+         float|int, ?12 => mixed).                                                
+  552    Variable $total might not be defined.                                    
+  553    Offset 1 does not exist on array(0 => float|int, ?1 => mixed, ?2 =>      
+         mixed, ?3 => float|int, ?4 => mixed, ?5 => mixed, ?6 => mixed, ?7 =>     
+         mixed, ?8 => mixed, ?9 => mixed, ?10 => mixed, ?11 => float|int, ?12 =>  
+         mixed).                                                                  
+  553    Variable $yn_cyunyu might not be defined.                                
+  554    Offset 2 does not exist on array(0 => float|int, 1 => array|float|int,   
+         ?2 => mixed, ?3 => float|int, ?4 => mixed, ?5 => mixed, ?6 => mixed, ?7  
+         => mixed, ?8 => mixed, ?9 => mixed, ?10 => mixed, ?11 => float|int, ?12  
+         => mixed).                                                               
+  554    Variable $yn_soneki might not be defined.                                
+  557    Offset 4 does not exist on array(0 => float|int, 1 => array|float|int,   
+         2 => array|float|int, 3 => float|int, ?4 => mixed, ?5 => mixed, ?6 =>    
+         mixed, ?7 => mixed, ?8 => mixed, ?9 => mixed, ?10 => mixed, ?11 =>       
+         float|int, ?12 => mixed).                                                
+  557    Variable $tm_cyokka might not be defined.                                
+  558    Offset 5 does not exist on array(0 => float|int, 1 => array|float|int,   
+         2 => array|float|int, 3 => float|int, 4 => array|float|int, ?5 =>        
+         mixed, ?6 => mixed, ?7 => mixed, ?8 => mixed, ?9 => mixed, ?10 =>        
+         mixed, ?11 => float|int, ?12 => mixed).                                  
+  558    Variable $yn_cyokka might not be defined.                                
+  559    Offset 6 does not exist on array(0 => float|int, 1 => array|float|int,   
+         2 => array|float|int, 3 => float|int, 4 => array|float|int, 5 =>         
+         array|float|int, ?6 => mixed, ?7 => mixed, ?8 => mixed, ?9 => mixed,     
+         ?10 => mixed, ?11 => float|int, ?12 => mixed).                           
+  559    Variable $yn_cyokuzai might not be defined.                              
+  560    Offset 7 does not exist on array(0 => float|int, 1 => array|float|int,   
+         2 => array|float|int, 3 => float|int, 4 => array|float|int, 5 =>         
+         array|float|int, 6 => array|float|int, ?7 => mixed, ?8 => mixed, ?9 =>   
+         mixed, ?10 => mixed, ?11 => float|int, ?12 => mixed).                    
+  560    Variable $yn_etc might not be defined.                                   
+  561    Offset 8 does not exist on array(0 => float|int, 1 => array|float|int,   
+         2 => array|float|int, 3 => float|int, 4 => array|float|int, 5 =>         
+         array|float|int, 6 => array|float|int, 7 => array|float|int, ?8 =>       
+         mixed, ?9 => mixed, ?10 => mixed, ?11 => float|int, ?12 => mixed).       
+  561    Variable $yn_ryohi might not be defined.                                 
+  562    Offset 9 does not exist on array(0 => float|int, 1 => array|float|int,   
+         2 => array|float|int, 3 => float|int, 4 => array|float|int, 5 =>         
+         array|float|int, 6 => array|float|int, 7 => array|float|int, 8 =>        
+         array|float|int, ?9 => mixed, ?10 => mixed, ?11 => float|int, ?12 =>     
+         mixed).                                                                  
+  563    Offset 10 does not exist on array(0 => float|int, 1 => array|float|int,  
+         2 => array|float|int, 3 => float|int, 4 => array|float|int, 5 =>         
+         array|float|int, 6 => array|float|int, 7 => array|float|int, 8 =>        
+         array|float|int, 9 => array|float|int, ?10 => mixed, ?11 => float|int,   
+         ?12 => mixed).                                                           
+  566    Offset 12 does not exist on array(0 => float|int, 1 => array|float|int,  
+         2 => array|float|int, 3 => float|int, 4 => array|float|int, 5 =>         
+         array|float|int, 6 => array|float|int, 7 => array|float|int, 8 =>        
+         array|float|int, 9 => array|float|int, 10 => array|float|int, 11 =>      
+         float|int, ?12 => mixed).                                                
+  571    Offset 1 does not exist on array(0 => float|int, ?1 => mixed, ?2 =>      
+         mixed, ?3 => float|int, ?4 => mixed, ?5 => mixed, ?6 => mixed, ?7 =>     
+         mixed, ?8 => mixed, ?9 => mixed, ?10 => mixed, ?11 => float|int, ?12 =>  
+         mixed).                                                                  
+  571    Offset 12 does not exist on array(0 => float|int, ?1 => mixed, ?2 =>     
+         mixed, ?3 => float|int, ?4 => mixed, ?5 => mixed, ?6 => mixed, ?7 =>     
+         mixed, ?8 => mixed, ?9 => mixed, ?10 => mixed, ?11 => float|int, ?12 =>  
+         mixed).                                                                  
+  571    Variable $subtotal might not be defined.                                 
+  571    Variable $subtotal might not be defined.                                 
+  571    Variable $subtotal might not be defined.                                 
+  572    Offset 2 does not exist on array(0 => float|int, ?1 => mixed, ?2 =>      
+         mixed, ?3 => float|int, ?4 => mixed, ?5 => mixed, ?6 => mixed, ?7 =>     
+         mixed, ?8 => mixed, ?9 => mixed, ?10 => mixed, ?11 => float|int, ?12 =>  
+         mixed).                                                                  
+  572    Offset 3 does not exist on array(0 => float|int, ?1 => mixed, ?2 =>      
+         mixed, ?3 => float|int, ?4 => mixed, ?5 => mixed, ?6 => mixed, ?7 =>     
+         mixed, ?8 => mixed, ?9 => mixed, ?10 => mixed, ?11 => float|int, ?12 =>  
+         mixed).                                                                  
+  572    Variable $subtotal might not be defined.                                 
+  572    Variable $subtotal might not be defined.                                 
+  573    Offset 4 does not exist on array(0 => float|int, ?1 => mixed, ?2 =>      
+         mixed, ?3 => float|int, ?4 => mixed, ?5 => mixed, ?6 => mixed, ?7 =>     
+         mixed, ?8 => mixed, ?9 => mixed, ?10 => mixed, ?11 => float|int, ?12 =>  
+         mixed).                                                                  
+  573    Offset 5 does not exist on array(0 => float|int, ?1 => mixed, ?2 =>      
+         mixed, ?3 => float|int, ?4 => mixed, ?5 => mixed, ?6 => mixed, ?7 =>     
+         mixed, ?8 => mixed, ?9 => mixed, ?10 => mixed, ?11 => float|int, ?12 =>  
+         mixed).                                                                  
+  573    Offset 6 does not exist on array(0 => float|int, ?1 => mixed, ?2 =>      
+         mixed, ?3 => float|int, ?4 => mixed, ?5 => mixed, ?6 => mixed, ?7 =>     
+         mixed, ?8 => mixed, ?9 => mixed, ?10 => mixed, ?11 => float|int, ?12 =>  
+         mixed).                                                                  
+  573    Variable $subtotal might not be defined.                                 
+  573    Variable $subtotal might not be defined.                                 
+  573    Variable $subtotal might not be defined.                                 
+  574    Offset 7 does not exist on array(0 => float|int, ?1 => mixed, ?2 =>      
+         mixed, ?3 => float|int, ?4 => mixed, ?5 => mixed, ?6 => mixed, ?7 =>     
+         mixed, ?8 => mixed, ?9 => mixed, ?10 => mixed, ?11 => float|int, ?12 =>  
+         mixed).                                                                  
+  574    Offset 8 does not exist on array(0 => float|int, ?1 => mixed, ?2 =>      
+         mixed, ?3 => float|int, ?4 => mixed, ?5 => mixed, ?6 => mixed, ?7 =>     
+         mixed, ?8 => mixed, ?9 => mixed, ?10 => mixed, ?11 => float|int, ?12 =>  
+         mixed).                                                                  
+  574    Variable $subtotal might not be defined.                                 
+  574    Variable $subtotal might not be defined.                                 
+  577    Offset 9 does not exist on array(0 => float|int, ?1 => mixed, ?2 =>      
+         mixed, ?3 => float|int, ?4 => mixed, ?5 => mixed, ?6 => mixed, ?7 =>     
+         mixed, ?8 => mixed, ?9 => mixed, ?10 => mixed, ?11 => float|int, ?12 =>  
+         mixed).                                                                  
+  577    Variable $subtotal might not be defined.                                 
+  579    Offset 10 does not exist on array(0 => float|int, ?1 => mixed, ?2 =>     
+         mixed, ?3 => float|int, ?4 => mixed, ?5 => mixed, ?6 => mixed, ?7 =>     
+         mixed, ?8 => mixed, ?9 => mixed, ?10 => mixed, ?11 => float|int, ?12 =>  
+         mixed).                                                                  
+  579    Offset 11 does not exist on array(0 => float|int, ?1 => mixed, ?2 =>     
+         mixed, ?3 => float|int, ?4 => mixed, ?5 => mixed, ?6 => mixed, ?7 =>     
+         mixed, ?8 => mixed, ?9 => mixed, ?10 => mixed, ?11 => float|int, ?12 =>  
+         mixed).                                                                  
+  579    Variable $subtotal might not be defined.                                 
+  579    Variable $subtotal might not be defined.                                 
+  586    Offset 1 does not exist on array(0 => float|int, ?1 => mixed, ?2 =>      
+         mixed, ?3 => float|int, ?4 => mixed, ?5 => mixed, ?6 => mixed, ?7 =>     
+         mixed, ?8 => mixed, ?9 => mixed, ?10 => mixed, ?11 => float|int, ?12 =>  
+         mixed).                                                                  
+  586    Offset 12 does not exist on array(0 => float|int, ?1 => mixed, ?2 =>     
+         mixed, ?3 => float|int, ?4 => mixed, ?5 => mixed, ?6 => mixed, ?7 =>     
+         mixed, ?8 => mixed, ?9 => mixed, ?10 => mixed, ?11 => float|int, ?12 =>  
+         mixed).                                                                  
+  586    Offset 2 does not exist on array(0 => float|int, ?1 => mixed, ?2 =>      
+         mixed, ?3 => float|int, ?4 => mixed, ?5 => mixed, ?6 => mixed, ?7 =>     
+         mixed, ?8 => mixed, ?9 => mixed, ?10 => mixed, ?11 => float|int, ?12 =>  
+         mixed).                                                                  
+  586    Offset 3 does not exist on array(0 => float|int, ?1 => mixed, ?2 =>      
+         mixed, ?3 => float|int, ?4 => mixed, ?5 => mixed, ?6 => mixed, ?7 =>     
+         mixed, ?8 => mixed, ?9 => mixed, ?10 => mixed, ?11 => float|int, ?12 =>  
+         mixed).                                                                  
+  586    Variable $total might not be defined.                                    
+  586    Variable $total might not be defined.                                    
+  586    Variable $total might not be defined.                                    
+  586    Variable $total might not be defined.                                    
+  586    Variable $total might not be defined.                                    
+  587    Offset 4 does not exist on array(0 => float|int, ?1 => mixed, ?2 =>      
+         mixed, ?3 => float|int, ?4 => mixed, ?5 => mixed, ?6 => mixed, ?7 =>     
+         mixed, ?8 => mixed, ?9 => mixed, ?10 => mixed, ?11 => float|int, ?12 =>  
+         mixed).                                                                  
+  587    Offset 5 does not exist on array(0 => float|int, ?1 => mixed, ?2 =>      
+         mixed, ?3 => float|int, ?4 => mixed, ?5 => mixed, ?6 => mixed, ?7 =>     
+         mixed, ?8 => mixed, ?9 => mixed, ?10 => mixed, ?11 => float|int, ?12 =>  
+         mixed).                                                                  
+  587    Offset 6 does not exist on array(0 => float|int, ?1 => mixed, ?2 =>      
+         mixed, ?3 => float|int, ?4 => mixed, ?5 => mixed, ?6 => mixed, ?7 =>     
+         mixed, ?8 => mixed, ?9 => mixed, ?10 => mixed, ?11 => float|int, ?12 =>  
+         mixed).                                                                  
+  587    Offset 7 does not exist on array(0 => float|int, ?1 => mixed, ?2 =>      
+         mixed, ?3 => float|int, ?4 => mixed, ?5 => mixed, ?6 => mixed, ?7 =>     
+         mixed, ?8 => mixed, ?9 => mixed, ?10 => mixed, ?11 => float|int, ?12 =>  
+         mixed).                                                                  
+  587    Offset 8 does not exist on array(0 => float|int, ?1 => mixed, ?2 =>      
+         mixed, ?3 => float|int, ?4 => mixed, ?5 => mixed, ?6 => mixed, ?7 =>     
+         mixed, ?8 => mixed, ?9 => mixed, ?10 => mixed, ?11 => float|int, ?12 =>  
+         mixed).                                                                  
+  587    Variable $total might not be defined.                                    
+  587    Variable $total might not be defined.                                    
+  587    Variable $total might not be defined.                                    
+  587    Variable $total might not be defined.                                    
+  587    Variable $total might not be defined.                                    
+  590    Offset 9 does not exist on array(0 => float|int, ?1 => mixed, ?2 =>      
+         mixed, ?3 => float|int, ?4 => mixed, ?5 => mixed, ?6 => mixed, ?7 =>     
+         mixed, ?8 => mixed, ?9 => mixed, ?10 => mixed, ?11 => float|int, ?12 =>  
+         mixed).                                                                  
+  590    Variable $total might not be defined.                                    
+  592    Offset 10 does not exist on array(0 => float|int, ?1 => mixed, ?2 =>     
+         mixed, ?3 => float|int, ?4 => mixed, ?5 => mixed, ?6 => mixed, ?7 =>     
+         mixed, ?8 => mixed, ?9 => mixed, ?10 => mixed, ?11 => float|int, ?12 =>  
+         mixed).                                                                  
+  592    Offset 11 does not exist on array(0 => float|int, ?1 => mixed, ?2 =>     
+         mixed, ?3 => float|int, ?4 => mixed, ?5 => mixed, ?6 => mixed, ?7 =>     
+         mixed, ?8 => mixed, ?9 => mixed, ?10 => mixed, ?11 => float|int, ?12 =>  
+         mixed).                                                                  
+  592    Variable $total might not be defined.                                    
+  592    Variable $total might not be defined.                                    
+  606    Parameter $sheet of method                                               
+         seiban_kanri2\model\CyubanSonekiExcelBuilder::makeKobanSheet() has       
+         invalid typehint type seiban_kanri2\model\Workbook.                      
+  606    Return typehint of method                                                
+         seiban_kanri2\model\CyubanSonekiExcelBuilder::makeKobanSheet() has       
+         invalid type seiban_kanri2\model\Range.                                  
+  646    Offset 1 does not exist on array(0 => float|int, ?1 => mixed, ?2 =>      
+         mixed, ?3 => float|int, ?4 => mixed, ?5 => mixed, ?6 => mixed, ?7 =>     
+         mixed, ?8 => mixed, ?9 => mixed, ?10 => mixed, ?11 => float|int, ?12 =>  
+         mixed).                                                                  
+  646    Offset 12 does not exist on array(0 => float|int, ?1 => mixed, ?2 =>     
+         mixed, ?3 => float|int, ?4 => mixed, ?5 => mixed, ?6 => mixed, ?7 =>     
+         mixed, ?8 => mixed, ?9 => mixed, ?10 => mixed, ?11 => float|int, ?12 =>  
+         mixed).                                                                  
+  646    Variable $subtotal might not be defined.                                 
+  646    Variable $subtotal might not be defined.                                 
+  646    Variable $subtotal might not be defined.                                 
+  647    Offset 2 does not exist on array(0 => float|int, ?1 => mixed, ?2 =>      
+         mixed, ?3 => float|int, ?4 => mixed, ?5 => mixed, ?6 => mixed, ?7 =>     
+         mixed, ?8 => mixed, ?9 => mixed, ?10 => mixed, ?11 => float|int, ?12 =>  
+         mixed).                                                                  
+  647    Offset 3 does not exist on array(0 => float|int, ?1 => mixed, ?2 =>      
+         mixed, ?3 => float|int, ?4 => mixed, ?5 => mixed, ?6 => mixed, ?7 =>     
+         mixed, ?8 => mixed, ?9 => mixed, ?10 => mixed, ?11 => float|int, ?12 =>  
+         mixed).                                                                  
+  647    Variable $subtotal might not be defined.                                 
+  647    Variable $subtotal might not be defined.                                 
+  648    Offset 4 does not exist on array(0 => float|int, ?1 => mixed, ?2 =>      
+         mixed, ?3 => float|int, ?4 => mixed, ?5 => mixed, ?6 => mixed, ?7 =>     
+         mixed, ?8 => mixed, ?9 => mixed, ?10 => mixed, ?11 => float|int, ?12 =>  
+         mixed).                                                                  
+  648    Offset 5 does not exist on array(0 => float|int, ?1 => mixed, ?2 =>      
+         mixed, ?3 => float|int, ?4 => mixed, ?5 => mixed, ?6 => mixed, ?7 =>     
+         mixed, ?8 => mixed, ?9 => mixed, ?10 => mixed, ?11 => float|int, ?12 =>  
+         mixed).                                                                  
+  648    Offset 6 does not exist on array(0 => float|int, ?1 => mixed, ?2 =>      
+         mixed, ?3 => float|int, ?4 => mixed, ?5 => mixed, ?6 => mixed, ?7 =>     
+         mixed, ?8 => mixed, ?9 => mixed, ?10 => mixed, ?11 => float|int, ?12 =>  
+         mixed).                                                                  
+  648    Variable $subtotal might not be defined.                                 
+  648    Variable $subtotal might not be defined.                                 
+  648    Variable $subtotal might not be defined.                                 
+  649    Offset 7 does not exist on array(0 => float|int, ?1 => mixed, ?2 =>      
+         mixed, ?3 => float|int, ?4 => mixed, ?5 => mixed, ?6 => mixed, ?7 =>     
+         mixed, ?8 => mixed, ?9 => mixed, ?10 => mixed, ?11 => float|int, ?12 =>  
+         mixed).                                                                  
+  649    Offset 8 does not exist on array(0 => float|int, ?1 => mixed, ?2 =>      
+         mixed, ?3 => float|int, ?4 => mixed, ?5 => mixed, ?6 => mixed, ?7 =>     
+         mixed, ?8 => mixed, ?9 => mixed, ?10 => mixed, ?11 => float|int, ?12 =>  
+         mixed).                                                                  
+  649    Variable $subtotal might not be defined.                                 
+  649    Variable $subtotal might not be defined.                                 
+  652    Offset 9 does not exist on array(0 => float|int, ?1 => mixed, ?2 =>      
+         mixed, ?3 => float|int, ?4 => mixed, ?5 => mixed, ?6 => mixed, ?7 =>     
+         mixed, ?8 => mixed, ?9 => mixed, ?10 => mixed, ?11 => float|int, ?12 =>  
+         mixed).                                                                  
+  652    Variable $subtotal might not be defined.                                 
+  654    Offset 10 does not exist on array(0 => float|int, ?1 => mixed, ?2 =>     
+         mixed, ?3 => float|int, ?4 => mixed, ?5 => mixed, ?6 => mixed, ?7 =>     
+         mixed, ?8 => mixed, ?9 => mixed, ?10 => mixed, ?11 => float|int, ?12 =>  
+         mixed).                                                                  
+  654    Offset 11 does not exist on array(0 => float|int, ?1 => mixed, ?2 =>     
+         mixed, ?3 => float|int, ?4 => mixed, ?5 => mixed, ?6 => mixed, ?7 =>     
+         mixed, ?8 => mixed, ?9 => mixed, ?10 => mixed, ?11 => float|int, ?12 =>  
+         mixed).                                                                  
+  654    Variable $subtotal might not be defined.                                 
+  654    Variable $subtotal might not be defined.                                 
+  719    Variable $yn_soneki might not be defined.                                
+  742    Variable $ri_soneki might not be defined.                                
+  742    Variable $yn_cyunyu might not be defined.                                
+  742    Variable $yn_soneki might not be defined.                                
+  743    Variable $tm_cyokka might not be defined.                                
+  743    Variable $yn_cyokka might not be defined.                                
+  743    Variable $yn_cyokuzai might not be defined.                              
+  743    Variable $yn_etc might not be defined.                                   
+  743    Variable $yn_ryohi might not be defined.                                 
+  755    Variable $subtotal might not be defined.                                 
+  756    Offset 1 does not exist on array(0 => float|int, ?1 => mixed, ?2 =>      
+         mixed, ?3 => float|int, ?4 => mixed, ?5 => mixed, ?6 => mixed, ?7 =>     
+         mixed, ?8 => mixed, ?9 => mixed, ?10 => mixed, ?11 => float|int, ?12 =>  
+         mixed).                                                                  
+  756    Variable $yn_cyunyu might not be defined.                                
+  757    Offset 2 does not exist on array(0 => float|int, 1 => array|float|int,   
+         ?2 => mixed, ?3 => float|int, ?4 => mixed, ?5 => mixed, ?6 => mixed, ?7  
+         => mixed, ?8 => mixed, ?9 => mixed, ?10 => mixed, ?11 => float|int, ?12  
+         => mixed).                                                               
+  757    Variable $yn_soneki might not be defined.                                
+  760    Offset 4 does not exist on array(0 => float|int, 1 => array|float|int,   
+         2 => array|float|int, 3 => float|int, ?4 => mixed, ?5 => mixed, ?6 =>    
+         mixed, ?7 => mixed, ?8 => mixed, ?9 => mixed, ?10 => mixed, ?11 =>       
+         float|int, ?12 => mixed).                                                
+  760    Variable $tm_cyokka might not be defined.                                
+  761    Offset 5 does not exist on array(0 => float|int, 1 => array|float|int,   
+         2 => array|float|int, 3 => float|int, 4 => array|float|int, ?5 =>        
+         mixed, ?6 => mixed, ?7 => mixed, ?8 => mixed, ?9 => mixed, ?10 =>        
+         mixed, ?11 => float|int, ?12 => mixed).                                  
+  761    Variable $yn_cyokka might not be defined.                                
+  762    Offset 6 does not exist on array(0 => float|int, 1 => array|float|int,   
+         2 => array|float|int, 3 => float|int, 4 => array|float|int, 5 =>         
+         array|float|int, ?6 => mixed, ?7 => mixed, ?8 => mixed, ?9 => mixed,     
+         ?10 => mixed, ?11 => float|int, ?12 => mixed).                           
+  762    Variable $yn_cyokuzai might not be defined.                              
+  763    Offset 7 does not exist on array(0 => float|int, 1 => array|float|int,   
+         2 => array|float|int, 3 => float|int, 4 => array|float|int, 5 =>         
+         array|float|int, 6 => array|float|int, ?7 => mixed, ?8 => mixed, ?9 =>   
+         mixed, ?10 => mixed, ?11 => float|int, ?12 => mixed).                    
+  763    Variable $yn_etc might not be defined.                                   
+  764    Offset 8 does not exist on array(0 => float|int, 1 => array|float|int,   
+         2 => array|float|int, 3 => float|int, 4 => array|float|int, 5 =>         
+         array|float|int, 6 => array|float|int, 7 => array|float|int, ?8 =>       
+         mixed, ?9 => mixed, ?10 => mixed, ?11 => float|int, ?12 => mixed).       
+  764    Variable $yn_ryohi might not be defined.                                 
+  765    Offset 9 does not exist on array(0 => float|int, 1 => array|float|int,   
+         2 => array|float|int, 3 => float|int, 4 => array|float|int, 5 =>         
+         array|float|int, 6 => array|float|int, 7 => array|float|int, 8 =>        
+         array|float|int, ?9 => mixed, ?10 => mixed, ?11 => float|int, ?12 =>     
+         mixed).                                                                  
+  766    Offset 10 does not exist on array(0 => float|int, 1 => array|float|int,  
+         2 => array|float|int, 3 => float|int, 4 => array|float|int, 5 =>         
+         array|float|int, 6 => array|float|int, 7 => array|float|int, 8 =>        
+         array|float|int, 9 => array|float|int, ?10 => mixed, ?11 => float|int,   
+         ?12 => mixed).                                                           
+  769    Offset 12 does not exist on array(0 => float|int, 1 => array|float|int,  
+         2 => array|float|int, 3 => float|int, 4 => array|float|int, 5 =>         
+         array|float|int, 6 => array|float|int, 7 => array|float|int, 8 =>        
+         array|float|int, 9 => array|float|int, 10 => array|float|int, 11 =>      
+         float|int, ?12 => mixed).                                                
+  771    Variable $total might not be defined.                                    
+  772    Offset 1 does not exist on array(0 => float|int, ?1 => mixed, ?2 =>      
+         mixed, ?3 => float|int, ?4 => mixed, ?5 => mixed, ?6 => mixed, ?7 =>     
+         mixed, ?8 => mixed, ?9 => mixed, ?10 => mixed, ?11 => float|int, ?12 =>  
+         mixed).                                                                  
+  772    Variable $yn_cyunyu might not be defined.                                
+  773    Offset 2 does not exist on array(0 => float|int, 1 => array|float|int,   
+         ?2 => mixed, ?3 => float|int, ?4 => mixed, ?5 => mixed, ?6 => mixed, ?7  
+         => mixed, ?8 => mixed, ?9 => mixed, ?10 => mixed, ?11 => float|int, ?12  
+         => mixed).                                                               
+  773    Variable $yn_soneki might not be defined.                                
+  776    Offset 4 does not exist on array(0 => float|int, 1 => array|float|int,   
+         2 => array|float|int, 3 => float|int, ?4 => mixed, ?5 => mixed, ?6 =>    
+         mixed, ?7 => mixed, ?8 => mixed, ?9 => mixed, ?10 => mixed, ?11 =>       
+         float|int, ?12 => mixed).                                                
+  776    Variable $tm_cyokka might not be defined.                                
+  777    Offset 5 does not exist on array(0 => float|int, 1 => array|float|int,   
+         2 => array|float|int, 3 => float|int, 4 => array|float|int, ?5 =>        
+         mixed, ?6 => mixed, ?7 => mixed, ?8 => mixed, ?9 => mixed, ?10 =>        
+         mixed, ?11 => float|int, ?12 => mixed).                                  
+  777    Variable $yn_cyokka might not be defined.                                
+  778    Offset 6 does not exist on array(0 => float|int, 1 => array|float|int,   
+         2 => array|float|int, 3 => float|int, 4 => array|float|int, 5 =>         
+         array|float|int, ?6 => mixed, ?7 => mixed, ?8 => mixed, ?9 => mixed,     
+         ?10 => mixed, ?11 => float|int, ?12 => mixed).                           
+  778    Variable $yn_cyokuzai might not be defined.                              
+  779    Offset 7 does not exist on array(0 => float|int, 1 => array|float|int,   
+         2 => array|float|int, 3 => float|int, 4 => array|float|int, 5 =>         
+         array|float|int, 6 => array|float|int, ?7 => mixed, ?8 => mixed, ?9 =>   
+         mixed, ?10 => mixed, ?11 => float|int, ?12 => mixed).                    
+  779    Variable $yn_etc might not be defined.                                   
+  780    Offset 8 does not exist on array(0 => float|int, 1 => array|float|int,   
+         2 => array|float|int, 3 => float|int, 4 => array|float|int, 5 =>         
+         array|float|int, 6 => array|float|int, 7 => array|float|int, ?8 =>       
+         mixed, ?9 => mixed, ?10 => mixed, ?11 => float|int, ?12 => mixed).       
+  780    Variable $yn_ryohi might not be defined.                                 
+  781    Offset 9 does not exist on array(0 => float|int, 1 => array|float|int,   
+         2 => array|float|int, 3 => float|int, 4 => array|float|int, 5 =>         
+         array|float|int, 6 => array|float|int, 7 => array|float|int, 8 =>        
+         array|float|int, ?9 => mixed, ?10 => mixed, ?11 => float|int, ?12 =>     
+         mixed).                                                                  
+  782    Offset 10 does not exist on array(0 => float|int, 1 => array|float|int,  
+         2 => array|float|int, 3 => float|int, 4 => array|float|int, 5 =>         
+         array|float|int, 6 => array|float|int, 7 => array|float|int, 8 =>        
+         array|float|int, 9 => array|float|int, ?10 => mixed, ?11 => float|int,   
+         ?12 => mixed).                                                           
+  785    Offset 12 does not exist on array(0 => float|int, 1 => array|float|int,  
+         2 => array|float|int, 3 => float|int, 4 => array|float|int, 5 =>         
+         array|float|int, 6 => array|float|int, 7 => array|float|int, 8 =>        
+         array|float|int, 9 => array|float|int, 10 => array|float|int, 11 =>      
+         float|int, ?12 => mixed).                                                
+  791    Offset 1 does not exist on array(0 => float|int, ?1 => mixed, ?2 =>      
+         mixed, ?3 => float|int, ?4 => mixed, ?5 => mixed, ?6 => mixed, ?7 =>     
+         mixed, ?8 => mixed, ?9 => mixed, ?10 => mixed, ?11 => float|int, ?12 =>  
+         mixed).                                                                  
+  791    Offset 12 does not exist on array(0 => float|int, ?1 => mixed, ?2 =>     
+         mixed, ?3 => float|int, ?4 => mixed, ?5 => mixed, ?6 => mixed, ?7 =>     
+         mixed, ?8 => mixed, ?9 => mixed, ?10 => mixed, ?11 => float|int, ?12 =>  
+         mixed).                                                                  
+  791    Variable $subtotal might not be defined.                                 
+  791    Variable $subtotal might not be defined.                                 
+  791    Variable $subtotal might not be defined.                                 
+  792    Offset 2 does not exist on array(0 => float|int, ?1 => mixed, ?2 =>      
+         mixed, ?3 => float|int, ?4 => mixed, ?5 => mixed, ?6 => mixed, ?7 =>     
+         mixed, ?8 => mixed, ?9 => mixed, ?10 => mixed, ?11 => float|int, ?12 =>  
+         mixed).                                                                  
+  792    Offset 3 does not exist on array(0 => float|int, ?1 => mixed, ?2 =>      
+         mixed, ?3 => float|int, ?4 => mixed, ?5 => mixed, ?6 => mixed, ?7 =>     
+         mixed, ?8 => mixed, ?9 => mixed, ?10 => mixed, ?11 => float|int, ?12 =>  
+         mixed).                                                                  
+  792    Variable $subtotal might not be defined.                                 
+  792    Variable $subtotal might not be defined.                                 
+  793    Offset 4 does not exist on array(0 => float|int, ?1 => mixed, ?2 =>      
+         mixed, ?3 => float|int, ?4 => mixed, ?5 => mixed, ?6 => mixed, ?7 =>     
+         mixed, ?8 => mixed, ?9 => mixed, ?10 => mixed, ?11 => float|int, ?12 =>  
+         mixed).                                                                  
+  793    Offset 5 does not exist on array(0 => float|int, ?1 => mixed, ?2 =>      
+         mixed, ?3 => float|int, ?4 => mixed, ?5 => mixed, ?6 => mixed, ?7 =>     
+         mixed, ?8 => mixed, ?9 => mixed, ?10 => mixed, ?11 => float|int, ?12 =>  
+         mixed).                                                                  
+  793    Offset 6 does not exist on array(0 => float|int, ?1 => mixed, ?2 =>      
+         mixed, ?3 => float|int, ?4 => mixed, ?5 => mixed, ?6 => mixed, ?7 =>     
+         mixed, ?8 => mixed, ?9 => mixed, ?10 => mixed, ?11 => float|int, ?12 =>  
+         mixed).                                                                  
+  793    Variable $subtotal might not be defined.                                 
+  793    Variable $subtotal might not be defined.                                 
+  793    Variable $subtotal might not be defined.                                 
+  794    Offset 7 does not exist on array(0 => float|int, ?1 => mixed, ?2 =>      
+         mixed, ?3 => float|int, ?4 => mixed, ?5 => mixed, ?6 => mixed, ?7 =>     
+         mixed, ?8 => mixed, ?9 => mixed, ?10 => mixed, ?11 => float|int, ?12 =>  
+         mixed).                                                                  
+  794    Offset 8 does not exist on array(0 => float|int, ?1 => mixed, ?2 =>      
+         mixed, ?3 => float|int, ?4 => mixed, ?5 => mixed, ?6 => mixed, ?7 =>     
+         mixed, ?8 => mixed, ?9 => mixed, ?10 => mixed, ?11 => float|int, ?12 =>  
+         mixed).                                                                  
+  794    Variable $subtotal might not be defined.                                 
+  794    Variable $subtotal might not be defined.                                 
+  797    Offset 9 does not exist on array(0 => float|int, ?1 => mixed, ?2 =>      
+         mixed, ?3 => float|int, ?4 => mixed, ?5 => mixed, ?6 => mixed, ?7 =>     
+         mixed, ?8 => mixed, ?9 => mixed, ?10 => mixed, ?11 => float|int, ?12 =>  
+         mixed).                                                                  
+  797    Variable $subtotal might not be defined.                                 
+  799    Offset 10 does not exist on array(0 => float|int, ?1 => mixed, ?2 =>     
+         mixed, ?3 => float|int, ?4 => mixed, ?5 => mixed, ?6 => mixed, ?7 =>     
+         mixed, ?8 => mixed, ?9 => mixed, ?10 => mixed, ?11 => float|int, ?12 =>  
+         mixed).                                                                  
+  799    Offset 11 does not exist on array(0 => float|int, ?1 => mixed, ?2 =>     
+         mixed, ?3 => float|int, ?4 => mixed, ?5 => mixed, ?6 => mixed, ?7 =>     
+         mixed, ?8 => mixed, ?9 => mixed, ?10 => mixed, ?11 => float|int, ?12 =>  
+         mixed).                                                                  
+  799    Variable $subtotal might not be defined.                                 
+  799    Variable $subtotal might not be defined.                                 
+  807    Offset 1 does not exist on array(0 => float|int, ?1 => mixed, ?2 =>      
+         mixed, ?3 => float|int, ?4 => mixed, ?5 => mixed, ?6 => mixed, ?7 =>     
+         mixed, ?8 => mixed, ?9 => mixed, ?10 => mixed, ?11 => float|int, ?12 =>  
+         mixed).                                                                  
+  807    Offset 12 does not exist on array(0 => float|int, ?1 => mixed, ?2 =>     
+         mixed, ?3 => float|int, ?4 => mixed, ?5 => mixed, ?6 => mixed, ?7 =>     
+         mixed, ?8 => mixed, ?9 => mixed, ?10 => mixed, ?11 => float|int, ?12 =>  
+         mixed).                                                                  
+  807    Offset 2 does not exist on array(0 => float|int, ?1 => mixed, ?2 =>      
+         mixed, ?3 => float|int, ?4 => mixed, ?5 => mixed, ?6 => mixed, ?7 =>     
+         mixed, ?8 => mixed, ?9 => mixed, ?10 => mixed, ?11 => float|int, ?12 =>  
+         mixed).                                                                  
+  807    Offset 3 does not exist on array(0 => float|int, ?1 => mixed, ?2 =>      
+         mixed, ?3 => float|int, ?4 => mixed, ?5 => mixed, ?6 => mixed, ?7 =>     
+         mixed, ?8 => mixed, ?9 => mixed, ?10 => mixed, ?11 => float|int, ?12 =>  
+         mixed).                                                                  
+  807    Variable $total might not be defined.                                    
+  807    Variable $total might not be defined.                                    
+  807    Variable $total might not be defined.                                    
+  807    Variable $total might not be defined.                                    
+  807    Variable $total might not be defined.                                    
+  808    Offset 4 does not exist on array(0 => float|int, ?1 => mixed, ?2 =>      
+         mixed, ?3 => float|int, ?4 => mixed, ?5 => mixed, ?6 => mixed, ?7 =>     
+         mixed, ?8 => mixed, ?9 => mixed, ?10 => mixed, ?11 => float|int, ?12 =>  
+         mixed).                                                                  
+  808    Offset 5 does not exist on array(0 => float|int, ?1 => mixed, ?2 =>      
+         mixed, ?3 => float|int, ?4 => mixed, ?5 => mixed, ?6 => mixed, ?7 =>     
+         mixed, ?8 => mixed, ?9 => mixed, ?10 => mixed, ?11 => float|int, ?12 =>  
+         mixed).                                                                  
+  808    Offset 6 does not exist on array(0 => float|int, ?1 => mixed, ?2 =>      
+         mixed, ?3 => float|int, ?4 => mixed, ?5 => mixed, ?6 => mixed, ?7 =>     
+         mixed, ?8 => mixed, ?9 => mixed, ?10 => mixed, ?11 => float|int, ?12 =>  
+         mixed).                                                                  
+  808    Offset 7 does not exist on array(0 => float|int, ?1 => mixed, ?2 =>      
+         mixed, ?3 => float|int, ?4 => mixed, ?5 => mixed, ?6 => mixed, ?7 =>     
+         mixed, ?8 => mixed, ?9 => mixed, ?10 => mixed, ?11 => float|int, ?12 =>  
+         mixed).                                                                  
+  808    Offset 8 does not exist on array(0 => float|int, ?1 => mixed, ?2 =>      
+         mixed, ?3 => float|int, ?4 => mixed, ?5 => mixed, ?6 => mixed, ?7 =>     
+         mixed, ?8 => mixed, ?9 => mixed, ?10 => mixed, ?11 => float|int, ?12 =>  
+         mixed).                                                                  
+  808    Variable $total might not be defined.                                    
+  808    Variable $total might not be defined.                                    
+  808    Variable $total might not be defined.                                    
+  808    Variable $total might not be defined.                                    
+  808    Variable $total might not be defined.                                    
+  811    Offset 9 does not exist on array(0 => float|int, ?1 => mixed, ?2 =>      
+         mixed, ?3 => float|int, ?4 => mixed, ?5 => mixed, ?6 => mixed, ?7 =>     
+         mixed, ?8 => mixed, ?9 => mixed, ?10 => mixed, ?11 => float|int, ?12 =>  
+         mixed).                                                                  
+  811    Variable $total might not be defined.                                    
+  813    Offset 10 does not exist on array(0 => float|int, ?1 => mixed, ?2 =>     
+         mixed, ?3 => float|int, ?4 => mixed, ?5 => mixed, ?6 => mixed, ?7 =>     
+         mixed, ?8 => mixed, ?9 => mixed, ?10 => mixed, ?11 => float|int, ?12 =>  
+         mixed).                                                                  
+  813    Offset 11 does not exist on array(0 => float|int, ?1 => mixed, ?2 =>     
+         mixed, ?3 => float|int, ?4 => mixed, ?5 => mixed, ?6 => mixed, ?7 =>     
+         mixed, ?8 => mixed, ?9 => mixed, ?10 => mixed, ?11 => float|int, ?12 =>  
+         mixed).                                                                  
+  813    Variable $total might not be defined.                                    
+  813    Variable $total might not be defined.                                    
+  818    Call to method range() on an unknown class                               
+         seiban_kanri2\model\Workbook.                                            
+  826    Parameter $sheet of method                                               
+         seiban_kanri2\model\CyubanSonekiExcelBuilder::setRowAttribute() has      
+         invalid typehint type seiban_kanri2\model\Workbook.                      
+  828    Call to method rows() on an unknown class seiban_kanri2\model\Workbook.  
+  829    Call to method range() on an unknown class                               
+         seiban_kanri2\model\Workbook.                                            
+  830    Call to method rows() on an unknown class seiban_kanri2\model\Workbook.  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------- 
+  Line   model\CyubanSonekiExcelControllerModel.php               
+ ------ --------------------------------------------------------- 
+  39     Call to an undefined method object::getQuery().          
+  42     Cannot access property $kb_nendo on array.               
+  43     Cannot access property $kb_nendo on array.               
+  44     Cannot access property $cd_bumon on array.               
+  45     Cannot access property $cd_bumon on array.               
+  46     Cannot access property $fg_cyuban on array.              
+  47     Cannot access property $fg_cyuban on array.              
+  61     Call to an undefined method object::getFileOperation().  
+  64     Call to an undefined method object::getExcelBuilder().   
+  65     Call to an undefined method object::getExcelManager().   
+  67     Cannot access property $input_code on array.             
+  68     Cannot access property $cd_bumon on array.               
+  85     Call to an undefined method object::getModel().          
+  87     Cannot access property $cd_bumon on array.               
+  88     Cannot access property $cd_bumon on array.               
+  89     Cannot access property $kb_nendo on array.               
+ ------ --------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   model\CyubanSonekiExcelModel.php                                        
+ ------ ------------------------------------------------------------------------ 
+  29     PHPDoc tag @param for parameter $cyubanSonekiDispModel with type        
+         seiban_kanri2\model\CyokkaMonKeikakuData is not subtype of native type  
+         seiban_kanri2\model\CyubanSonekiDispModel                               
+  29     Parameter $cyubanSonekiDispModel of method                              
+         seiban_kanri2\model\CyubanSonekiExcelModel::__construct() has invalid   
+         typehint type seiban_kanri2\model\CyokkaMonKeikakuData.                 
+ ------ ------------------------------------------------------------------------ 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   model\CyubanSonekiExcelReadControllerModel.php                        
+ ------ ---------------------------------------------------------------------- 
+  37     Call to an undefined method object::getQuery().                       
+  40     Cannot access property $kb_nendo on array.                            
+  41     Cannot access property $kb_nendo on array.                            
+  43     Cannot access property $cd_bumon on array.                            
+  44     Cannot access property $cd_bumon on array.                            
+  54     Call to an undefined method object::getPost().                        
+  55     Access to an undefined property                                       
+         seiban_kanri2\model\CyubanSonekiExcelReadControllerModel::$act.       
+  67     Call to an undefined method object::getModel().                       
+  68     Access to an undefined property                                       
+         seiban_kanri2\model\CyubanSonekiExcelReadControllerModel::$kb_nendo.  
+  68     Cannot access property $kb_nendo on array.                            
+  69     Access to an undefined property                                       
+         seiban_kanri2\model\CyubanSonekiExcelReadControllerModel::$cd_bumon.  
+  69     Cannot access property $cd_bumon on array.                            
+  80     Call to an undefined method object::getModel().                       
+  84     Call to an undefined method object::getFileOperation().               
+  92     Call to an undefined method object::getHttpUpload().                  
+  95     Call to an undefined method object::getExcelManager().                
+  99     Access to an undefined property                                       
+         seiban_kanri2\model\CyubanSonekiExcelReadControllerModel::$history.   
+ ------ ---------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   model\CyubanSonekiExcelReadModel.php                                    
+ ------ ------------------------------------------------------------------------ 
+  92     Caught class seiban_kanri2\model\Exception not found.                   
+  102    Caught class seiban_kanri2\model\Exception not found.                   
+  121    Caught class seiban_kanri2\model\Exception not found.                   
+  123    Throwing object of an unknown class seiban_kanri2\model\Exception.      
+  151    Strict comparison using === between array|string and false will always  
+         evaluate to false.                                                      
+  156    Parameter #2 $pieces of function implode expects array, array|string    
+         given.                                                                  
+  164    Parameter #2 ...$args of function array_merge expects array,            
+         array|string given.                                                     
+  186    If condition is always false.                                           
+  215    Method seiban_kanri2\model\CyubanSonekiExcelReadModel::writeCsv()       
+         should return bool but returns int.                                     
+  407    Casting to array something that's already array.                        
+ ------ ------------------------------------------------------------------------ 
+
+ ------ --------------------------------------------------------------------- 
+  Line   model\CyubanSonekiOriginator.php                                     
+ ------ --------------------------------------------------------------------- 
+  24     Casting to array something that's already array.                     
+  57     Method seiban_kanri2\model\CyubanSonekiOriginator::isValid() should  
+         return bool but returns bool|int.                                    
+ ------ --------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------- 
+  Line   model\CyunyuInfDispControllerModel.php                             
+ ------ ------------------------------------------------------------------- 
+  38     Call to an undefined method object::getQuery().                    
+  41     Cannot access property $no_cyu on array.                           
+  42     Cannot access property $no_cyu on array.                           
+  43     Cannot access property $no_ko on array.                            
+  44     Cannot access property $no_ko on array.                            
+  45     Cannot access property $fg_crt on array.                           
+  46     Cannot access property $no_seq on array.                           
+  56     Call to an undefined method object::getPost().                     
+  57     Access to an undefined property                                    
+         seiban_kanri2\model\CyunyuInfDispControllerModel::$act.            
+  58     Access to an undefined property                                    
+         seiban_kanri2\model\CyunyuInfDispControllerModel::$keikaku.        
+  70     Cannot access property $input_code on array.                       
+  71     Cannot access property $no_cyu on array.                           
+  72     Cannot access property $no_ko on array.                            
+  74     Call to an undefined method object::getCyunyuInfDispCyunyuLock().  
+  86     Call to an undefined method object::getPost().                     
+  87     Call to an undefined method object::getMntModel().                 
+  89     Access to an undefined property                                    
+         seiban_kanri2\model\CyunyuInfDispControllerModel::$no_seq.         
+  89     Cannot access property $no_seq on array.                           
+  91     Cannot access property $no_cyu on array.                           
+  92     Cannot access property $no_ko on array.                            
+  102    Call to an undefined method object::getModel().                    
+  104    Cannot access property $input_code on array.                       
+  106    Cannot access property $kengen_sm on array.                        
+  107    Cannot access property $kengen_db on array.                        
+  109    Cannot access property $no_cyu on array.                           
+  110    Cannot access property $no_ko on array.                            
+  111    Cannot access property $fg_crt on array.                           
+  112    Cannot access property $no_seq on array.                           
+  113    Cannot access property $kb_nendo on array.                         
+  114    Cannot access property $cd_bumon on array.                         
+  117    Call to an undefined method object::getCyunyuInfDispCyunyuLock().  
+  120    Access to an undefined property                                    
+         seiban_kanri2\model\CyunyuInfDispControllerModel::$cd_genka_yoso.  
+  121    Access to an undefined property                                    
+         seiban_kanri2\model\CyunyuInfDispControllerModel::$cd_tanto.       
+  122    Access to an undefined property                                    
+         seiban_kanri2\model\CyunyuInfDispControllerModel::$nm_tanto.       
+  123    Access to an undefined property                                    
+         seiban_kanri2\model\CyunyuInfDispControllerModel::$nm_syohin.      
+  124    Access to an undefined property                                    
+         seiban_kanri2\model\CyunyuInfDispControllerModel::$num_data.       
+  331    Call to an undefined method object::getModel().                    
+  333    Cannot access property $no_cyu on array.                           
+  334    Cannot access property $no_ko on array.                            
+  378    Call to an undefined method object::getModel().                    
+  380    Cannot access property $no_cyu on array.                           
+  381    Cannot access property $no_ko on array.                            
+  430    Call to an undefined method object::getQueryCdBumon().             
+  443    Call to an undefined method object::getQueryCdBumon().             
+  444    Call to an undefined method object::getModel().                    
+ ------ ------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------- 
+  Line   model\CyunyuInfDispCyunyuLock.php                   
+ ------ ---------------------------------------------------- 
+  44     Access to an undefined property                     
+         seiban_kanri2\model\CyunyuInfDispCyunyuLock::$pdo.  
+  82     Access to an undefined property                     
+         seiban_kanri2\model\CyunyuInfDispCyunyuLock::$pdo.  
+  102    Access to an undefined property                     
+         seiban_kanri2\model\CyunyuInfDispCyunyuLock::$pdo.  
+  104    Access to an undefined property                     
+         seiban_kanri2\model\CyunyuInfDispCyunyuLock::$pdo.  
+ ------ ---------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   model\CyunyuInfDispFactory.php                                          
+ ------ ------------------------------------------------------------------------ 
+  84     Instantiated class seiban_kanri2\model\CyokkaMonKeikaku not found.      
+  89     Instantiated class seiban_kanri2\model\CyokkaMonKeikakuData not found.  
+ ------ ------------------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   model\CyunyuInfDispMntModel.php                                          
+ ------ ------------------------------------------------------------------------- 
+  112    PHPDoc tag @param has invalid value (object PostCyunyuInfDisp $post):    
+         Unexpected token "PostCyunyuInfDisp", expected TOKEN_VARIABLE at offset  
+         62                                                                       
+  120    Access to an undefined property                                          
+         seiban_kanri2\model\PostCyunyuInfDisp::$act.                             
+  121    Access to an undefined property                                          
+         seiban_kanri2\model\PostCyunyuInfDisp::$no_cyu.                          
+  122    Access to an undefined property                                          
+         seiban_kanri2\model\PostCyunyuInfDisp::$no_ko.                           
+  123    Access to an undefined property                                          
+         seiban_kanri2\model\PostCyunyuInfDisp::$cd_bumon.                        
+  124    Access to an undefined property                                          
+         seiban_kanri2\model\PostCyunyuInfDisp::$no_seq.                          
+  125    Access to an undefined property                                          
+         seiban_kanri2\model\PostCyunyuInfDisp::$cd_genka_yoso.                   
+  126    Access to an undefined property                                          
+         seiban_kanri2\model\PostCyunyuInfDisp::$cd_tanto.                        
+  127    Access to an undefined property                                          
+         seiban_kanri2\model\PostCyunyuInfDisp::$nm_tanto.                        
+  128    Access to an undefined property                                          
+         seiban_kanri2\model\PostCyunyuInfDisp::$nm_syohin.                       
+  129    Access to an undefined property                                          
+         seiban_kanri2\model\PostCyunyuInfDisp::$num_data.                        
+  130    Access to an undefined property                                          
+         seiban_kanri2\model\PostCyunyuInfDisp::$num_data.                        
+  131    Access to an undefined property                                          
+         seiban_kanri2\model\PostCyunyuInfDisp::$num_data.                        
+  132    Access to an undefined property                                          
+         seiban_kanri2\model\PostCyunyuInfDisp::$num_data.                        
+  133    Access to an undefined property                                          
+         seiban_kanri2\model\PostCyunyuInfDisp::$num_data.                        
+  134    Access to an undefined property                                          
+         seiban_kanri2\model\PostCyunyuInfDisp::$num_data.                        
+  135    Access to an undefined property                                          
+         seiban_kanri2\model\PostCyunyuInfDisp::$num_data.                        
+  136    Access to an undefined property                                          
+         seiban_kanri2\model\PostCyunyuInfDisp::$num_data.                        
+  137    Access to an undefined property                                          
+         seiban_kanri2\model\PostCyunyuInfDisp::$num_data.                        
+  138    Access to an undefined property                                          
+         seiban_kanri2\model\PostCyunyuInfDisp::$num_data.                        
+  139    Access to an undefined property                                          
+         seiban_kanri2\model\PostCyunyuInfDisp::$num_data.                        
+  140    Access to an undefined property                                          
+         seiban_kanri2\model\PostCyunyuInfDisp::$num_data.                        
+  142    Access to an undefined property                                          
+         seiban_kanri2\model\PostCyunyuInfDisp::$kb_nendo.                        
+  375    Variable $num_data_old might not be defined.                             
+  381    Variable $num_data_old might not be defined.                             
+  385    Variable $num_data_old might not be defined.                             
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   model\KobanSonekiChartControllerModel.php                                
+ ------ ------------------------------------------------------------------------- 
+  40     Call to an undefined method object::getQuery().                          
+  43     Cannot access property $no_cyu on array.                                 
+  44     Cannot access property $fg_koban on array.                               
+  45     Cannot access property $fg_project on array.                             
+  58     Call to an undefined method object::getFileOperation().                  
+  61     Call to an undefined method object::getTaskManager().                    
+  64     Cannot access property $no_cyu on array.                                 
+  70     Access to an undefined property                                          
+         seiban_kanri2\model\KobanSonekiChartControllerModel::$no_cyu.            
+  70     Cannot access property $no_cyu on array.                                 
+  77     Access to an undefined property                                          
+         seiban_kanri2\model\KobanSonekiChartControllerModel::$task_result.       
+  78     Access to an undefined property                                          
+         seiban_kanri2\model\KobanSonekiChartControllerModel::$task_error.        
+  81     Access to an undefined property                                          
+         seiban_kanri2\model\KobanSonekiChartControllerModel::$no_ko.             
+  84     Access to an undefined property                                          
+         seiban_kanri2\model\KobanSonekiChartControllerModel::$id.                
+  85     Access to an undefined property                                          
+         seiban_kanri2\model\KobanSonekiChartControllerModel::$file.              
+  96     Call to an undefined method object::getModel().                          
+  101    Call to an undefined method object::getTaskManager().                    
+  113    Access to an undefined property                                          
+         seiban_kanri2\model\KobanSonekiChartControllerModel::$no_ko.             
+  117    Access to an undefined property                                          
+         seiban_kanri2\model\KobanSonekiChartControllerModel::$id.                
+  118    Access to an undefined property                                          
+         seiban_kanri2\model\KobanSonekiChartControllerModel::$file.              
+  129    Variable $images might not be defined.                                   
+  139    Call to an undefined method object::getChartQuery().                     
+  147    Access to an undefined property                                          
+         seiban_kanri2\model\KobanSonekiChartControllerModel::$no_cyu.            
+  148    Cannot access property $no_cyu on array.                                 
+  149    Access to an undefined property                                          
+         seiban_kanri2\model\KobanSonekiChartControllerModel::$no_ko.             
+  150    Access to an undefined property                                          
+         seiban_kanri2\model\KobanSonekiChartControllerModel::$id.                
+  151    Access to an undefined property                                          
+         seiban_kanri2\model\KobanSonekiChartControllerModel::$file.              
+  160    Access to an undefined property                                          
+         seiban_kanri2\model\KobanSonekiChartControllerModel::$no_cyu.            
+  161    Access to an undefined property                                          
+         seiban_kanri2\model\KobanSonekiChartControllerModel::$no_ko.             
+  164    Access to an undefined property                                          
+         seiban_kanri2\model\KobanSonekiChartControllerModel::$id.                
+  169    Access to an undefined property                                          
+         seiban_kanri2\model\KobanSonekiChartControllerModel::$file.              
+  176    Access to an undefined property                                          
+         seiban_kanri2\model\KobanSonekiChartControllerModel::$file.              
+  185    Access to an undefined property                                          
+         seiban_kanri2\model\KobanSonekiChartControllerModel::$file.              
+  186    Call to method merge() on an unknown class Concerto\chart\cpchart\this.  
+  187    Access to an undefined property                                          
+         seiban_kanri2\model\KobanSonekiChartControllerModel::$file.              
+  192    Access to an undefined property                                          
+         seiban_kanri2\model\KobanSonekiChartControllerModel::$id.                
+  193    Access to an undefined property                                          
+         seiban_kanri2\model\KobanSonekiChartControllerModel::$file.              
+  212    Call to an undefined method object::getChartDefinition().                
+  214    Call to an undefined method object::getChartBuilder().                   
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------- 
+  Line   model\KobanSonekiChartModel.php                                       
+ ------ ---------------------------------------------------------------------- 
+  17     Class seiban_kanri2\model\KobanSonekiDispCyubanModel referenced with  
+         incorrect case: seiban_kanri2\model\kobanSonekiDispCyubanModel.       
+  47     Class seiban_kanri2\model\KobanSonekiDispCyubanModel referenced with  
+         incorrect case: seiban_kanri2\model\kobanSonekiDispCyubanModel.       
+  47     Class seiban_kanri2\model\KobanSonekiDispCyubanModel referenced with  
+         incorrect case: seiban_kanri2\model\kobanSonekiDispCyubanModel.       
+ ------ ---------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   model\KobanSonekiDispControllerModel.php                                 
+ ------ ------------------------------------------------------------------------- 
+  29     PHPDoc tag @param for parameter $factory with type                       
+         seiban_kanri2\model\KobanSonekiDisplFactory is not subtype of native     
+         type seiban_kanri2\model\KobanSonekiDispFactory                          
+  29     Parameter $factory of method                                             
+         seiban_kanri2\model\KobanSonekiDispControllerModel::__construct() has    
+         invalid typehint type seiban_kanri2\model\KobanSonekiDisplFactory.       
+  40     Call to an undefined method object::getQuery().                          
+  43     Cannot access property $no_cyu on array.                                 
+  44     Cannot access property $fg_koban on array.                               
+  45     Cannot access property $fg_project on array.                             
+  55     Call to an undefined method object::getPost().                           
+  56     Access to an undefined property                                          
+         seiban_kanri2\model\KobanSonekiDispControllerModel::$act.                
+  68     Cannot access property $input_code on array.                             
+  69     Cannot access property $no_cyu on array.                                 
+  71     Call to an undefined method object::getPost().                           
+  74     Call to an undefined method object::getKobanSonekiDispSeibanTanto().     
+  84     Cannot access property $input_code on array.                             
+  85     Cannot access property $no_cyu on array.                                 
+  87     Call to an undefined method object::getPost().                           
+  92     Call to an undefined method object::getKobanSonekiDispHatubanKakunin().  
+  102    Cannot access property $input_code on array.                             
+  103    Cannot access property $no_cyu on array.                                 
+  105    Call to an undefined method object::getKobanSonekiDispReplacePlan().     
+  115    Cannot access property $input_code on array.                             
+  116    Cannot access property $no_cyu on array.                                 
+  117    Cannot access property $fg_project on array.                             
+  118    Cannot access property $fg_koban on array.                               
+  122    Call to an undefined method object::getKobanSonekiDispSeibanTanto().     
+  130    Call to an undefined method object::getKobanSonekiDispHatubanKakunin().  
+  138    Call to an undefined method object::getModel().                          
+  138    Cannot access property $fg_project on array.                             
+  139    Cannot access property $cd_bumon on array.                               
+  140    Cannot access property $cd_bumon on array.                               
+  141    Cannot access property $no_cyu on array.                                 
+  344    Call to an undefined method object::getModel().                          
+  344    Cannot access property $fg_project on array.                             
+  346    Cannot access property $no_cyu on array.                                 
+  511    Call to an undefined method object::getModel().                          
+  511    Cannot access property $fg_project on array.                             
+  513    Cannot access property $no_cyu on array.                                 
+  514    Cannot access property $fg_project on array.                             
+  516    Call to an undefined method object::getModel().                          
+  595    Casting to array something that's already array.                         
+  603    Casting to array<int, array<int|string, mixed>> something that's         
+         already array<int, array<int|string, mixed>>.                            
+  617    Casting to array something that's already array.                         
+  630    Variable $data might not be defined.                                     
+  641    Variable $data might not be defined.                                     
+  645    Left side of && is always true.                                          
+  650    Variable $data might not be defined.                                     
+  663    Variable $data might not be defined.                                     
+  668    Left side of && is always true.                                          
+  676    Variable $data might not be defined.                                     
+  686    Variable $source might not be defined.                                   
+ ------ ------------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------- 
+  Line   model\KobanSonekiDispHatubanKakunin.php                              
+ ------ --------------------------------------------------------------------- 
+  43     Access to an undefined property                                      
+         seiban_kanri2\model\KobanSonekiDispHatubanKakunin::$hatubanInf.      
+  44     Access to an undefined property                                      
+         seiban_kanri2\model\KobanSonekiDispHatubanKakunin::$hatubanInfData.  
+  57     Access to an undefined property                                      
+         seiban_kanri2\model\KobanSonekiDispHatubanKakunin::$hatubanInfData.  
+  65     Access to an undefined property                                      
+         seiban_kanri2\model\KobanSonekiDispHatubanKakunin::$hatubanInf.      
+  68     Access to an undefined property                                      
+         seiban_kanri2\model\KobanSonekiDispHatubanKakunin::$hatubanInf.      
+  100    Access to an undefined property                                      
+         seiban_kanri2\model\KobanSonekiDispHatubanKakunin::$hatubanInfData.  
+  103    Access to an undefined property                                      
+         seiban_kanri2\model\KobanSonekiDispHatubanKakunin::$hatubanInf.      
+ ------ --------------------------------------------------------------------- 
+
+ ------ --------------------------------------- 
+  Line   model\KobanSonekiDispProjectModel.php  
+ ------ --------------------------------------- 
+  207    Undefined variable: $no_cyu            
+ ------ --------------------------------------- 
+
+ ------ -------------------------------------- 
+  Line   model\KobanSonekiDispReplacePlan.php  
+ ------ -------------------------------------- 
+  159    Undefined variable: $no_ko            
+ ------ -------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   model\KobanSonekiExcelBuilder.php                                       
+ ------ ------------------------------------------------------------------------ 
+  63     Access to an undefined property                                         
+         seiban_kanri2\model\KobanSonekiExcelControllerModel::$temp_dir.         
+  78     Parameter $book of method                                               
+         seiban_kanri2\model\KobanSonekiExcelBuilder::build() has invalid        
+         typehint type seiban_kanri2\model\Workbook.                             
+  78     Parameter $excel of method                                              
+         seiban_kanri2\model\KobanSonekiExcelBuilder::build() has invalid        
+         typehint type seiban_kanri2\model\EXCEL.                                
+  81     Call to method Worksheets() on an unknown class                         
+         seiban_kanri2\model\Workbook.                                           
+  88     Call to method Worksheets() on an unknown class                         
+         seiban_kanri2\model\Workbook.                                           
+  93     Call to method Worksheets() on an unknown class                         
+         seiban_kanri2\model\Workbook.                                           
+  98     Call to method Worksheets() on an unknown class                         
+         seiban_kanri2\model\Workbook.                                           
+  103    Call to method Worksheets() on an unknown class                         
+         seiban_kanri2\model\Workbook.                                           
+  114    Parameter $sheet of method                                              
+         seiban_kanri2\model\KobanSonekiExcelBuilder::makeSheet1a() has invalid  
+         typehint type seiban_kanri2\model\Worksheet.                            
+  114    Return typehint of method                                               
+         seiban_kanri2\model\KobanSonekiExcelBuilder::makeSheet1a() has invalid  
+         type seiban_kanri2\model\Range.                                         
+  117    Parameter #1 $var_array of function extract is passed by reference, so  
+         it expects variables only.                                              
+  119    Call to method Range() on an unknown class                              
+         seiban_kanri2\model\Worksheet.                                          
+  119    Undefined variable: $no_cyu                                             
+  120    Call to method Range() on an unknown class                              
+         seiban_kanri2\model\Worksheet.                                          
+  120    Undefined variable: $nm_setti                                           
+  121    Call to method Range() on an unknown class                              
+         seiban_kanri2\model\Worksheet.                                          
+  121    Undefined variable: $nm_syohin                                          
+  122    Call to method Range() on an unknown class                              
+         seiban_kanri2\model\Worksheet.                                          
+  122    Undefined variable: $nm_user                                            
+  131    Parameter $sheet of method                                              
+         seiban_kanri2\model\KobanSonekiExcelBuilder::makeSheet1b() has invalid  
+         typehint type seiban_kanri2\model\Worksheet.                            
+  131    Return typehint of method                                               
+         seiban_kanri2\model\KobanSonekiExcelBuilder::makeSheet1b() has invalid  
+         type seiban_kanri2\model\Range.                                         
+  133    Parameter #1 $var_array of function extract is passed by reference, so  
+         it expects variables only.                                              
+  135    Undefined variable: $yn_arari                                           
+  135    Undefined variable: $yn_ptov1                                           
+  135    Undefined variable: $yn_sp                                              
+  136    Undefined variable: $ri_psoneki1                                        
+  136    Undefined variable: $tm_pcyokka1                                        
+  136    Undefined variable: $yn_pcyunyu1                                        
+  136    Undefined variable: $yn_psoneki1                                        
+  137    Undefined variable: $yn_pcyokka1                                        
+  137    Undefined variable: $yn_pcyokuzai1                                      
+  137    Undefined variable: $yn_petc1                                           
+  137    Undefined variable: $yn_pryohi1                                         
+  141    Undefined variable: $yn_arari                                           
+  141    Undefined variable: $yn_sp                                              
+  141    Undefined variable: $yn_ytov1                                           
+  142    Undefined variable: $ri_ysoneki1                                        
+  142    Undefined variable: $tm_ycyokka1                                        
+  142    Undefined variable: $yn_ycyunyu1                                        
+  142    Undefined variable: $yn_ysoneki1                                        
+  143    Undefined variable: $yn_ycyokka1                                        
+  143    Undefined variable: $yn_ycyokuzai1                                      
+  143    Undefined variable: $yn_yetc1                                           
+  143    Undefined variable: $yn_yryohi1                                         
+  147    Undefined variable: $yn_arari                                           
+  147    Undefined variable: $yn_rtov1                                           
+  147    Undefined variable: $yn_sp                                              
+  148    Undefined variable: $ri_rsoneki1                                        
+  148    Undefined variable: $tm_rcyokka1                                        
+  148    Undefined variable: $yn_rcyunyu1                                        
+  148    Undefined variable: $yn_rsoneki1                                        
+  149    Undefined variable: $yn_rcyokka1                                        
+  149    Undefined variable: $yn_rcyokuzai1                                      
+  149    Undefined variable: $yn_retc1                                           
+  149    Undefined variable: $yn_rryohi1                                         
+  153    Call to method range() on an unknown class                              
+         seiban_kanri2\model\Worksheet.                                          
+  162    Parameter $sheet of method                                              
+         seiban_kanri2\model\KobanSonekiExcelBuilder::makeSheet1c() has invalid  
+         typehint type seiban_kanri2\model\Worksheet.                            
+  162    Return typehint of method                                               
+         seiban_kanri2\model\KobanSonekiExcelBuilder::makeSheet1c() has invalid  
+         type seiban_kanri2\model\Range.                                         
+  164    Parameter #1 $var_array of function extract is passed by reference, so  
+         it expects variables only.                                              
+  166    Undefined variable: $yn_arari                                           
+  166    Undefined variable: $yn_ptov2                                           
+  166    Undefined variable: $yn_sp                                              
+  167    Undefined variable: $ri_psoneki2                                        
+  167    Undefined variable: $tm_pcyokka2                                        
+  167    Undefined variable: $yn_pcyunyu2                                        
+  167    Undefined variable: $yn_psoneki2                                        
+  168    Undefined variable: $yn_pcyokka2                                        
+  168    Undefined variable: $yn_pcyokuzai2                                      
+  168    Undefined variable: $yn_petc2                                           
+  168    Undefined variable: $yn_pryohi2                                         
+  172    Undefined variable: $yn_arari                                           
+  172    Undefined variable: $yn_sp                                              
+  172    Undefined variable: $yn_ytov2                                           
+  173    Undefined variable: $ri_ysoneki2                                        
+  173    Undefined variable: $tm_ycyokka2                                        
+  173    Undefined variable: $yn_ycyunyu2                                        
+  173    Undefined variable: $yn_ysoneki2                                        
+  174    Undefined variable: $yn_ycyokka2                                        
+  174    Undefined variable: $yn_ycyokuzai2                                      
+  174    Undefined variable: $yn_yetc2                                           
+  174    Undefined variable: $yn_yryohi2                                         
+  178    Undefined variable: $yn_arari                                           
+  178    Undefined variable: $yn_rtov2                                           
+  178    Undefined variable: $yn_sp                                              
+  179    Undefined variable: $ri_rsoneki2                                        
+  179    Undefined variable: $tm_rcyokka2                                        
+  179    Undefined variable: $yn_rcyunyu2                                        
+  179    Undefined variable: $yn_rsoneki2                                        
+  180    Undefined variable: $yn_rcyokka2                                        
+  180    Undefined variable: $yn_rcyokuzai2                                      
+  180    Undefined variable: $yn_retc2                                           
+  180    Undefined variable: $yn_rryohi2                                         
+  184    Call to method range() on an unknown class                              
+         seiban_kanri2\model\Worksheet.                                          
+  193    Parameter $sheet of method                                              
+         seiban_kanri2\model\KobanSonekiExcelBuilder::makeSheet2() has invalid   
+         typehint type seiban_kanri2\model\Worksheet.                            
+  193    Return typehint of method                                               
+         seiban_kanri2\model\KobanSonekiExcelBuilder::makeSheet2() has invalid   
+         type seiban_kanri2\model\Range.                                         
+  208    Call to method range() on an unknown class                              
+         seiban_kanri2\model\Worksheet.                                          
+  217    Parameter $sheet of method                                              
+         seiban_kanri2\model\KobanSonekiExcelBuilder::makeSheet3() has invalid   
+         typehint type seiban_kanri2\model\Worksheet.                            
+  217    Return typehint of method                                               
+         seiban_kanri2\model\KobanSonekiExcelBuilder::makeSheet3() has invalid   
+         type seiban_kanri2\model\Range.                                         
+  242    Call to method range() on an unknown class                              
+         seiban_kanri2\model\Worksheet.                                          
+  251    Parameter $sheet of method                                              
+         seiban_kanri2\model\KobanSonekiExcelBuilder::makeSheet4() has invalid   
+         typehint type seiban_kanri2\model\Worksheet.                            
+  251    Return typehint of method                                               
+         seiban_kanri2\model\KobanSonekiExcelBuilder::makeSheet4() has invalid   
+         type seiban_kanri2\model\Range.                                         
+  279    Call to method range() on an unknown class                              
+         seiban_kanri2\model\Worksheet.                                          
+  288    Parameter $sheet of method                                              
+         seiban_kanri2\model\KobanSonekiExcelBuilder::makeSheet5() has invalid   
+         typehint type seiban_kanri2\model\Worksheet.                            
+  288    Return typehint of method                                               
+         seiban_kanri2\model\KobanSonekiExcelBuilder::makeSheet5() has invalid   
+         type seiban_kanri2\model\Range.                                         
+  297    Access to property $Shapes on an unknown class                          
+         seiban_kanri2\model\Worksheet.                                          
+  313    Access to property $Shapes on an unknown class                          
+         seiban_kanri2\model\Worksheet.                                          
+  336    Call to method range() on an unknown class                              
+         seiban_kanri2\model\Worksheet.                                          
+  351    Call to method calcData() on an unknown class                           
+         seiban_kanri2\model\ChartDefinition.                                    
+  352    Call to method getTableData() on an unknown class                       
+         seiban_kanri2\model\ChartDefinition.                                    
+  360    Undefined variable: $no                                                 
+  375    Return typehint of method                                               
+         seiban_kanri2\model\KobanSonekiExcelBuilder::getChartDefinition() has   
+         invalid type seiban_kanri2\model\ChartDefinition.                       
+ ------ ------------------------------------------------------------------------ 
+
+ ------ --------------------------------------------------------- 
+  Line   model\KobanSonekiExcelControllerModel.php                
+ ------ --------------------------------------------------------- 
+  39     Call to an undefined method object::getQuery().          
+  42     Cannot access property $no_cyu on array.                 
+  43     Cannot access property $fg_koban on array.               
+  44     Cannot access property $fg_project on array.             
+  58     Call to an undefined method object::getFileOperation().  
+  61     Call to an undefined method object::getExcelBuilder().   
+  62     Cannot access property $no_cyu on array.                 
+  64     Call to an undefined method object::getExcelManager().   
+  66     Cannot access property $input_code on array.             
+  67     Cannot access property $no_cyu on array.                 
+ ------ --------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------- 
+  Line   model\KobanTyouseiDispControllerModel.php                            
+ ------ --------------------------------------------------------------------- 
+  37     Call to an undefined method object::getQuery().                      
+  40     Cannot access property $no_cyu on array.                             
+  41     Cannot access property $no_cyu on array.                             
+  51     Call to an undefined method object::getPost().                       
+  52     Access to an undefined property                                      
+         seiban_kanri2\model\KobanTyouseiDispControllerModel::$act.           
+  64     Call to an undefined method object::getPost().                       
+  65     Call to an undefined method object::getKobanTyouseiDispMntModel().   
+  75     Call to an undefined method object::getModel().                      
+  76     Access to an undefined property                                      
+         seiban_kanri2\model\KobanTyouseiDispControllerModel::$no_cyu.        
+  76     Cannot access property $no_cyu on array.                             
+  77     Access to an undefined property                                      
+         seiban_kanri2\model\KobanTyouseiDispControllerModel::$tyousei_list.  
+  77     Undefined variable: $no_cyu                                          
+ ------ --------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------- 
+  Line   model\KobanTyouseiDispFactory.php                                    
+ ------ --------------------------------------------------------------------- 
+  100    Class seiban_kanri2\model\KobanTyouseiDispModel constructor invoked  
+         with 5 parameters, 1 required.                                       
+ ------ --------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------ 
+  Line   model\KobanTyouseiDispMntModel.php                                
+ ------ ------------------------------------------------------------------ 
+  66     PHPDoc tag @param has invalid value (object PostKobanTyouseiDisp  
+         $post): Unexpected token "PostKobanTyouseiDisp", expected         
+         TOKEN_VARIABLE at offset 56                                       
+  72     Access to an undefined property                                   
+         seiban_kanri2\model\PostKobanTyouseiDisp::$no_cyu.                
+  87     Access to an undefined property                                   
+         seiban_kanri2\model\PostKobanTyouseiDisp::$no_ko.                 
+ ------ ------------------------------------------------------------------ 
+
+ ------ -------------------------------------------------------- 
+  Line   model\QueryKobanSonekiDisp.php                          
+ ------ -------------------------------------------------------- 
+  28     Access to an undefined property                         
+         seiban_kanri2\model\QueryKobanSonekiDisp::$fg_project.  
+ ------ -------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------ 
+  Line   model\chart\ChartDefinition.php                                         
+ ------ ------------------------------------------------------------------------ 
+  34     seiban_kanri2\model\chart\ChartDefinition::__construct() does not call  
+         parent constructor from Concerto\chart\cpchart\ChartData.               
+  53     Call to method bind() on an unknown class Concerto\chart\cpchart\this.  
+  64     Method seiban_kanri2\model\chart\ChartDefinition::setFile() should      
+         return $this(seiban_kanri2\model\chart\ChartDefinition) but returns     
+         Concerto\chart\cpchart\this.                                            
+  75     Method seiban_kanri2\model\chart\ChartDefinition::setPoints() should    
+         return $this(seiban_kanri2\model\chart\ChartDefinition) but returns     
+         Concerto\chart\cpchart\this.                                            
+ ------ ------------------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   model\chart\CyubanSonekiChart1.php                                       
+ ------ ------------------------------------------------------------------------- 
+  82     Call to an undefined method object::getBudgetKeikakuMonthList().         
+  95     Call to an undefined method object::getBudgetKobanMonthList().           
+  109    Offset 'Values1' does not exist on array('Axis' => array, ?'Values1' =>  
+         array<int, 0|float>, ?'Values2' => array<int, 0|float>).                 
+  116    Offset 'Values2' does not exist on array('Axis' => array, ?'Values1' =>  
+         array<int, 0|float>, ?'Values2' => array<int, 0|float>, 'Values3' =>     
+         array).                                                                  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   model\chart\CyubanSonekiChart2.php                                       
+ ------ ------------------------------------------------------------------------- 
+  82     Call to an undefined method object::getBudgetKeikakuMonthList().         
+  95     Call to an undefined method object::getBudgetKobanMonthList().           
+  109    Offset 'Values1' does not exist on array('Axis' => array, ?'Values1' =>  
+         array<int, 0|float>, ?'Values2' => array<int, 0|float>).                 
+  116    Offset 'Values2' does not exist on array('Axis' => array, ?'Values1' =>  
+         array<int, 0|float>, ?'Values2' => array<int, 0|float>, 'Values3' =>     
+         array).                                                                  
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   model\chart\CyubanSonekiChart3.php                                       
+ ------ ------------------------------------------------------------------------- 
+  36     Call to an undefined method object::getBudgetCyunyuMonthList().          
+  55     Offset 'Values1' does not exist on array('Axis' => array, ?'Values1' =>  
+         array<int|string, 0|float>, ?'Values2' => array<int|string, 0|float>,    
+         ?'Values3' => array<int|string, 0|float>, ?'Values5' =>                  
+         array<int|string, 0>, ?'Values6' => array<int|string, 0>, ?'Values7' =>  
+         array<int|string, 0>).                                                   
+  56     Offset 'Values2' does not exist on array('Axis' => array, ?'Values1' =>  
+         array<int|string, 0|float>, ?'Values2' => array<int|string, 0|float>,    
+         ?'Values3' => array<int|string, 0|float>, ?'Values5' =>                  
+         array<int|string, 0>, ?'Values6' => array<int|string, 0>, ?'Values7' =>  
+         array<int|string, 0>).                                                   
+  57     Offset 'Values3' does not exist on array('Axis' => array, ?'Values1' =>  
+         array<int|string, 0|float>, ?'Values2' => array<int|string, 0|float>,    
+         ?'Values3' => array<int|string, 0|float>, ?'Values5' =>                  
+         array<int|string, 0>, ?'Values6' => array<int|string, 0>, ?'Values7' =>  
+         array<int|string, 0>).                                                   
+  59     Offset 'Values1' does not exist on array('Axis' => array, ?'Values1' =>  
+         array<int|string, 0|float>, ?'Values2' => array<int|string, 0|float>,    
+         ?'Values3' => array<int|string, 0|float>, ?'Values5' =>                  
+         array<int|string, 0>, ?'Values6' => array<int|string, 0>, ?'Values7' =>  
+         array<int|string, 0>).                                                   
+  60     Offset 'Values2' does not exist on array('Axis' => array, 'Values1' =>   
+         array<int, 0|float>, ?'Values2' => array<int|string, 0|float>,           
+         ?'Values3' => array<int|string, 0|float>, ?'Values5' =>                  
+         array<int|string, 0>, ?'Values6' => array<int|string, 0>, ?'Values7' =>  
+         array<int|string, 0>).                                                   
+  61     Offset 'Values3' does not exist on array('Axis' => array, 'Values1' =>   
+         array<int, 0|float>, 'Values2' => array<int, 0|float>, ?'Values3' =>     
+         array<int|string, 0|float>, ?'Values5' => array<int|string, 0>,          
+         ?'Values6' => array<int|string, 0>, ?'Values7' => array<int|string,      
+         0>).                                                                     
+  64     Call to an undefined method object::getBudgetCyunyuMonthList().          
+  83     Offset 'Values5' does not exist on array('Axis' => array, 'Values1' =>   
+         array<int, 0|float>, 'Values2' => array<int, 0|float>, 'Values3' =>      
+         array<int, 0|float>, ?'Values5' => array<int|string, 0|float>,           
+         ?'Values6' => array<int|string, 0|float>, ?'Values7' =>                  
+         array<int|string, 0|float>).                                             
+  84     Offset 'Values6' does not exist on array('Axis' => array, 'Values1' =>   
+         array<int, 0|float>, 'Values2' => array<int, 0|float>, 'Values3' =>      
+         array<int, 0|float>, ?'Values5' => array<int|string, 0|float>,           
+         ?'Values6' => array<int|string, 0|float>, ?'Values7' =>                  
+         array<int|string, 0|float>).                                             
+  85     Offset 'Values7' does not exist on array('Axis' => array, 'Values1' =>   
+         array<int, 0|float>, 'Values2' => array<int, 0|float>, 'Values3' =>      
+         array<int, 0|float>, ?'Values5' => array<int|string, 0|float>,           
+         ?'Values6' => array<int|string, 0|float>, ?'Values7' =>                  
+         array<int|string, 0|float>).                                             
+  87     Offset 'Values5' does not exist on array('Axis' => array, 'Values1' =>   
+         array<int, 0|float>, 'Values2' => array<int, 0|float>, 'Values3' =>      
+         array<int, 0|float>, ?'Values5' => array<int|string, 0|float>,           
+         ?'Values6' => array<int|string, 0|float>, ?'Values7' =>                  
+         array<int|string, 0|float>).                                             
+  88     Offset 'Values6' does not exist on array('Axis' => array, 'Values1' =>   
+         array<int, 0|float>, 'Values2' => array<int, 0|float>, 'Values3' =>      
+         array<int, 0|float>, 'Values5' => array<int, 0|float>, ?'Values6' =>     
+         array<int|string, 0|float>, ?'Values7' => array<int|string, 0|float>).   
+  89     Offset 'Values7' does not exist on array('Axis' => array, 'Values1' =>   
+         array<int, 0|float>, 'Values2' => array<int, 0|float>, 'Values3' =>      
+         array<int, 0|float>, 'Values5' => array<int, 0|float>, 'Values6' =>      
+         array<int, 0|float>, ?'Values7' => array<int|string, 0|float>).          
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------- 
+  Line   model\chart\CyubanSonekiChart4.php                                       
+ ------ ------------------------------------------------------------------------- 
+  82     Call to an undefined method object::getBudgetKobanMonthList().           
+  96     Offset 'Values1' does not exist on array('Axis' => array, ?'Values1' =>  
+         array<int, 0|float>).                                                    
+  103    Call to an undefined method object::getBudgetCyunyuMonthList().          
+  120    Offset 'Values2' does not exist on array('Axis' => array, ?'Values1' =>  
+         array<int, 0|float>, 'Values3' => array, ?'Values2' =>                   
+         array<int|string, float>).                                               
+  121    Offset 'Values2' does not exist on array('Axis' => array, ?'Values1' =>  
+         array<int, 0|float>, 'Values3' => array, ?'Values2' =>                   
+         array<int|string, float>).                                               
+ ------ ------------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------- 
+  Line   model\chart\KobanSonekiChart1.php                                
+ ------ ----------------------------------------------------------------- 
+  72     Call to an undefined method object::getSeibanDtStartEnd().       
+  82     Caught class seiban_kanri2\model\chart\Exception not found.      
+  95     Call to an undefined method object::getKobanAggregateList().     
+  106    Call to an undefined method object::getBudgetCyunyuMonthList().  
+  111    Call to an undefined method object::getBudgetCyunyuMonthList().  
+  165    Variable $monthly might not be defined.                          
+ ------ ----------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------- 
+  Line   model\chart\KobanSonekiChart2.php                                
+ ------ ----------------------------------------------------------------- 
+  25     Call to an undefined method object::getSeibanDtStartEnd().       
+  35     Caught class seiban_kanri2\model\chart\Exception not found.      
+  39     Call to an undefined method object::getBudgetCyunyuMonthList().  
+  44     Call to an undefined method object::getBudgetCyunyuMonthList().  
+ ------ ----------------------------------------------------------------- 
+
+ ------ ------------------------------------------- 
+  Line   template\cyuban_soneki_chart_template.php  
+ ------ ------------------------------------------- 
+  15     Undefined variable: $image1                
+  19     Undefined variable: $image2                
+  23     Undefined variable: $image3                
+  27     Undefined variable: $image4                
+ ------ ------------------------------------------- 
+
+ ------ ------------------------------------------------ 
+  Line   template\cyuban_soneki_excel_read_template.php  
+ ------ ------------------------------------------------ 
+  30     Undefined variable: $this                       
+  30     Using $this outside a class.                    
+  33     Undefined variable: $kb_nendo                   
+  34     Undefined variable: $cd_bumon                   
+ ------ ------------------------------------------------ 
+
+ ------ ------------------------------------------------ 
+  Line   template\cyuban_soneki_template.php             
+ ------ ------------------------------------------------ 
+  45     Undefined variable: $cd_bumon                   
+  47     Undefined variable: $bumon_list                 
+  48     Undefined variable: $cd_bumon                   
+  58     Undefined variable: $nendo_list                 
+  59     Undefined variable: $kb_nendo                   
+  66     Undefined variable: $isPastFiscalYear           
+  67     Undefined variable: $chk_nendo_all              
+  67     Undefined variable: $chk_nendo_all              
+  71     Undefined variable: $chk_kansei                 
+  71     Undefined variable: $chk_kansei                 
+  74     Undefined variable: $fg_cyuban                  
+  74     Undefined variable: $fg_cyuban                  
+  77     Undefined variable: $chk_job                    
+  77     Undefined variable: $chk_job                    
+  83     Undefined variable: $tanto_list                 
+  84     Undefined variable: $narrow_tanto               
+  95     Undefined variable: $cd_bumon                   
+  95     Undefined variable: $kb_nendo                   
+  96     Undefined variable: $cd_bumon                   
+  96     Undefined variable: $kb_nendo                   
+  97     Undefined variable: $cd_bumon                   
+  97     Undefined variable: $kb_nendo                   
+  100    Undefined variable: $this                       
+  100    Using $this outside a class.                    
+  118    Undefined variable: $kisyu_list                 
+  119    Undefined variable: $cd_kisyu                   
+  129    Undefined variable: $bunya_eigyo_list           
+  130    Variable $no_bunya_eigyo might not be defined.  
+  140    Undefined variable: $bunya_seizo_list           
+  141    Undefined variable: $no_bunya_seizo             
+  170    Undefined variable: $yn_psp                     
+  171    Undefined variable: $yn_ptov                    
+  172    Undefined variable: $yn_parari                  
+  173    Undefined variable: $yn_pcyunyu                 
+  174    Undefined variable: $yn_psoneki                 
+  175    Undefined variable: $ri_psoneki                 
+  176    Undefined variable: $tm_pcyokka                 
+  177    Undefined variable: $yn_pcyokka                 
+  178    Undefined variable: $yn_pcyokuzai               
+  179    Undefined variable: $yn_petc                    
+  180    Undefined variable: $yn_pryohi                  
+  185    Undefined variable: $yn_ysp                     
+  186    Undefined variable: $yn_ytov                    
+  187    Undefined variable: $yn_yarari                  
+  188    Undefined variable: $yn_ycyunyu                 
+  189    Undefined variable: $yn_ysoneki                 
+  190    Undefined variable: $ri_ysoneki                 
+  191    Undefined variable: $tm_ycyokka                 
+  192    Undefined variable: $yn_ycyokka                 
+  193    Undefined variable: $yn_ycyokuzai               
+  194    Undefined variable: $yn_yetc                    
+  195    Undefined variable: $yn_yryohi                  
+  200    Undefined variable: $yn_rsp                     
+  201    Undefined variable: $yn_rtov                    
+  202    Undefined variable: $yn_rarari                  
+  203    Undefined variable: $yn_rcyunyu                 
+  204    Undefined variable: $yn_rsoneki                 
+  205    Undefined variable: $ri_rsoneki                 
+  206    Undefined variable: $tm_rcyokka                 
+  207    Undefined variable: $yn_rcyokka                 
+  208    Undefined variable: $yn_rcyokuzai               
+  209    Undefined variable: $yn_retc                    
+  210    Undefined variable: $yn_rryohi                  
+  215    Undefined variable: $yn_asp                     
+  216    Undefined variable: $yn_atov                    
+  217    Undefined variable: $yn_aarari                  
+  218    Undefined variable: $yn_acyunyu                 
+  219    Undefined variable: $yn_asoneki                 
+  220    Undefined variable: $ri_asoneki                 
+  221    Undefined variable: $tm_acyokka                 
+  222    Undefined variable: $yn_acyokka                 
+  223    Undefined variable: $yn_acyokuzai               
+  224    Undefined variable: $yn_aetc                    
+  225    Undefined variable: $yn_aryohi                  
+  230    Undefined variable: $yn_bsp                     
+  231    Undefined variable: $yn_btov                    
+  232    Undefined variable: $yn_barari                  
+  233    Undefined variable: $yn_bcyunyu                 
+  234    Undefined variable: $yn_bsoneki                 
+  235    Undefined variable: $ri_bsoneki                 
+  236    Undefined variable: $tm_bcyokka                 
+  237    Undefined variable: $yn_bcyokka                 
+  238    Undefined variable: $yn_bcyokuzai               
+  239    Undefined variable: $yn_betc                    
+  240    Undefined variable: $yn_bryohi                  
+  245    Undefined variable: $yn_csp                     
+  246    Undefined variable: $yn_ctov                    
+  247    Undefined variable: $yn_carari                  
+  248    Undefined variable: $yn_ccyunyu                 
+  249    Undefined variable: $yn_csoneki                 
+  250    Undefined variable: $ri_csoneki                 
+  251    Undefined variable: $tm_ccyokka                 
+  252    Undefined variable: $yn_ccyokka                 
+  253    Undefined variable: $yn_ccyokuzai               
+  254    Undefined variable: $yn_cetc                    
+  255    Undefined variable: $yn_cryohi                  
+  273    Undefined variable: $yn_yosan                   
+  274    Undefined variable: $yn_soneki                  
+  275    Undefined variable: $ri_soneki                  
+  280    Undefined variable: $yn_yosan_sub               
+  281    Undefined variable: $yn_soneki_sub              
+  282    Undefined variable: $ri_soneki_sub              
+  287    Undefined variable: $yn_yosan_rt                
+  288    Undefined variable: $yn_soneki_rt               
+  289    Undefined variable: $ri_soneki_rt               
+  306    Undefined variable: $dt_hakkou_diff_date        
+  308    Undefined variable: $dt_cyunyu_diff_date        
+ ------ ------------------------------------------------ 
+
+ ------ ----------------------------------------- 
+  Line   template\cyunyu_inf_template.php         
+ ------ ----------------------------------------- 
+  51     Undefined variable: $this                
+  51     Using $this outside a class.             
+  58     Undefined variable: $fg_crt              
+  59     Undefined variable: $no_cyu              
+  60     Undefined variable: $no_cyu              
+  60     Undefined variable: $no_ko               
+  63     Undefined variable: $no_cyu              
+  64     Undefined variable: $no_cyu              
+  64     Undefined variable: $no_ko               
+  66     Undefined variable: $kengen_db           
+  66     Undefined variable: $kengen_sm           
+  66     Undefined variable: $kengen_sm           
+  68     Undefined variable: $fg_lock             
+  76     Undefined variable: $no_seiban           
+  89     Undefined variable: $no_cyu              
+  89     Undefined variable: $no_ko               
+  94     Undefined variable: $nm_setti            
+  99     Undefined variable: $nm_syohin           
+  100    Undefined variable: $nm_syohin2          
+  105    Undefined variable: $nm_user             
+  125    Undefined variable: $yn_psp              
+  126    Undefined variable: $yn_ptov             
+  127    Undefined variable: $yn_parari           
+  128    Undefined variable: $yn_pcyunyu          
+  129    Undefined variable: $yn_psoneki          
+  130    Undefined variable: $ri_psoneki          
+  131    Undefined variable: $tm_pcyokka          
+  132    Undefined variable: $yn_pcyokka          
+  133    Undefined variable: $yn_pcyokuzai        
+  134    Undefined variable: $yn_petc             
+  135    Undefined variable: $yn_pryohi           
+  140    Undefined variable: $yn_ysp              
+  141    Undefined variable: $yn_ytov             
+  142    Undefined variable: $yn_yarari           
+  143    Undefined variable: $yn_ycyunyu          
+  144    Undefined variable: $yn_ysoneki          
+  145    Undefined variable: $ri_ysoneki          
+  146    Undefined variable: $tm_ycyokka          
+  147    Undefined variable: $yn_ycyokka          
+  148    Undefined variable: $yn_ycyokuzai        
+  149    Undefined variable: $yn_yetc             
+  150    Undefined variable: $yn_yryohi           
+  155    Undefined variable: $yn_rsp              
+  156    Undefined variable: $yn_rtov             
+  157    Undefined variable: $yn_rarari           
+  158    Undefined variable: $yn_rcyunyu          
+  159    Undefined variable: $yn_rsoneki          
+  160    Undefined variable: $ri_rsoneki          
+  161    Undefined variable: $tm_rcyokka          
+  162    Undefined variable: $yn_rcyokka          
+  163    Undefined variable: $yn_rcyokuzai        
+  164    Undefined variable: $yn_retc             
+  165    Undefined variable: $yn_rryohi           
+  172    Undefined variable: $this                
+  172    Using $this outside a class.             
+  173    Undefined variable: $no_cyu              
+  174    Undefined variable: $no_ko               
+  175    Undefined variable: $no_seq              
+  177    Undefined variable: $fg_crt              
+  190    Variable $fg_lock might not be defined.  
+  206    Undefined variable: $kb_nendo_list       
+  207    Undefined variable: $kb_nendo            
+  213    Undefined variable: $genka_yoso_list     
+  214    Undefined variable: $cd_genka_yoso       
+  225    Undefined variable: $cd_genka_yoso       
+  228    Undefined variable: $bumon_list          
+  229    Undefined variable: $cd_bumon            
+  234    Undefined variable: $cd_genka_yoso       
+  237    Undefined variable: $tanto_list          
+  238    Undefined variable: $cd_tanto            
+  247    Undefined variable: $kb_nendo            
+  248    Undefined variable: $cd_genka_yoso       
+  255    Undefined variable: $cd_tanto            
+  258    Undefined variable: $cd_genka_yoso       
+  258    Undefined variable: $nm_tanto            
+  264    Undefined variable: $nm_syohin3          
+  273    Undefined variable: $dt_yyyymm           
+  280    Undefined variable: $num_data            
+  287    Undefined variable: $dt_yyyymm           
+  294    Undefined variable: $num_data            
+  311    Undefined variable: $fg_crt              
+  321    Undefined variable: $nm_tanto_list       
+  322    Undefined variable: $nm_syohin_list      
+ ------ ----------------------------------------- 
+
+ ------ ------------------------------------ 
+  Line   template\cyunyu_inf_template11.php  
+ ------ ------------------------------------ 
+  22     Undefined variable: $fg_lock        
+  22     Undefined variable: $kengen_db      
+  22     Undefined variable: $kengen_sm      
+  22     Undefined variable: $kengen_sm      
+ ------ ------------------------------------ 
+
+ ------ ------------------------------------------ 
+  Line   template\koban_soneki_chart_template.php  
+ ------ ------------------------------------------ 
+  14     Undefined variable: $images               
+ ------ ------------------------------------------ 
+
+ ------ ------------------------------------ 
+  Line   template\koban_soneki_template.php  
+ ------ ------------------------------------ 
+  23     Undefined variable: $this           
+  23     Using $this outside a class.        
+  25     Undefined variable: $kb_tanto       
+  26     Undefined variable: $dt_hatuban     
+  27     Undefined variable: $dt_kakunin     
+  32     Undefined variable: $fg_koban       
+  32     Undefined variable: $no_cyu_tmp     
+  36     Undefined variable: $fg_project     
+  39     Undefined variable: $fg_project     
+  40     Undefined variable: $no_cyu         
+  42     Undefined variable: $kb_tanto       
+  56     Undefined variable: $no_cyu         
+  58     Undefined variable: $no_cyu         
+  59     Undefined variable: $no_cyu         
+  75     Undefined variable: $no_cyu         
+  77     Undefined variable: $nm_setti       
+  82     Undefined variable: $nm_syohin      
+  84     Undefined variable: $nm_user        
+  117    Undefined variable: $yn_sp          
+  118    Undefined variable: $yn_ptov1       
+  119    Undefined variable: $yn_arari       
+  120    Undefined variable: $yn_pcyunyu1    
+  121    Undefined variable: $yn_psoneki1    
+  122    Undefined variable: $ri_psoneki1    
+  123    Undefined variable: $tm_pcyokka1    
+  124    Undefined variable: $yn_pcyokka1    
+  125    Undefined variable: $yn_pcyokuzai1  
+  126    Undefined variable: $yn_petc1       
+  127    Undefined variable: $yn_pryohi1     
+  130    Undefined variable: $yn_sp          
+  131    Undefined variable: $yn_ptov2       
+  132    Undefined variable: $yn_arari       
+  133    Undefined variable: $yn_pcyunyu2    
+  134    Undefined variable: $yn_psoneki2    
+  135    Undefined variable: $ri_psoneki2    
+  136    Undefined variable: $tm_pcyokka2    
+  137    Undefined variable: $yn_pcyokka2    
+  138    Undefined variable: $yn_pcyokuzai2  
+  139    Undefined variable: $yn_petc2       
+  140    Undefined variable: $yn_pryohi2     
+  145    Undefined variable: $yn_sp          
+  146    Undefined variable: $yn_ytov1       
+  147    Undefined variable: $yn_arari       
+  148    Undefined variable: $yn_ycyunyu1    
+  149    Undefined variable: $yn_ysoneki1    
+  150    Undefined variable: $ri_ysoneki1    
+  151    Undefined variable: $tm_ycyokka1    
+  152    Undefined variable: $yn_ycyokka1    
+  153    Undefined variable: $yn_ycyokuzai1  
+  154    Undefined variable: $yn_yetc1       
+  155    Undefined variable: $yn_yryohi1     
+  158    Undefined variable: $yn_sp          
+  159    Undefined variable: $yn_ytov2       
+  160    Undefined variable: $yn_arari       
+  161    Undefined variable: $yn_ycyunyu2    
+  162    Undefined variable: $yn_ysoneki2    
+  163    Undefined variable: $ri_ysoneki2    
+  164    Undefined variable: $tm_ycyokka2    
+  165    Undefined variable: $yn_ycyokka2    
+  166    Undefined variable: $yn_ycyokuzai2  
+  167    Undefined variable: $yn_yetc2       
+  168    Undefined variable: $yn_yryohi2     
+  173    Undefined variable: $yn_sp          
+  174    Undefined variable: $yn_rtov1       
+  175    Undefined variable: $yn_arari       
+  176    Undefined variable: $yn_rcyunyu1    
+  177    Undefined variable: $yn_rsoneki1    
+  178    Undefined variable: $ri_rsoneki1    
+  179    Undefined variable: $tm_rcyokka1    
+  180    Undefined variable: $yn_rcyokka1    
+  181    Undefined variable: $yn_rcyokuzai1  
+  182    Undefined variable: $yn_retc1       
+  183    Undefined variable: $yn_rryohi1     
+  186    Undefined variable: $yn_sp          
+  187    Undefined variable: $yn_rtov2       
+  188    Undefined variable: $yn_arari       
+  189    Undefined variable: $yn_rcyunyu2    
+  190    Undefined variable: $yn_rsoneki2    
+  191    Undefined variable: $ri_rsoneki2    
+  192    Undefined variable: $tm_rcyokka2    
+  193    Undefined variable: $yn_rcyokka2    
+  194    Undefined variable: $yn_rcyokuzai2  
+  195    Undefined variable: $yn_retc2       
+  196    Undefined variable: $yn_rryohi2     
+ ------ ------------------------------------ 
+
+ ------ -------------------------------------- 
+  Line   template\koban_soneki_template12.php  
+ ------ -------------------------------------- 
+  14     Undefined variable: $dt_yyyymm        
+  93     Undefined variable: $dt_yyyymm        
+ ------ -------------------------------------- 
+
+ ------ ------------------------------------- 
+  Line   template\koban_tyousei_template.php  
+ ------ ------------------------------------- 
+  35     Undefined variable: $this            
+  35     Using $this outside a class.         
+  36     Undefined variable: $no_cyu          
+  44     Undefined variable: $no_cyu          
+  63     Undefined variable: $tyousei_list    
+ ------ ------------------------------------- 
+
+ ------ ---------------------------------------------------------------- 
+  Line   view\CyubanSonekiDispView.php                                   
+ ------ ---------------------------------------------------------------- 
+  23     Access to an undefined property                                 
+         seiban_kanri2\view\CyubanSonekiDispView::$dt_hakkou_diff_date.  
+  24     Access to an undefined property                                 
+         seiban_kanri2\view\CyubanSonekiDispView::$dt_hakkou_diff_date.  
+  27     Access to an undefined property                                 
+         seiban_kanri2\view\CyubanSonekiDispView::$dt_cyunyu_diff_date.  
+  28     Access to an undefined property                                 
+         seiban_kanri2\view\CyubanSonekiDispView::$dt_cyunyu_diff_date.  
+ ------ ---------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------- 
+  Line   view\CyunyuInfDispView.php                              
+ ------ -------------------------------------------------------- 
+  23     Access to an undefined property                         
+         seiban_kanri2\view\CyunyuInfDispView::$nm_tanto_list.   
+  24     Access to an undefined property                         
+         seiban_kanri2\view\CyunyuInfDispView::$nm_tanto_list.   
+  27     Access to an undefined property                         
+         seiban_kanri2\view\CyunyuInfDispView::$nm_syohin_list.  
+  28     Access to an undefined property                         
+         seiban_kanri2\view\CyunyuInfDispView::$nm_syohin_list.  
+ ------ -------------------------------------------------------- 
+
+ [ERROR] Found 1404 errors                                                     
+

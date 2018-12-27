@@ -1,0 +1,199 @@
+
+PHP CODE SNIFFER VIOLATION SOURCE SUMMARY
+------------------------------------------------------------------------------
+    SOURCE                                                               COUNT
+------------------------------------------------------------------------------
+[ ] Generic.Files.LineLength.TooLong                                     22
+[ ] PSR1.Methods.CamelCapsMethodName.NotCamelCaps                        21
+[x] Generic.PHP.DisallowShortOpenTag.Found                               12
+[x] Squiz.WhiteSpace.ScopeClosingBrace.ContentBefore                     5
+[x] Squiz.ControlStructures.ControlSignature.NewlineAfterOpenBrace       5
+[x] Squiz.ControlStructures.ControlSignature.SpaceAfterCloseParenthesis  3
+[x] Generic.WhiteSpace.ScopeIndent.IncorrectExact                        1
+------------------------------------------------------------------------------
+A TOTAL OF 69 SNIFF VIOLATIONS WERE FOUND IN 7 SOURCES
+------------------------------------------------------------------------------
+PHPCBF CAN FIX THE 5 MARKED SOURCES AUTOMATICALLY (26 VIOLATIONS IN TOTAL)
+------------------------------------------------------------------------------
+
+Time: 1.79 secs; Memory: 6Mb
+
+
+PHP CODE SNIFFER INFORMATION REPORT
+----------------------------------------------------------------------
+Blank lines at end of control structure: 0 [66/66, 100%]
+
+Blank lines at start of control structure: 0 [66/66, 100%]
+
+CamelCase class name: yes [24/24, 100%]
+
+CamelCase method name: yes [90/111, 81.08%]
+	no => 21 (18.92%)
+
+Class defined in namespace: yes [24/24, 100%]
+
+Class opening brace placement: new line [24/24, 100%]
+
+Closure opening brace placement: same line [1/1, 100%]
+
+Control structure defined inline: no [50/50, 100%]
+
+Declarations and side effects mixed: no [34/34, 100%]
+
+EOL char: \n [34/34, 100%]
+
+Function opening brace placement: new line [120/120, 100%]
+
+Line indent: spaces [1704/1704, 100%]
+
+Line length: 80 or less [2646/2725, 97.1%]
+	81-120 => 57 (2.09%)
+	121-150 => 14 (0.51%)
+	151 or more => 8 (0.29%)
+
+Multiple statements on same line: no [696/696, 100%]
+
+Number of newlines at EOF: 1 [32/32, 100%]
+
+One class per file: yes [24/24, 100%]
+
+PHP closing tag at end of PHP-only file: no [32/32, 100%]
+
+PHP constant case: lower [23/23, 100%]
+
+PHP keyword case: lower [850/850, 100%]
+
+PHP short open tag used: no [89/101, 88.12%]
+	yes => 12 (11.88%)
+
+Spaces after control structure open parenthesis: 0 [58/58, 100%]
+
+Spaces before control structure close parenthesis: 0 [58/58, 100%]
+
+----------------------------------------------------------------------
+Time: 1.95 secs; Memory: 6Mb
+
+
+FILE: D:\Public\www\itc_develop\itc_main.files\jyukyu_inf\model\PostJyukyuInfDispAllUkeire.php
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+FOUND 4 ERRORS AFFECTING 4 LINES
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+ 30 | ERROR | Method name "PostJyukyuInfDispAllUkeire::isValidNo_jyukyu" is not in camel caps format (PSR1.Methods.CamelCapsMethodName.NotCamelCaps)
+ 35 | ERROR | Method name "PostJyukyuInfDispAllUkeire::validNo_jyukyu" is not in camel caps format (PSR1.Methods.CamelCapsMethodName.NotCamelCaps)
+ 40 | ERROR | Method name "PostJyukyuInfDispAllUkeire::isValidNm_target" is not in camel caps format (PSR1.Methods.CamelCapsMethodName.NotCamelCaps)
+ 50 | ERROR | Method name "PostJyukyuInfDispAllUkeire::isValidNm_target_suryo" is not in camel caps format (PSR1.Methods.CamelCapsMethodName.NotCamelCaps)
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+FILE: D:\Public\www\itc_develop\itc_main.files\jyukyu_inf\model\PostJyukyuInfDispJyukyu.php
+--------------------------------------------------------------------------------------------------------------------------------------------------
+FOUND 6 ERRORS AFFECTING 6 LINES
+--------------------------------------------------------------------------------------------------------------------------------------------------
+ 35 | ERROR | Method name "PostJyukyuInfDispJyukyu::isValidNo_cyu" is not in camel caps format (PSR1.Methods.CamelCapsMethodName.NotCamelCaps)
+ 40 | ERROR | Method name "PostJyukyuInfDispJyukyu::isValidNo_jyukyu" is not in camel caps format (PSR1.Methods.CamelCapsMethodName.NotCamelCaps)
+ 48 | ERROR | Method name "PostJyukyuInfDispJyukyu::isValidNm_syohin" is not in camel caps format (PSR1.Methods.CamelCapsMethodName.NotCamelCaps)
+ 53 | ERROR | Method name "PostJyukyuInfDispJyukyu::isValidNm_model" is not in camel caps format (PSR1.Methods.CamelCapsMethodName.NotCamelCaps)
+ 58 | ERROR | Method name "PostJyukyuInfDispJyukyu::isDt_pjyukyu" is not in camel caps format (PSR1.Methods.CamelCapsMethodName.NotCamelCaps)
+ 63 | ERROR | Method name "PostJyukyuInfDispJyukyu::isNo_psuryo" is not in camel caps format (PSR1.Methods.CamelCapsMethodName.NotCamelCaps)
+--------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+FILE: D:\Public\www\itc_develop\itc_main.files\jyukyu_inf\model\PostJyukyuInfDispUkeire.php
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+FOUND 5 ERRORS AFFECTING 5 LINES
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+ 35 | ERROR | Method name "PostJyukyuInfDispUkeire::isValidNo_cyu" is not in camel caps format (PSR1.Methods.CamelCapsMethodName.NotCamelCaps)
+ 40 | ERROR | Method name "PostJyukyuInfDispUkeire::isValidNo_jyukyu" is not in camel caps format (PSR1.Methods.CamelCapsMethodName.NotCamelCaps)
+ 45 | ERROR | Method name "PostJyukyuInfDispUkeire::isValidCd_jyukyu_tanto" is not in camel caps format (PSR1.Methods.CamelCapsMethodName.NotCamelCaps)
+ 50 | ERROR | Method name "PostJyukyuInfDispUkeire::isDt_rjyukyu" is not in camel caps format (PSR1.Methods.CamelCapsMethodName.NotCamelCaps)
+ 55 | ERROR | Method name "PostJyukyuInfDispUkeire::isNo_rsuryo" is not in camel caps format (PSR1.Methods.CamelCapsMethodName.NotCamelCaps)
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+FILE: D:\Public\www\itc_develop\itc_main.files\jyukyu_inf\model\QueryJyukyuInfDisp.php
+-------------------------------------------------------------------------------------------------------------------------------------------
+FOUND 2 ERRORS AFFECTING 2 LINES
+-------------------------------------------------------------------------------------------------------------------------------------------
+ 23 | ERROR | Method name "QueryJyukyuInfDisp::isValidNo_cyu" is not in camel caps format (PSR1.Methods.CamelCapsMethodName.NotCamelCaps)
+ 31 | ERROR | Method name "QueryJyukyuInfDisp::isValidNo_page" is not in camel caps format (PSR1.Methods.CamelCapsMethodName.NotCamelCaps)
+-------------------------------------------------------------------------------------------------------------------------------------------
+
+
+FILE: D:\Public\www\itc_develop\itc_main.files\jyukyu_inf\model\QueryJyukyuKanriDisp.php
+---------------------------------------------------------------------------------------------------------------------------------------------------
+FOUND 4 ERRORS AFFECTING 4 LINES
+---------------------------------------------------------------------------------------------------------------------------------------------------
+ 23 | ERROR | Method name "QueryJyukyuKanriDisp::isValidKb_nendo" is not in camel caps format (PSR1.Methods.CamelCapsMethodName.NotCamelCaps)
+ 31 | ERROR | Method name "QueryJyukyuKanriDisp::isValidCd_bumon" is not in camel caps format (PSR1.Methods.CamelCapsMethodName.NotCamelCaps)
+ 39 | ERROR | Method name "QueryJyukyuKanriDisp::isValidChk_nendo_all" is not in camel caps format (PSR1.Methods.CamelCapsMethodName.NotCamelCaps)
+ 47 | ERROR | Method name "QueryJyukyuKanriDisp::isValidChk_kansei" is not in camel caps format (PSR1.Methods.CamelCapsMethodName.NotCamelCaps)
+---------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+FILE: D:\Public\www\itc_develop\itc_main.files\jyukyu_inf\template\jyukyu_inf_template.php
+----------------------------------------------------------------------------------------------------------------------------
+FOUND 1 ERROR AND 13 WARNINGS AFFECTING 14 LINES
+----------------------------------------------------------------------------------------------------------------------------
+  50 | WARNING | [ ] Line exceeds 120 characters; contains 188 characters (Generic.Files.LineLength.TooLong)
+  51 | WARNING | [ ] Line exceeds 120 characters; contains 129 characters (Generic.Files.LineLength.TooLong)
+  52 | WARNING | [ ] Line exceeds 120 characters; contains 123 characters (Generic.Files.LineLength.TooLong)
+ 108 | WARNING | [ ] Line exceeds 120 characters; contains 164 characters (Generic.Files.LineLength.TooLong)
+ 111 | WARNING | [ ] Line exceeds 120 characters; contains 127 characters (Generic.Files.LineLength.TooLong)
+ 114 | WARNING | [ ] Line exceeds 120 characters; contains 175 characters (Generic.Files.LineLength.TooLong)
+ 117 | WARNING | [ ] Line exceeds 120 characters; contains 136 characters (Generic.Files.LineLength.TooLong)
+ 125 | WARNING | [ ] Line exceeds 120 characters; contains 152 characters (Generic.Files.LineLength.TooLong)
+ 143 | WARNING | [ ] Line exceeds 120 characters; contains 142 characters (Generic.Files.LineLength.TooLong)
+ 158 | ERROR   | [x] Line indented incorrectly; expected 0 spaces, found 15 (Generic.WhiteSpace.ScopeIndent.IncorrectExact)
+ 165 | WARNING | [ ] Line exceeds 120 characters; contains 173 characters (Generic.Files.LineLength.TooLong)
+ 168 | WARNING | [ ] Line exceeds 120 characters; contains 136 characters (Generic.Files.LineLength.TooLong)
+ 216 | WARNING | [ ] Line exceeds 120 characters; contains 128 characters (Generic.Files.LineLength.TooLong)
+ 244 | WARNING | [ ] Line exceeds 120 characters; contains 136 characters (Generic.Files.LineLength.TooLong)
+----------------------------------------------------------------------------------------------------------------------------
+PHPCBF CAN FIX THE 1 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------------------------------------------------------------
+
+
+FILE: D:\Public\www\itc_develop\itc_main.files\jyukyu_inf\template\jyukyu_kanri_template.php
+--------------------------------------------------------------------------------------------------------------------------------------------------
+FOUND 25 ERRORS AND 9 WARNINGS AFFECTING 17 LINES
+--------------------------------------------------------------------------------------------------------------------------------------------------
+  33 | ERROR   | [x] Short PHP opening tag used; expected "<?php" but found "<?" (Generic.PHP.DisallowShortOpenTag.Found)
+  33 | ERROR   | [x] Newline required after opening brace (Squiz.ControlStructures.ControlSignature.NewlineAfterOpenBrace)
+  33 | ERROR   | [x] Closing brace must be on a line by itself (Squiz.WhiteSpace.ScopeClosingBrace.ContentBefore)
+  35 | ERROR   | [x] Short PHP opening tag used; expected "<?php" but found "<?" (Generic.PHP.DisallowShortOpenTag.Found)
+  35 | ERROR   | [x] Expected 1 space(s) after closing parenthesis; found 0 (Squiz.ControlStructures.ControlSignature.SpaceAfterCloseParenthesis)
+  36 | ERROR   | [x] Short PHP opening tag used; expected "<?php" but found "<?" (Generic.PHP.DisallowShortOpenTag.Found)
+  36 | ERROR   | [x] Newline required after opening brace (Squiz.ControlStructures.ControlSignature.NewlineAfterOpenBrace)
+  36 | ERROR   | [x] Closing brace must be on a line by itself (Squiz.WhiteSpace.ScopeClosingBrace.ContentBefore)
+  36 | WARNING | [ ] Line exceeds 120 characters; contains 136 characters (Generic.Files.LineLength.TooLong)
+  37 | ERROR   | [x] Short PHP opening tag used; expected "<?php" but found "<?" (Generic.PHP.DisallowShortOpenTag.Found)
+  46 | ERROR   | [x] Short PHP opening tag used; expected "<?php" but found "<?" (Generic.PHP.DisallowShortOpenTag.Found)
+  46 | ERROR   | [x] Expected 1 space(s) after closing parenthesis; found 0 (Squiz.ControlStructures.ControlSignature.SpaceAfterCloseParenthesis)
+  47 | ERROR   | [x] Short PHP opening tag used; expected "<?php" but found "<?" (Generic.PHP.DisallowShortOpenTag.Found)
+  47 | ERROR   | [x] Newline required after opening brace (Squiz.ControlStructures.ControlSignature.NewlineAfterOpenBrace)
+  47 | ERROR   | [x] Closing brace must be on a line by itself (Squiz.WhiteSpace.ScopeClosingBrace.ContentBefore)
+  47 | WARNING | [ ] Line exceeds 120 characters; contains 137 characters (Generic.Files.LineLength.TooLong)
+  48 | ERROR   | [x] Short PHP opening tag used; expected "<?php" but found "<?" (Generic.PHP.DisallowShortOpenTag.Found)
+  54 | ERROR   | [x] Short PHP opening tag used; expected "<?php" but found "<?" (Generic.PHP.DisallowShortOpenTag.Found)
+  54 | ERROR   | [x] Expected 1 space(s) after closing parenthesis; found 0 (Squiz.ControlStructures.ControlSignature.SpaceAfterCloseParenthesis)
+  55 | ERROR   | [x] Short PHP opening tag used; expected "<?php" but found "<?" (Generic.PHP.DisallowShortOpenTag.Found)
+  55 | ERROR   | [x] Newline required after opening brace (Squiz.ControlStructures.ControlSignature.NewlineAfterOpenBrace)
+  55 | ERROR   | [x] Closing brace must be on a line by itself (Squiz.WhiteSpace.ScopeClosingBrace.ContentBefore)
+  55 | WARNING | [ ] Line exceeds 120 characters; contains 165 characters (Generic.Files.LineLength.TooLong)
+  57 | ERROR   | [x] Short PHP opening tag used; expected "<?php" but found "<?" (Generic.PHP.DisallowShortOpenTag.Found)
+  59 | ERROR   | [x] Short PHP opening tag used; expected "<?php" but found "<?" (Generic.PHP.DisallowShortOpenTag.Found)
+  59 | ERROR   | [x] Newline required after opening brace (Squiz.ControlStructures.ControlSignature.NewlineAfterOpenBrace)
+  59 | ERROR   | [x] Closing brace must be on a line by itself (Squiz.WhiteSpace.ScopeClosingBrace.ContentBefore)
+  59 | WARNING | [ ] Line exceeds 120 characters; contains 153 characters (Generic.Files.LineLength.TooLong)
+  66 | WARNING | [ ] Line exceeds 120 characters; contains 131 characters (Generic.Files.LineLength.TooLong)
+  74 | ERROR   | [x] Short PHP opening tag used; expected "<?php" but found "<?" (Generic.PHP.DisallowShortOpenTag.Found)
+  78 | WARNING | [ ] Line exceeds 120 characters; contains 125 characters (Generic.Files.LineLength.TooLong)
+ 123 | WARNING | [ ] Line exceeds 120 characters; contains 165 characters (Generic.Files.LineLength.TooLong)
+ 129 | WARNING | [ ] Line exceeds 120 characters; contains 145 characters (Generic.Files.LineLength.TooLong)
+ 154 | WARNING | [ ] Line exceeds 120 characters; contains 136 characters (Generic.Files.LineLength.TooLong)
+--------------------------------------------------------------------------------------------------------------------------------------------------
+PHPCBF CAN FIX THE 25 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+--------------------------------------------------------------------------------------------------------------------------------------------------
+
+Time: 2.11 secs; Memory: 6Mb
+

@@ -1,0 +1,597 @@
+
+PHP CODE SNIFFER VIOLATION SOURCE SUMMARY
+------------------------------------------------------------------------------
+    SOURCE                                                               COUNT
+------------------------------------------------------------------------------
+[ ] Generic.Files.LineLength.TooLong                                     129
+[x] Generic.PHP.DisallowShortOpenTag.Found                               97
+[ ] PSR1.Methods.CamelCapsMethodName.NotCamelCaps                        44
+[x] Squiz.ControlStructures.ControlSignature.SpaceAfterCloseParenthesis  22
+[x] Squiz.WhiteSpace.ScopeClosingBrace.ContentBefore                     20
+[x] Squiz.ControlStructures.ControlSignature.NewlineAfterOpenBrace       20
+[x] Squiz.ControlStructures.ControlSignature.SpaceAfterKeyword           5
+[x] Generic.Formatting.DisallowMultipleStatements.SameLine               2
+[x] Squiz.WhiteSpace.ScopeClosingBrace.Indent                            2
+[x] Generic.WhiteSpace.ScopeIndent.IncorrectExact                        1
+[x] Generic.ControlStructures.InlineControlStructure.NotAllowed          1
+[x] Generic.WhiteSpace.ScopeIndent.Incorrect                             1
+[x] Generic.WhiteSpace.DisallowTabIndent.TabsUsed                        1
+[ ] Squiz.Functions.FunctionDeclaration.Found                            1
+------------------------------------------------------------------------------
+A TOTAL OF 346 SNIFF VIOLATIONS WERE FOUND IN 14 SOURCES
+------------------------------------------------------------------------------
+PHPCBF CAN FIX THE 11 MARKED SOURCES AUTOMATICALLY (172 VIOLATIONS IN TOTAL)
+------------------------------------------------------------------------------
+
+Time: 7.97 secs; Memory: 6Mb
+
+
+PHP CODE SNIFFER INFORMATION REPORT
+----------------------------------------------------------------------
+Blank lines at end of control structure: 0 [540/540, 100%]
+
+Blank lines at start of control structure: 0 [541/541, 100%]
+
+CamelCase class name: yes [70/70, 100%]
+
+CamelCase method name: yes [335/379, 88.39%]
+	no => 44 (11.61%)
+
+Class defined in namespace: yes [70/70, 100%]
+
+Class opening brace placement: new line [70/70, 100%]
+
+Closure opening brace placement: same line [15/15, 100%]
+
+Control structure defined inline: no [495/496, 99.8%]
+	yes => 1 (0.2%)
+
+Declarations and side effects mixed: no [102/102, 100%]
+
+EOL char: \n [102/102, 100%]
+
+Function opening brace placement: new line [393/393, 100%]
+
+Line indent: spaces [9797/9798, 99.99%]
+	tabs => 1 (0.01%)
+
+Line length: 80 or less [13879/14159, 98.02%]
+	81-120 => 151 (1.07%)
+	121-150 => 100 (0.71%)
+	151 or more => 29 (0.2%)
+
+Multiple statements on same line: no [4000/4002, 99.95%]
+	yes => 2 (0.05%)
+
+Number of newlines at EOF: 1 [91/91, 100%]
+
+One class per file: yes [70/70, 100%]
+
+PHP closing tag at end of PHP-only file: no [91/91, 100%]
+
+PHP constant case: lower [192/192, 100%]
+
+PHP keyword case: lower [3500/3500, 100%]
+
+PHP short open tag used: no [419/516, 81.2%]
+	yes => 97 (18.8%)
+
+Spaces after control structure open parenthesis: 0 [470/470, 100%]
+
+Spaces before control structure close parenthesis: 0 [470/470, 100%]
+
+Use of ELSE IF or ELSEIF: elseif [8/8, 100%]
+
+Using byte order mark: no [4/4, 100%]
+
+----------------------------------------------------------------------
+Time: 9.08 secs; Memory: 6Mb
+
+
+FILE: D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\CyubanSonekiDispGridModel.php
+---------------------------------------------------------------------------------------------------------------------
+FOUND 1 ERROR AFFECTING 1 LINE
+---------------------------------------------------------------------------------------------------------------------
+ 45 | ERROR | Expected "function abc(...);"; found "function abc(...) ;" (Squiz.Functions.FunctionDeclaration.Found)
+---------------------------------------------------------------------------------------------------------------------
+
+
+FILE: D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\CyunyuInfDispMntModel.php
+---------------------------------------------------------------------------------------------------------
+FOUND 0 ERRORS AND 6 WARNINGS AFFECTING 6 LINES
+---------------------------------------------------------------------------------------------------------
+ 288 | WARNING | Line exceeds 120 characters; contains 150 characters (Generic.Files.LineLength.TooLong)
+ 375 | WARNING | Line exceeds 120 characters; contains 158 characters (Generic.Files.LineLength.TooLong)
+ 385 | WARNING | Line exceeds 120 characters; contains 162 characters (Generic.Files.LineLength.TooLong)
+ 387 | WARNING | Line exceeds 120 characters; contains 158 characters (Generic.Files.LineLength.TooLong)
+ 417 | WARNING | Line exceeds 120 characters; contains 154 characters (Generic.Files.LineLength.TooLong)
+ 467 | WARNING | Line exceeds 120 characters; contains 168 characters (Generic.Files.LineLength.TooLong)
+---------------------------------------------------------------------------------------------------------
+
+
+FILE: D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\PostCyubanSonekiExcelRead.php
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+FOUND 3 ERRORS AFFECTING 3 LINES
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+ 31 | ERROR | Method name "PostCyubanSonekiExcelRead::isValidKb_nendo" is not in camel caps format (PSR1.Methods.CamelCapsMethodName.NotCamelCaps)
+ 36 | ERROR | Method name "PostCyubanSonekiExcelRead::isValidCd_bumon" is not in camel caps format (PSR1.Methods.CamelCapsMethodName.NotCamelCaps)
+ 41 | ERROR | Method name "PostCyubanSonekiExcelRead::isValidMAX_FILE_SIZE" is not in camel caps format (PSR1.Methods.CamelCapsMethodName.NotCamelCaps)
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+FILE: D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\PostCyunyuInfDisp.php
+-------------------------------------------------------------------------------------------------------------------------------------------------
+FOUND 11 ERRORS AFFECTING 11 LINES
+-------------------------------------------------------------------------------------------------------------------------------------------------
+  35 | ERROR | Method name "PostCyunyuInfDisp::isValidFg_lock" is not in camel caps format (PSR1.Methods.CamelCapsMethodName.NotCamelCaps)
+  47 | ERROR | Method name "PostCyunyuInfDisp::isValidNo_cyu" is not in camel caps format (PSR1.Methods.CamelCapsMethodName.NotCamelCaps)
+  55 | ERROR | Method name "PostCyunyuInfDisp::isValidNo_ko" is not in camel caps format (PSR1.Methods.CamelCapsMethodName.NotCamelCaps)
+  63 | ERROR | Method name "PostCyunyuInfDisp::isValidNo_seq" is not in camel caps format (PSR1.Methods.CamelCapsMethodName.NotCamelCaps)
+  71 | ERROR | Method name "PostCyunyuInfDisp::isValidKb_nendo" is not in camel caps format (PSR1.Methods.CamelCapsMethodName.NotCamelCaps)
+  87 | ERROR | Method name "PostCyunyuInfDisp::isValidCd_genka_yoso" is not in camel caps format (PSR1.Methods.CamelCapsMethodName.NotCamelCaps)
+  95 | ERROR | Method name "PostCyunyuInfDisp::isValidCd_bumon" is not in camel caps format (PSR1.Methods.CamelCapsMethodName.NotCamelCaps)
+ 111 | ERROR | Method name "PostCyunyuInfDisp::isValidCd_tanto" is not in camel caps format (PSR1.Methods.CamelCapsMethodName.NotCamelCaps)
+ 127 | ERROR | Method name "PostCyunyuInfDisp::isValidNm_tanto" is not in camel caps format (PSR1.Methods.CamelCapsMethodName.NotCamelCaps)
+ 144 | ERROR | Method name "PostCyunyuInfDisp::isValidNm_syohin" is not in camel caps format (PSR1.Methods.CamelCapsMethodName.NotCamelCaps)
+ 161 | ERROR | Method name "PostCyunyuInfDisp::isValidNum_data" is not in camel caps format (PSR1.Methods.CamelCapsMethodName.NotCamelCaps)
+-------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+FILE: D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\PostKobanSonekiDisp.php
+-----------------------------------------------------------------------------------------------------------------------------------------------
+FOUND 3 ERRORS AFFECTING 3 LINES
+-----------------------------------------------------------------------------------------------------------------------------------------------
+ 34 | ERROR | Method name "PostKobanSonekiDisp::isValidKb_tanto" is not in camel caps format (PSR1.Methods.CamelCapsMethodName.NotCamelCaps)
+ 47 | ERROR | Method name "PostKobanSonekiDisp::isValidDt_hatuban" is not in camel caps format (PSR1.Methods.CamelCapsMethodName.NotCamelCaps)
+ 59 | ERROR | Method name "PostKobanSonekiDisp::isValidDt_kakunin" is not in camel caps format (PSR1.Methods.CamelCapsMethodName.NotCamelCaps)
+-----------------------------------------------------------------------------------------------------------------------------------------------
+
+
+FILE: D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\PostKobanTyouseiDisp.php
+------------------------------------------------------------------------------------------------------------------------------------------------
+FOUND 4 ERRORS AFFECTING 4 LINES
+------------------------------------------------------------------------------------------------------------------------------------------------
+ 33 | ERROR | Method name "PostKobanTyouseiDisp::isValidNo_ko" is not in camel caps format (PSR1.Methods.CamelCapsMethodName.NotCamelCaps)
+ 44 | ERROR | Method name "PostKobanTyouseiDisp::isValidYn_ttov" is not in camel caps format (PSR1.Methods.CamelCapsMethodName.NotCamelCaps)
+ 55 | ERROR | Method name "PostKobanTyouseiDisp::isValidYn_tsoneki" is not in camel caps format (PSR1.Methods.CamelCapsMethodName.NotCamelCaps)
+ 66 | ERROR | Method name "PostKobanTyouseiDisp::isValidNm_biko" is not in camel caps format (PSR1.Methods.CamelCapsMethodName.NotCamelCaps)
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+FILE: D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\QueryCyubanSonekiChartMain.php
+----------------------------------------------------------------------------------------------------------------------------------------------------
+FOUND 2 ERRORS AFFECTING 2 LINES
+----------------------------------------------------------------------------------------------------------------------------------------------------
+ 25 | ERROR | Method name "QueryCyubanSonekiChartMain::isValidKb_nendo" is not in camel caps format (PSR1.Methods.CamelCapsMethodName.NotCamelCaps)
+ 33 | ERROR | Method name "QueryCyubanSonekiChartMain::isValidCd_bumon" is not in camel caps format (PSR1.Methods.CamelCapsMethodName.NotCamelCaps)
+----------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+FILE: D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\QueryCyubanSonekiDisp.php
+------------------------------------------------------------------------------------------------------------------------------------------------------
+FOUND 10 ERRORS AFFECTING 10 LINES
+------------------------------------------------------------------------------------------------------------------------------------------------------
+  25 | ERROR | Method name "QueryCyubanSonekiDisp::isValidKb_nendo" is not in camel caps format (PSR1.Methods.CamelCapsMethodName.NotCamelCaps)
+  33 | ERROR | Method name "QueryCyubanSonekiDisp::isValidCd_bumon" is not in camel caps format (PSR1.Methods.CamelCapsMethodName.NotCamelCaps)
+  41 | ERROR | Method name "QueryCyubanSonekiDisp::isValidChk_nendo_all" is not in camel caps format (PSR1.Methods.CamelCapsMethodName.NotCamelCaps)
+  49 | ERROR | Method name "QueryCyubanSonekiDisp::isValidChk_kansei" is not in camel caps format (PSR1.Methods.CamelCapsMethodName.NotCamelCaps)
+  57 | ERROR | Method name "QueryCyubanSonekiDisp::isValidChk_job" is not in camel caps format (PSR1.Methods.CamelCapsMethodName.NotCamelCaps)
+  65 | ERROR | Method name "QueryCyubanSonekiDisp::isValidNarrow_tanto" is not in camel caps format (PSR1.Methods.CamelCapsMethodName.NotCamelCaps)
+  77 | ERROR | Method name "QueryCyubanSonekiDisp::isValidFg_cyuban" is not in camel caps format (PSR1.Methods.CamelCapsMethodName.NotCamelCaps)
+  85 | ERROR | Method name "QueryCyubanSonekiDisp::isValidCd_kisyu" is not in camel caps format (PSR1.Methods.CamelCapsMethodName.NotCamelCaps)
+  93 | ERROR | Method name "QueryCyubanSonekiDisp::isValidNo_bunya_eigyo" is not in camel caps format (PSR1.Methods.CamelCapsMethodName.NotCamelCaps)
+ 101 | ERROR | Method name "QueryCyubanSonekiDisp::isValidNo_bunya_seizo" is not in camel caps format (PSR1.Methods.CamelCapsMethodName.NotCamelCaps)
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+FILE: D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\QueryCyunyuInfCdBumon.php
+-----------------------------------------------------------------------------------------------------------------------------------------------
+FOUND 1 ERROR AFFECTING 1 LINE
+-----------------------------------------------------------------------------------------------------------------------------------------------
+ 35 | ERROR | Method name "QueryCyunyuInfCdBumon::isValidCd_bumon" is not in camel caps format (PSR1.Methods.CamelCapsMethodName.NotCamelCaps)
+-----------------------------------------------------------------------------------------------------------------------------------------------
+
+
+FILE: D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\QueryCyunyuInfDisp.php
+------------------------------------------------------------------------------------------------------------------------------------------
+FOUND 4 ERRORS AFFECTING 4 LINES
+------------------------------------------------------------------------------------------------------------------------------------------
+ 25 | ERROR | Method name "QueryCyunyuInfDisp::isValidNo_cyu" is not in camel caps format (PSR1.Methods.CamelCapsMethodName.NotCamelCaps)
+ 33 | ERROR | Method name "QueryCyunyuInfDisp::isValidNo_ko" is not in camel caps format (PSR1.Methods.CamelCapsMethodName.NotCamelCaps)
+ 41 | ERROR | Method name "QueryCyunyuInfDisp::isValidFg_crt" is not in camel caps format (PSR1.Methods.CamelCapsMethodName.NotCamelCaps)
+ 52 | ERROR | Method name "QueryCyunyuInfDisp::isValidNo_seq" is not in camel caps format (PSR1.Methods.CamelCapsMethodName.NotCamelCaps)
+------------------------------------------------------------------------------------------------------------------------------------------
+
+
+FILE: D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\QueryKobanSonekiChartMain.php
+-------------------------------------------------------------------------------------------------------------------------------------------------
+FOUND 2 ERRORS AFFECTING 2 LINES
+-------------------------------------------------------------------------------------------------------------------------------------------------
+ 25 | ERROR | Method name "QueryKobanSonekiChartMain::isValidNo_cyu" is not in camel caps format (PSR1.Methods.CamelCapsMethodName.NotCamelCaps)
+ 33 | ERROR | Method name "QueryKobanSonekiChartMain::isValidNo_ko" is not in camel caps format (PSR1.Methods.CamelCapsMethodName.NotCamelCaps)
+-------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+FILE: D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\QueryKobanSonekiDisp.php
+------------------------------------------------------------------------------------------------------------------------------------------------
+FOUND 3 ERRORS AFFECTING 3 LINES
+------------------------------------------------------------------------------------------------------------------------------------------------
+ 25 | ERROR | Method name "QueryKobanSonekiDisp::isValidNo_cyu" is not in camel caps format (PSR1.Methods.CamelCapsMethodName.NotCamelCaps)
+ 36 | ERROR | Method name "QueryKobanSonekiDisp::isValidFg_koban" is not in camel caps format (PSR1.Methods.CamelCapsMethodName.NotCamelCaps)
+ 44 | ERROR | Method name "QueryKobanSonekiDisp::isValidFg_project" is not in camel caps format (PSR1.Methods.CamelCapsMethodName.NotCamelCaps)
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+FILE: D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\model\QueryKobanTyouseiDisp.php
+---------------------------------------------------------------------------------------------------------------------------------------------
+FOUND 1 ERROR AFFECTING 1 LINE
+---------------------------------------------------------------------------------------------------------------------------------------------
+ 23 | ERROR | Method name "QueryKobanTyouseiDisp::isValidNo_cyu" is not in camel caps format (PSR1.Methods.CamelCapsMethodName.NotCamelCaps)
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+
+FILE: D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\template\cyuban_soneki_excel_read_template.php
+-----------------------------------------------------------------------------------------------------------
+FOUND 0 ERRORS AND 2 WARNINGS AFFECTING 2 LINES
+-----------------------------------------------------------------------------------------------------------
+ 41 | WARNING | Line exceeds 120 characters; contains 123 characters (Generic.Files.LineLength.TooLong)
+ 49 | WARNING | Line exceeds 120 characters; contains 153 characters (Generic.Files.LineLength.TooLong)
+-----------------------------------------------------------------------------------------------------------
+
+
+FILE: D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\template\cyuban_soneki_template.php
+--------------------------------------------------------------------------------------------------------------------------------------------------
+FOUND 70 ERRORS AND 53 WARNINGS AFFECTING 84 LINES
+--------------------------------------------------------------------------------------------------------------------------------------------------
+   1 | ERROR   | [x] Short PHP opening tag used; expected "<?php" but found "<?" (Generic.PHP.DisallowShortOpenTag.Found)
+   2 | ERROR   | [x] Short PHP opening tag used; expected "<?php" but found "<?" (Generic.PHP.DisallowShortOpenTag.Found)
+   3 | ERROR   | [x] Short PHP opening tag used; expected "<?php" but found "<?" (Generic.PHP.DisallowShortOpenTag.Found)
+   4 | ERROR   | [x] Short PHP opening tag used; expected "<?php" but found "<?" (Generic.PHP.DisallowShortOpenTag.Found)
+   5 | ERROR   | [x] Short PHP opening tag used; expected "<?php" but found "<?" (Generic.PHP.DisallowShortOpenTag.Found)
+   6 | ERROR   | [x] Short PHP opening tag used; expected "<?php" but found "<?" (Generic.PHP.DisallowShortOpenTag.Found)
+   7 | ERROR   | [x] Short PHP opening tag used; expected "<?php" but found "<?" (Generic.PHP.DisallowShortOpenTag.Found)
+   8 | ERROR   | [x] Short PHP opening tag used; expected "<?php" but found "<?" (Generic.PHP.DisallowShortOpenTag.Found)
+   9 | ERROR   | [x] Short PHP opening tag used; expected "<?php" but found "<?" (Generic.PHP.DisallowShortOpenTag.Found)
+  10 | ERROR   | [x] Short PHP opening tag used; expected "<?php" but found "<?" (Generic.PHP.DisallowShortOpenTag.Found)
+  45 | ERROR   | [x] Short PHP opening tag used; expected "<?php" but found "<?" (Generic.PHP.DisallowShortOpenTag.Found)
+  45 | ERROR   | [x] Newline required after opening brace (Squiz.ControlStructures.ControlSignature.NewlineAfterOpenBrace)
+  45 | ERROR   | [x] Closing brace must be on a line by itself (Squiz.WhiteSpace.ScopeClosingBrace.ContentBefore)
+  47 | ERROR   | [x] Short PHP opening tag used; expected "<?php" but found "<?" (Generic.PHP.DisallowShortOpenTag.Found)
+  47 | ERROR   | [x] Expected 1 space(s) after closing parenthesis; found 0 (Squiz.ControlStructures.ControlSignature.SpaceAfterCloseParenthesis)
+  48 | ERROR   | [x] Short PHP opening tag used; expected "<?php" but found "<?" (Generic.PHP.DisallowShortOpenTag.Found)
+  48 | ERROR   | [x] Newline required after opening brace (Squiz.ControlStructures.ControlSignature.NewlineAfterOpenBrace)
+  48 | ERROR   | [x] Closing brace must be on a line by itself (Squiz.WhiteSpace.ScopeClosingBrace.ContentBefore)
+  48 | WARNING | [ ] Line exceeds 120 characters; contains 136 characters (Generic.Files.LineLength.TooLong)
+  49 | ERROR   | [x] Short PHP opening tag used; expected "<?php" but found "<?" (Generic.PHP.DisallowShortOpenTag.Found)
+  58 | ERROR   | [x] Short PHP opening tag used; expected "<?php" but found "<?" (Generic.PHP.DisallowShortOpenTag.Found)
+  58 | ERROR   | [x] Expected 1 space(s) after closing parenthesis; found 0 (Squiz.ControlStructures.ControlSignature.SpaceAfterCloseParenthesis)
+  59 | ERROR   | [x] Short PHP opening tag used; expected "<?php" but found "<?" (Generic.PHP.DisallowShortOpenTag.Found)
+  59 | ERROR   | [x] Newline required after opening brace (Squiz.ControlStructures.ControlSignature.NewlineAfterOpenBrace)
+  59 | ERROR   | [x] Closing brace must be on a line by itself (Squiz.WhiteSpace.ScopeClosingBrace.ContentBefore)
+  59 | WARNING | [ ] Line exceeds 120 characters; contains 137 characters (Generic.Files.LineLength.TooLong)
+  60 | ERROR   | [x] Short PHP opening tag used; expected "<?php" but found "<?" (Generic.PHP.DisallowShortOpenTag.Found)
+  66 | ERROR   | [x] Short PHP opening tag used; expected "<?php" but found "<?" (Generic.PHP.DisallowShortOpenTag.Found)
+  66 | ERROR   | [x] Expected 1 space(s) after closing parenthesis; found 0 (Squiz.ControlStructures.ControlSignature.SpaceAfterCloseParenthesis)
+  67 | ERROR   | [x] Short PHP opening tag used; expected "<?php" but found "<?" (Generic.PHP.DisallowShortOpenTag.Found)
+  67 | ERROR   | [x] Newline required after opening brace (Squiz.ControlStructures.ControlSignature.NewlineAfterOpenBrace)
+  67 | ERROR   | [x] Closing brace must be on a line by itself (Squiz.WhiteSpace.ScopeClosingBrace.ContentBefore)
+  67 | WARNING | [ ] Line exceeds 120 characters; contains 165 characters (Generic.Files.LineLength.TooLong)
+  69 | ERROR   | [x] Short PHP opening tag used; expected "<?php" but found "<?" (Generic.PHP.DisallowShortOpenTag.Found)
+  71 | ERROR   | [x] Short PHP opening tag used; expected "<?php" but found "<?" (Generic.PHP.DisallowShortOpenTag.Found)
+  71 | ERROR   | [x] Newline required after opening brace (Squiz.ControlStructures.ControlSignature.NewlineAfterOpenBrace)
+  71 | ERROR   | [x] Closing brace must be on a line by itself (Squiz.WhiteSpace.ScopeClosingBrace.ContentBefore)
+  71 | WARNING | [ ] Line exceeds 120 characters; contains 153 characters (Generic.Files.LineLength.TooLong)
+  74 | ERROR   | [x] Short PHP opening tag used; expected "<?php" but found "<?" (Generic.PHP.DisallowShortOpenTag.Found)
+  74 | ERROR   | [x] Newline required after opening brace (Squiz.ControlStructures.ControlSignature.NewlineAfterOpenBrace)
+  74 | ERROR   | [x] Closing brace must be on a line by itself (Squiz.WhiteSpace.ScopeClosingBrace.ContentBefore)
+  74 | WARNING | [ ] Line exceeds 120 characters; contains 149 characters (Generic.Files.LineLength.TooLong)
+  77 | ERROR   | [x] Short PHP opening tag used; expected "<?php" but found "<?" (Generic.PHP.DisallowShortOpenTag.Found)
+  77 | ERROR   | [x] Newline required after opening brace (Squiz.ControlStructures.ControlSignature.NewlineAfterOpenBrace)
+  77 | ERROR   | [x] Closing brace must be on a line by itself (Squiz.WhiteSpace.ScopeClosingBrace.ContentBefore)
+  77 | WARNING | [ ] Line exceeds 120 characters; contains 143 characters (Generic.Files.LineLength.TooLong)
+  83 | ERROR   | [x] Short PHP opening tag used; expected "<?php" but found "<?" (Generic.PHP.DisallowShortOpenTag.Found)
+  83 | ERROR   | [x] Expected 1 space(s) after closing parenthesis; found 0 (Squiz.ControlStructures.ControlSignature.SpaceAfterCloseParenthesis)
+  84 | ERROR   | [x] Short PHP opening tag used; expected "<?php" but found "<?" (Generic.PHP.DisallowShortOpenTag.Found)
+  84 | ERROR   | [x] Newline required after opening brace (Squiz.ControlStructures.ControlSignature.NewlineAfterOpenBrace)
+  84 | ERROR   | [x] Closing brace must be on a line by itself (Squiz.WhiteSpace.ScopeClosingBrace.ContentBefore)
+  84 | WARNING | [ ] Line exceeds 120 characters; contains 141 characters (Generic.Files.LineLength.TooLong)
+  85 | ERROR   | [x] Short PHP opening tag used; expected "<?php" but found "<?" (Generic.PHP.DisallowShortOpenTag.Found)
+  95 | WARNING | [ ] Line exceeds 120 characters; contains 173 characters (Generic.Files.LineLength.TooLong)
+  96 | WARNING | [ ] Line exceeds 120 characters; contains 184 characters (Generic.Files.LineLength.TooLong)
+  97 | WARNING | [ ] Line exceeds 120 characters; contains 186 characters (Generic.Files.LineLength.TooLong)
+ 103 | ERROR   | [x] Short PHP opening tag used; expected "<?php" but found "<?" (Generic.PHP.DisallowShortOpenTag.Found)
+ 107 | WARNING | [ ] Line exceeds 120 characters; contains 126 characters (Generic.Files.LineLength.TooLong)
+ 118 | ERROR   | [x] Short PHP opening tag used; expected "<?php" but found "<?" (Generic.PHP.DisallowShortOpenTag.Found)
+ 118 | ERROR   | [x] Expected 1 space(s) after closing parenthesis; found 0 (Squiz.ControlStructures.ControlSignature.SpaceAfterCloseParenthesis)
+ 119 | ERROR   | [x] Short PHP opening tag used; expected "<?php" but found "<?" (Generic.PHP.DisallowShortOpenTag.Found)
+ 119 | ERROR   | [x] Newline required after opening brace (Squiz.ControlStructures.ControlSignature.NewlineAfterOpenBrace)
+ 119 | ERROR   | [x] Closing brace must be on a line by itself (Squiz.WhiteSpace.ScopeClosingBrace.ContentBefore)
+ 119 | WARNING | [ ] Line exceeds 120 characters; contains 136 characters (Generic.Files.LineLength.TooLong)
+ 120 | ERROR   | [x] Short PHP opening tag used; expected "<?php" but found "<?" (Generic.PHP.DisallowShortOpenTag.Found)
+ 129 | ERROR   | [x] Short PHP opening tag used; expected "<?php" but found "<?" (Generic.PHP.DisallowShortOpenTag.Found)
+ 129 | ERROR   | [x] Expected 1 space(s) after closing parenthesis; found 0 (Squiz.ControlStructures.ControlSignature.SpaceAfterCloseParenthesis)
+ 130 | ERROR   | [x] Short PHP opening tag used; expected "<?php" but found "<?" (Generic.PHP.DisallowShortOpenTag.Found)
+ 130 | ERROR   | [x] Newline required after opening brace (Squiz.ControlStructures.ControlSignature.NewlineAfterOpenBrace)
+ 130 | ERROR   | [x] Closing brace must be on a line by itself (Squiz.WhiteSpace.ScopeClosingBrace.ContentBefore)
+ 130 | WARNING | [ ] Line exceeds 120 characters; contains 143 characters (Generic.Files.LineLength.TooLong)
+ 131 | ERROR   | [x] Short PHP opening tag used; expected "<?php" but found "<?" (Generic.PHP.DisallowShortOpenTag.Found)
+ 140 | ERROR   | [x] Short PHP opening tag used; expected "<?php" but found "<?" (Generic.PHP.DisallowShortOpenTag.Found)
+ 140 | ERROR   | [x] Expected 1 space(s) after closing parenthesis; found 0 (Squiz.ControlStructures.ControlSignature.SpaceAfterCloseParenthesis)
+ 141 | ERROR   | [x] Short PHP opening tag used; expected "<?php" but found "<?" (Generic.PHP.DisallowShortOpenTag.Found)
+ 141 | ERROR   | [x] Newline required after opening brace (Squiz.ControlStructures.ControlSignature.NewlineAfterOpenBrace)
+ 141 | ERROR   | [x] Closing brace must be on a line by itself (Squiz.WhiteSpace.ScopeClosingBrace.ContentBefore)
+ 141 | WARNING | [ ] Line exceeds 120 characters; contains 142 characters (Generic.Files.LineLength.TooLong)
+ 142 | ERROR   | [x] Short PHP opening tag used; expected "<?php" but found "<?" (Generic.PHP.DisallowShortOpenTag.Found)
+ 358 | WARNING | [ ] Line exceeds 120 characters; contains 133 characters (Generic.Files.LineLength.TooLong)
+ 363 | WARNING | [ ] Line exceeds 120 characters; contains 168 characters (Generic.Files.LineLength.TooLong)
+ 366 | WARNING | [ ] Line exceeds 120 characters; contains 133 characters (Generic.Files.LineLength.TooLong)
+ 372 | WARNING | [ ] Line exceeds 120 characters; contains 144 characters (Generic.Files.LineLength.TooLong)
+ 378 | WARNING | [ ] Line exceeds 120 characters; contains 161 characters (Generic.Files.LineLength.TooLong)
+ 380 | WARNING | [ ] Line exceeds 120 characters; contains 133 characters (Generic.Files.LineLength.TooLong)
+ 387 | WARNING | [ ] Line exceeds 120 characters; contains 132 characters (Generic.Files.LineLength.TooLong)
+ 389 | WARNING | [ ] Line exceeds 120 characters; contains 162 characters (Generic.Files.LineLength.TooLong)
+ 391 | WARNING | [ ] Line exceeds 120 characters; contains 133 characters (Generic.Files.LineLength.TooLong)
+ 404 | WARNING | [ ] Line exceeds 120 characters; contains 139 characters (Generic.Files.LineLength.TooLong)
+ 407 | WARNING | [ ] Line exceeds 120 characters; contains 134 characters (Generic.Files.LineLength.TooLong)
+ 408 | WARNING | [ ] Line exceeds 120 characters; contains 130 characters (Generic.Files.LineLength.TooLong)
+ 409 | WARNING | [ ] Line exceeds 120 characters; contains 130 characters (Generic.Files.LineLength.TooLong)
+ 410 | WARNING | [ ] Line exceeds 120 characters; contains 130 characters (Generic.Files.LineLength.TooLong)
+ 411 | WARNING | [ ] Line exceeds 120 characters; contains 130 characters (Generic.Files.LineLength.TooLong)
+ 412 | WARNING | [ ] Line exceeds 120 characters; contains 134 characters (Generic.Files.LineLength.TooLong)
+ 413 | WARNING | [ ] Line exceeds 120 characters; contains 125 characters (Generic.Files.LineLength.TooLong)
+ 417 | WARNING | [ ] Line exceeds 120 characters; contains 129 characters (Generic.Files.LineLength.TooLong)
+ 421 | WARNING | [ ] Line exceeds 120 characters; contains 129 characters (Generic.Files.LineLength.TooLong)
+ 425 | WARNING | [ ] Line exceeds 120 characters; contains 129 characters (Generic.Files.LineLength.TooLong)
+ 429 | WARNING | [ ] Line exceeds 120 characters; contains 129 characters (Generic.Files.LineLength.TooLong)
+ 437 | WARNING | [ ] Line exceeds 120 characters; contains 129 characters (Generic.Files.LineLength.TooLong)
+ 445 | WARNING | [ ] Line exceeds 120 characters; contains 129 characters (Generic.Files.LineLength.TooLong)
+ 449 | WARNING | [ ] Line exceeds 120 characters; contains 129 characters (Generic.Files.LineLength.TooLong)
+ 453 | WARNING | [ ] Line exceeds 120 characters; contains 129 characters (Generic.Files.LineLength.TooLong)
+ 457 | WARNING | [ ] Line exceeds 120 characters; contains 133 characters (Generic.Files.LineLength.TooLong)
+ 461 | WARNING | [ ] Line exceeds 120 characters; contains 133 characters (Generic.Files.LineLength.TooLong)
+ 465 | WARNING | [ ] Line exceeds 120 characters; contains 130 characters (Generic.Files.LineLength.TooLong)
+ 466 | WARNING | [ ] Line exceeds 120 characters; contains 130 characters (Generic.Files.LineLength.TooLong)
+ 467 | WARNING | [ ] Line exceeds 120 characters; contains 130 characters (Generic.Files.LineLength.TooLong)
+ 468 | WARNING | [ ] Line exceeds 120 characters; contains 130 characters (Generic.Files.LineLength.TooLong)
+ 469 | WARNING | [ ] Line exceeds 120 characters; contains 129 characters (Generic.Files.LineLength.TooLong)
+ 483 | WARNING | [ ] Line exceeds 120 characters; contains 130 characters (Generic.Files.LineLength.TooLong)
+ 484 | WARNING | [ ] Line exceeds 120 characters; contains 130 characters (Generic.Files.LineLength.TooLong)
+ 485 | WARNING | [ ] Line exceeds 120 characters; contains 129 characters (Generic.Files.LineLength.TooLong)
+ 499 | WARNING | [ ] Line exceeds 120 characters; contains 133 characters (Generic.Files.LineLength.TooLong)
+ 506 | WARNING | [ ] Line exceeds 120 characters; contains 129 characters (Generic.Files.LineLength.TooLong)
+ 513 | WARNING | [ ] Line exceeds 120 characters; contains 133 characters (Generic.Files.LineLength.TooLong)
+ 525 | ERROR   | [x] Short PHP opening tag used; expected "<?php" but found "<?" (Generic.PHP.DisallowShortOpenTag.Found)
+ 528 | WARNING | [ ] Line exceeds 120 characters; contains 136 characters (Generic.Files.LineLength.TooLong)
+ 566 | ERROR   | [x] Short PHP opening tag used; expected "<?php" but found "<?" (Generic.PHP.DisallowShortOpenTag.Found)
+ 567 | ERROR   | [x] Short PHP opening tag used; expected "<?php" but found "<?" (Generic.PHP.DisallowShortOpenTag.Found)
+ 568 | ERROR   | [x] Short PHP opening tag used; expected "<?php" but found "<?" (Generic.PHP.DisallowShortOpenTag.Found)
+ 596 | ERROR   | [x] Spaces must be used to indent lines; tabs are not allowed (Generic.WhiteSpace.DisallowTabIndent.TabsUsed)
+--------------------------------------------------------------------------------------------------------------------------------------------------
+PHPCBF CAN FIX THE 70 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+--------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+FILE: D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\template\cyunyu_inf_template.php
+--------------------------------------------------------------------------------------------------------------------------------------------------
+FOUND 100 ERRORS AND 18 WARNINGS AFFECTING 68 LINES
+--------------------------------------------------------------------------------------------------------------------------------------------------
+   1 | ERROR   | [x] Short PHP opening tag used; expected "<?php" but found "<?" (Generic.PHP.DisallowShortOpenTag.Found)
+   2 | ERROR   | [x] Short PHP opening tag used; expected "<?php" but found "<?" (Generic.PHP.DisallowShortOpenTag.Found)
+   3 | ERROR   | [x] Short PHP opening tag used; expected "<?php" but found "<?" (Generic.PHP.DisallowShortOpenTag.Found)
+   4 | ERROR   | [x] Short PHP opening tag used; expected "<?php" but found "<?" (Generic.PHP.DisallowShortOpenTag.Found)
+   5 | ERROR   | [x] Short PHP opening tag used; expected "<?php" but found "<?" (Generic.PHP.DisallowShortOpenTag.Found)
+   6 | ERROR   | [x] Short PHP opening tag used; expected "<?php" but found "<?" (Generic.PHP.DisallowShortOpenTag.Found)
+   7 | ERROR   | [x] Short PHP opening tag used; expected "<?php" but found "<?" (Generic.PHP.DisallowShortOpenTag.Found)
+   8 | ERROR   | [x] Short PHP opening tag used; expected "<?php" but found "<?" (Generic.PHP.DisallowShortOpenTag.Found)
+   9 | ERROR   | [x] Short PHP opening tag used; expected "<?php" but found "<?" (Generic.PHP.DisallowShortOpenTag.Found)
+  10 | ERROR   | [x] Short PHP opening tag used; expected "<?php" but found "<?" (Generic.PHP.DisallowShortOpenTag.Found)
+  11 | ERROR   | [x] Short PHP opening tag used; expected "<?php" but found "<?" (Generic.PHP.DisallowShortOpenTag.Found)
+  48 | ERROR   | [x] Short PHP opening tag used; expected "<?php" but found "<?" (Generic.PHP.DisallowShortOpenTag.Found)
+  58 | ERROR   | [x] Short PHP opening tag used; expected "<?php" but found "<?" (Generic.PHP.DisallowShortOpenTag.Found)
+  58 | ERROR   | [x] Expected 1 space(s) after closing parenthesis; found 0 (Squiz.ControlStructures.ControlSignature.SpaceAfterCloseParenthesis)
+  59 | WARNING | [ ] Line exceeds 120 characters; contains 136 characters (Generic.Files.LineLength.TooLong)
+  60 | WARNING | [ ] Line exceeds 120 characters; contains 162 characters (Generic.Files.LineLength.TooLong)
+  61 | WARNING | [ ] Line exceeds 120 characters; contains 134 characters (Generic.Files.LineLength.TooLong)
+  62 | ERROR   | [x] Short PHP opening tag used; expected "<?php" but found "<?" (Generic.PHP.DisallowShortOpenTag.Found)
+  62 | ERROR   | [x] Expected 1 space(s) after ELSE keyword; 0 found (Squiz.ControlStructures.ControlSignature.SpaceAfterKeyword)
+  63 | WARNING | [ ] Line exceeds 120 characters; contains 136 characters (Generic.Files.LineLength.TooLong)
+  64 | WARNING | [ ] Line exceeds 120 characters; contains 162 characters (Generic.Files.LineLength.TooLong)
+  66 | ERROR   | [x] Short PHP opening tag used; expected "<?php" but found "<?" (Generic.PHP.DisallowShortOpenTag.Found)
+  66 | ERROR   | [x] Expected 1 space(s) after closing parenthesis; found 0 (Squiz.ControlStructures.ControlSignature.SpaceAfterCloseParenthesis)
+  68 | ERROR   | [x] Short PHP opening tag used; expected "<?php" but found "<?" (Generic.PHP.DisallowShortOpenTag.Found)
+  68 | ERROR   | [x] Expected 1 space(s) after closing parenthesis; found 0 (Squiz.ControlStructures.ControlSignature.SpaceAfterCloseParenthesis)
+  70 | ERROR   | [x] Short PHP opening tag used; expected "<?php" but found "<?" (Generic.PHP.DisallowShortOpenTag.Found)
+  70 | ERROR   | [x] Expected 1 space(s) after ELSE keyword; 0 found (Squiz.ControlStructures.ControlSignature.SpaceAfterKeyword)
+  71 | WARNING | [ ] Line exceeds 120 characters; contains 124 characters (Generic.Files.LineLength.TooLong)
+  72 | ERROR   | [x] Short PHP opening tag used; expected "<?php" but found "<?" (Generic.PHP.DisallowShortOpenTag.Found)
+  74 | ERROR   | [x] Short PHP opening tag used; expected "<?php" but found "<?" (Generic.PHP.DisallowShortOpenTag.Found)
+  76 | WARNING | [ ] Line exceeds 120 characters; contains 171 characters (Generic.Files.LineLength.TooLong)
+  77 | WARNING | [ ] Line exceeds 120 characters; contains 127 characters (Generic.Files.LineLength.TooLong)
+  78 | ERROR   | [x] Short PHP opening tag used; expected "<?php" but found "<?" (Generic.PHP.DisallowShortOpenTag.Found)
+ 177 | ERROR   | [x] Short PHP opening tag used; expected "<?php" but found "<?" (Generic.PHP.DisallowShortOpenTag.Found)
+ 177 | ERROR   | [x] Expected 1 space(s) after closing parenthesis; found 0 (Squiz.ControlStructures.ControlSignature.SpaceAfterCloseParenthesis)
+ 183 | ERROR   | [x] Short PHP opening tag used; expected "<?php" but found "<?" (Generic.PHP.DisallowShortOpenTag.Found)
+ 183 | ERROR   | [x] Expected 1 space(s) after closing parenthesis; found 0 (Squiz.ControlStructures.ControlSignature.SpaceAfterCloseParenthesis)
+ 185 | ERROR   | [x] Short PHP opening tag used; expected "<?php" but found "<?" (Generic.PHP.DisallowShortOpenTag.Found)
+ 185 | ERROR   | [x] Expected 1 space(s) after ELSE keyword; 0 found (Squiz.ControlStructures.ControlSignature.SpaceAfterKeyword)
+ 188 | ERROR   | [x] Short PHP opening tag used; expected "<?php" but found "<?" (Generic.PHP.DisallowShortOpenTag.Found)
+ 190 | ERROR   | [x] Short PHP opening tag used; expected "<?php" but found "<?" (Generic.PHP.DisallowShortOpenTag.Found)
+ 190 | ERROR   | [x] Expected 1 space(s) after IF keyword; 0 found (Squiz.ControlStructures.ControlSignature.SpaceAfterKeyword)
+ 190 | ERROR   | [x] Expected 1 space(s) after closing parenthesis; found 0 (Squiz.ControlStructures.ControlSignature.SpaceAfterCloseParenthesis)
+ 193 | ERROR   | [x] Short PHP opening tag used; expected "<?php" but found "<?" (Generic.PHP.DisallowShortOpenTag.Found)
+ 202 | ERROR   | [x] Short PHP opening tag used; expected "<?php" but found "<?" (Generic.PHP.DisallowShortOpenTag.Found)
+ 202 | ERROR   | [x] Expected 1 space(s) after closing parenthesis; found 0 (Squiz.ControlStructures.ControlSignature.SpaceAfterCloseParenthesis)
+ 206 | ERROR   | [x] Short PHP opening tag used; expected "<?php" but found "<?" (Generic.PHP.DisallowShortOpenTag.Found)
+ 206 | ERROR   | [x] Expected 1 space(s) after closing parenthesis; found 0 (Squiz.ControlStructures.ControlSignature.SpaceAfterCloseParenthesis)
+ 207 | ERROR   | [x] Short PHP opening tag used; expected "<?php" but found "<?" (Generic.PHP.DisallowShortOpenTag.Found)
+ 207 | ERROR   | [x] Newline required after opening brace (Squiz.ControlStructures.ControlSignature.NewlineAfterOpenBrace)
+ 207 | ERROR   | [x] Closing brace must be on a line by itself (Squiz.WhiteSpace.ScopeClosingBrace.ContentBefore)
+ 207 | WARNING | [ ] Line exceeds 120 characters; contains 149 characters (Generic.Files.LineLength.TooLong)
+ 208 | ERROR   | [x] Short PHP opening tag used; expected "<?php" but found "<?" (Generic.PHP.DisallowShortOpenTag.Found)
+ 212 | ERROR   | [x] Short PHP opening tag used; expected "<?php" but found "<?" (Generic.PHP.DisallowShortOpenTag.Found)
+ 213 | ERROR   | [x] Short PHP opening tag used; expected "<?php" but found "<?" (Generic.PHP.DisallowShortOpenTag.Found)
+ 213 | ERROR   | [x] Expected 1 space(s) after closing parenthesis; found 0 (Squiz.ControlStructures.ControlSignature.SpaceAfterCloseParenthesis)
+ 214 | ERROR   | [x] Short PHP opening tag used; expected "<?php" but found "<?" (Generic.PHP.DisallowShortOpenTag.Found)
+ 214 | ERROR   | [x] Newline required after opening brace (Squiz.ControlStructures.ControlSignature.NewlineAfterOpenBrace)
+ 214 | ERROR   | [x] Closing brace must be on a line by itself (Squiz.WhiteSpace.ScopeClosingBrace.ContentBefore)
+ 214 | WARNING | [ ] Line exceeds 120 characters; contains 182 characters (Generic.Files.LineLength.TooLong)
+ 216 | ERROR   | [x] Line indented incorrectly; expected at least 16 spaces, found 12 (Generic.WhiteSpace.ScopeIndent.Incorrect)
+ 216 | ERROR   | [x] Short PHP opening tag used; expected "<?php" but found "<?" (Generic.PHP.DisallowShortOpenTag.Found)
+ 217 | ERROR   | [x] Short PHP opening tag used; expected "<?php" but found "<?" (Generic.PHP.DisallowShortOpenTag.Found)
+ 217 | ERROR   | [x] Closing brace indented incorrectly; expected 12 spaces, found 8 (Squiz.WhiteSpace.ScopeClosingBrace.Indent)
+ 225 | ERROR   | [x] Short PHP opening tag used; expected "<?php" but found "<?" (Generic.PHP.DisallowShortOpenTag.Found)
+ 225 | ERROR   | [x] Newline required after opening brace (Squiz.ControlStructures.ControlSignature.NewlineAfterOpenBrace)
+ 225 | ERROR   | [x] Closing brace must be on a line by itself (Squiz.WhiteSpace.ScopeClosingBrace.ContentBefore)
+ 225 | WARNING | [ ] Line exceeds 120 characters; contains 147 characters (Generic.Files.LineLength.TooLong)
+ 228 | ERROR   | [x] Short PHP opening tag used; expected "<?php" but found "<?" (Generic.PHP.DisallowShortOpenTag.Found)
+ 228 | ERROR   | [x] Expected 1 space(s) after closing parenthesis; found 0 (Squiz.ControlStructures.ControlSignature.SpaceAfterCloseParenthesis)
+ 229 | ERROR   | [x] Short PHP opening tag used; expected "<?php" but found "<?" (Generic.PHP.DisallowShortOpenTag.Found)
+ 229 | ERROR   | [x] Newline required after opening brace (Squiz.ControlStructures.ControlSignature.NewlineAfterOpenBrace)
+ 229 | ERROR   | [x] Closing brace must be on a line by itself (Squiz.WhiteSpace.ScopeClosingBrace.ContentBefore)
+ 229 | WARNING | [ ] Line exceeds 120 characters; contains 149 characters (Generic.Files.LineLength.TooLong)
+ 230 | ERROR   | [x] Short PHP opening tag used; expected "<?php" but found "<?" (Generic.PHP.DisallowShortOpenTag.Found)
+ 234 | ERROR   | [x] Short PHP opening tag used; expected "<?php" but found "<?" (Generic.PHP.DisallowShortOpenTag.Found)
+ 234 | ERROR   | [x] Inline control structures are not allowed (Generic.ControlStructures.InlineControlStructure.NotAllowed)
+ 237 | ERROR   | [x] Short PHP opening tag used; expected "<?php" but found "<?" (Generic.PHP.DisallowShortOpenTag.Found)
+ 237 | ERROR   | [x] Expected 1 space(s) after closing parenthesis; found 0 (Squiz.ControlStructures.ControlSignature.SpaceAfterCloseParenthesis)
+ 238 | ERROR   | [x] Short PHP opening tag used; expected "<?php" but found "<?" (Generic.PHP.DisallowShortOpenTag.Found)
+ 238 | ERROR   | [x] Newline required after opening brace (Squiz.ControlStructures.ControlSignature.NewlineAfterOpenBrace)
+ 238 | ERROR   | [x] Closing brace must be on a line by itself (Squiz.WhiteSpace.ScopeClosingBrace.ContentBefore)
+ 238 | WARNING | [ ] Line exceeds 120 characters; contains 149 characters (Generic.Files.LineLength.TooLong)
+ 239 | ERROR   | [x] Short PHP opening tag used; expected "<?php" but found "<?" (Generic.PHP.DisallowShortOpenTag.Found)
+ 244 | ERROR   | [x] Short PHP opening tag used; expected "<?php" but found "<?" (Generic.PHP.DisallowShortOpenTag.Found)
+ 244 | ERROR   | [x] Expected 1 space(s) after ELSE keyword; 0 found (Squiz.ControlStructures.ControlSignature.SpaceAfterKeyword)
+ 248 | WARNING | [ ] Line exceeds 120 characters; contains 125 characters (Generic.Files.LineLength.TooLong)
+ 256 | ERROR   | [x] Short PHP opening tag used; expected "<?php" but found "<?" (Generic.PHP.DisallowShortOpenTag.Found)
+ 258 | ERROR   | [x] Short PHP opening tag used; expected "<?php" but found "<?" (Generic.PHP.DisallowShortOpenTag.Found)
+ 258 | ERROR   | [x] Newline required after opening brace (Squiz.ControlStructures.ControlSignature.NewlineAfterOpenBrace)
+ 258 | ERROR   | [x] Closing brace must be on a line by itself (Squiz.WhiteSpace.ScopeClosingBrace.ContentBefore)
+ 258 | ERROR   | [x] Newline required after opening brace (Squiz.ControlStructures.ControlSignature.NewlineAfterOpenBrace)
+ 258 | ERROR   | [x] Each PHP statement must be on a line by itself (Generic.Formatting.DisallowMultipleStatements.SameLine)
+ 258 | ERROR   | [x] Closing brace must be on a line by itself (Squiz.WhiteSpace.ScopeClosingBrace.ContentBefore)
+ 258 | WARNING | [ ] Line exceeds 120 characters; contains 304 characters (Generic.Files.LineLength.TooLong)
+ 264 | ERROR   | [x] Short PHP opening tag used; expected "<?php" but found "<?" (Generic.PHP.DisallowShortOpenTag.Found)
+ 264 | ERROR   | [x] Newline required after opening brace (Squiz.ControlStructures.ControlSignature.NewlineAfterOpenBrace)
+ 264 | ERROR   | [x] Closing brace must be on a line by itself (Squiz.WhiteSpace.ScopeClosingBrace.ContentBefore)
+ 264 | ERROR   | [x] Newline required after opening brace (Squiz.ControlStructures.ControlSignature.NewlineAfterOpenBrace)
+ 264 | ERROR   | [x] Each PHP statement must be on a line by itself (Generic.Formatting.DisallowMultipleStatements.SameLine)
+ 264 | ERROR   | [x] Closing brace must be on a line by itself (Squiz.WhiteSpace.ScopeClosingBrace.ContentBefore)
+ 264 | WARNING | [ ] Line exceeds 120 characters; contains 275 characters (Generic.Files.LineLength.TooLong)
+ 272 | ERROR   | [x] Short PHP opening tag used; expected "<?php" but found "<?" (Generic.PHP.DisallowShortOpenTag.Found)
+ 272 | ERROR   | [x] Expected 1 space(s) after closing parenthesis; found 0 (Squiz.ControlStructures.ControlSignature.SpaceAfterCloseParenthesis)
+ 274 | ERROR   | [x] Short PHP opening tag used; expected "<?php" but found "<?" (Generic.PHP.DisallowShortOpenTag.Found)
+ 279 | ERROR   | [x] Short PHP opening tag used; expected "<?php" but found "<?" (Generic.PHP.DisallowShortOpenTag.Found)
+ 279 | ERROR   | [x] Expected 1 space(s) after closing parenthesis; found 0 (Squiz.ControlStructures.ControlSignature.SpaceAfterCloseParenthesis)
+ 280 | WARNING | [ ] Line exceeds 120 characters; contains 206 characters (Generic.Files.LineLength.TooLong)
+ 281 | ERROR   | [x] Short PHP opening tag used; expected "<?php" but found "<?" (Generic.PHP.DisallowShortOpenTag.Found)
+ 286 | ERROR   | [x] Short PHP opening tag used; expected "<?php" but found "<?" (Generic.PHP.DisallowShortOpenTag.Found)
+ 286 | ERROR   | [x] Expected 1 space(s) after closing parenthesis; found 0 (Squiz.ControlStructures.ControlSignature.SpaceAfterCloseParenthesis)
+ 288 | ERROR   | [x] Short PHP opening tag used; expected "<?php" but found "<?" (Generic.PHP.DisallowShortOpenTag.Found)
+ 293 | ERROR   | [x] Short PHP opening tag used; expected "<?php" but found "<?" (Generic.PHP.DisallowShortOpenTag.Found)
+ 293 | ERROR   | [x] Expected 1 space(s) after closing parenthesis; found 0 (Squiz.ControlStructures.ControlSignature.SpaceAfterCloseParenthesis)
+ 294 | WARNING | [ ] Line exceeds 120 characters; contains 206 characters (Generic.Files.LineLength.TooLong)
+ 295 | ERROR   | [x] Short PHP opening tag used; expected "<?php" but found "<?" (Generic.PHP.DisallowShortOpenTag.Found)
+ 300 | ERROR   | [x] Short PHP opening tag used; expected "<?php" but found "<?" (Generic.PHP.DisallowShortOpenTag.Found)
+ 319 | ERROR   | [x] Short PHP opening tag used; expected "<?php" but found "<?" (Generic.PHP.DisallowShortOpenTag.Found)
+--------------------------------------------------------------------------------------------------------------------------------------------------
+PHPCBF CAN FIX THE 100 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+--------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+FILE: D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\template\cyunyu_inf_template11.php
+--------------------------------------------------------------------------------------------------------
+FOUND 0 ERRORS AND 11 WARNINGS AFFECTING 11 LINES
+--------------------------------------------------------------------------------------------------------
+ 20 | WARNING | Line exceeds 120 characters; contains 124 characters (Generic.Files.LineLength.TooLong)
+ 24 | WARNING | Line exceeds 120 characters; contains 198 characters (Generic.Files.LineLength.TooLong)
+ 28 | WARNING | Line exceeds 120 characters; contains 126 characters (Generic.Files.LineLength.TooLong)
+ 29 | WARNING | Line exceeds 120 characters; contains 122 characters (Generic.Files.LineLength.TooLong)
+ 30 | WARNING | Line exceeds 120 characters; contains 122 characters (Generic.Files.LineLength.TooLong)
+ 31 | WARNING | Line exceeds 120 characters; contains 121 characters (Generic.Files.LineLength.TooLong)
+ 35 | WARNING | Line exceeds 120 characters; contains 121 characters (Generic.Files.LineLength.TooLong)
+ 39 | WARNING | Line exceeds 120 characters; contains 121 characters (Generic.Files.LineLength.TooLong)
+ 43 | WARNING | Line exceeds 120 characters; contains 125 characters (Generic.Files.LineLength.TooLong)
+ 47 | WARNING | Line exceeds 120 characters; contains 125 characters (Generic.Files.LineLength.TooLong)
+ 57 | WARNING | Line exceeds 120 characters; contains 132 characters (Generic.Files.LineLength.TooLong)
+--------------------------------------------------------------------------------------------------------
+
+
+FILE: D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\template\cyunyu_inf_template12.php
+--------------------------------------------------------------------------------------------------------
+FOUND 0 ERRORS AND 14 WARNINGS AFFECTING 14 LINES
+--------------------------------------------------------------------------------------------------------
+ 26 | WARNING | Line exceeds 120 characters; contains 126 characters (Generic.Files.LineLength.TooLong)
+ 27 | WARNING | Line exceeds 120 characters; contains 126 characters (Generic.Files.LineLength.TooLong)
+ 28 | WARNING | Line exceeds 120 characters; contains 122 characters (Generic.Files.LineLength.TooLong)
+ 29 | WARNING | Line exceeds 120 characters; contains 121 characters (Generic.Files.LineLength.TooLong)
+ 31 | WARNING | Line exceeds 120 characters; contains 159 characters (Generic.Files.LineLength.TooLong)
+ 33 | WARNING | Line exceeds 120 characters; contains 126 characters (Generic.Files.LineLength.TooLong)
+ 34 | WARNING | Line exceeds 120 characters; contains 122 characters (Generic.Files.LineLength.TooLong)
+ 35 | WARNING | Line exceeds 120 characters; contains 122 characters (Generic.Files.LineLength.TooLong)
+ 36 | WARNING | Line exceeds 120 characters; contains 121 characters (Generic.Files.LineLength.TooLong)
+ 40 | WARNING | Line exceeds 120 characters; contains 121 characters (Generic.Files.LineLength.TooLong)
+ 44 | WARNING | Line exceeds 120 characters; contains 121 characters (Generic.Files.LineLength.TooLong)
+ 48 | WARNING | Line exceeds 120 characters; contains 125 characters (Generic.Files.LineLength.TooLong)
+ 52 | WARNING | Line exceeds 120 characters; contains 125 characters (Generic.Files.LineLength.TooLong)
+ 61 | WARNING | Line exceeds 120 characters; contains 132 characters (Generic.Files.LineLength.TooLong)
+--------------------------------------------------------------------------------------------------------
+
+
+FILE: D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\template\koban_soneki_template.php
+--------------------------------------------------------------------------------------------------------------------------------
+FOUND 2 ERRORS AND 9 WARNINGS AFFECTING 11 LINES
+--------------------------------------------------------------------------------------------------------------------------------
+ 34 | ERROR   | [x] Line indented incorrectly; expected 0 spaces, found 67 (Generic.WhiteSpace.ScopeIndent.IncorrectExact)
+ 36 | ERROR   | [x] Closing brace indented incorrectly; expected 67 spaces, found 0 (Squiz.WhiteSpace.ScopeClosingBrace.Indent)
+ 40 | WARNING | [ ] Line exceeds 120 characters; contains 133 characters (Generic.Files.LineLength.TooLong)
+ 43 | WARNING | [ ] Line exceeds 120 characters; contains 123 characters (Generic.Files.LineLength.TooLong)
+ 45 | WARNING | [ ] Line exceeds 120 characters; contains 132 characters (Generic.Files.LineLength.TooLong)
+ 49 | WARNING | [ ] Line exceeds 120 characters; contains 121 characters (Generic.Files.LineLength.TooLong)
+ 54 | WARNING | [ ] Line exceeds 120 characters; contains 132 characters (Generic.Files.LineLength.TooLong)
+ 56 | WARNING | [ ] Line exceeds 120 characters; contains 158 characters (Generic.Files.LineLength.TooLong)
+ 58 | WARNING | [ ] Line exceeds 120 characters; contains 141 characters (Generic.Files.LineLength.TooLong)
+ 59 | WARNING | [ ] Line exceeds 120 characters; contains 156 characters (Generic.Files.LineLength.TooLong)
+ 63 | WARNING | [ ] Line exceeds 120 characters; contains 125 characters (Generic.Files.LineLength.TooLong)
+--------------------------------------------------------------------------------------------------------------------------------
+PHPCBF CAN FIX THE 2 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+--------------------------------------------------------------------------------------------------------------------------------
+
+
+FILE: D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\template\koban_soneki_template11.php
+--------------------------------------------------------------------------------------------------------
+FOUND 0 ERRORS AND 3 WARNINGS AFFECTING 3 LINES
+--------------------------------------------------------------------------------------------------------
+ 32 | WARNING | Line exceeds 120 characters; contains 152 characters (Generic.Files.LineLength.TooLong)
+ 72 | WARNING | Line exceeds 120 characters; contains 146 characters (Generic.Files.LineLength.TooLong)
+ 74 | WARNING | Line exceeds 120 characters; contains 146 characters (Generic.Files.LineLength.TooLong)
+--------------------------------------------------------------------------------------------------------
+
+
+FILE: D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\template\koban_soneki_template12.php
+--------------------------------------------------------------------------------------------------------
+FOUND 0 ERRORS AND 7 WARNINGS AFFECTING 7 LINES
+--------------------------------------------------------------------------------------------------------
+ 22 | WARNING | Line exceeds 120 characters; contains 121 characters (Generic.Files.LineLength.TooLong)
+ 25 | WARNING | Line exceeds 120 characters; contains 152 characters (Generic.Files.LineLength.TooLong)
+ 30 | WARNING | Line exceeds 120 characters; contains 121 characters (Generic.Files.LineLength.TooLong)
+ 62 | WARNING | Line exceeds 120 characters; contains 122 characters (Generic.Files.LineLength.TooLong)
+ 65 | WARNING | Line exceeds 120 characters; contains 146 characters (Generic.Files.LineLength.TooLong)
+ 67 | WARNING | Line exceeds 120 characters; contains 146 characters (Generic.Files.LineLength.TooLong)
+ 94 | WARNING | Line exceeds 120 characters; contains 122 characters (Generic.Files.LineLength.TooLong)
+--------------------------------------------------------------------------------------------------------
+
+
+FILE: D:\Public\www\itc_develop\itc_main.files\seiban_kanri2\template\koban_tyousei_template.php
+--------------------------------------------------------------------------------------------------------
+FOUND 0 ERRORS AND 6 WARNINGS AFFECTING 6 LINES
+--------------------------------------------------------------------------------------------------------
+ 44 | WARNING | Line exceeds 120 characters; contains 121 characters (Generic.Files.LineLength.TooLong)
+ 66 | WARNING | Line exceeds 120 characters; contains 125 characters (Generic.Files.LineLength.TooLong)
+ 68 | WARNING | Line exceeds 120 characters; contains 125 characters (Generic.Files.LineLength.TooLong)
+ 69 | WARNING | Line exceeds 120 characters; contains 126 characters (Generic.Files.LineLength.TooLong)
+ 70 | WARNING | Line exceeds 120 characters; contains 132 characters (Generic.Files.LineLength.TooLong)
+ 71 | WARNING | Line exceeds 120 characters; contains 178 characters (Generic.Files.LineLength.TooLong)
+--------------------------------------------------------------------------------------------------------
+
+Time: 7.63 secs; Memory: 6Mb
+
